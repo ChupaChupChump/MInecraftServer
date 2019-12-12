@@ -696,7 +696,7 @@ chat:
 
   #format: '<{DISPLAYNAME}> {MESSAGE}'
   #format: '[&r{GROUP}&f]&r{DISPLAYNAME}&7>>&r {MESSAGE}'
-  format: '{PREFIX}{DISPLAYNAME}&r{SUFFIX}&r>> {MESSAGE}'
+  format: '{PREFIX} {DISPLAYNAME}&r{SUFFIX} &r>> {MESSAGE}'
 
   group-formats:
     #Default: '{DISPLAYNAME}&7>>&r {MESSAGE}'
