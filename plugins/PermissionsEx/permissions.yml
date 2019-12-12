@@ -15,10 +15,3 @@ groups:
     permissions:
     - '*'
 schema-version: 1
-users:
-  5b81b3e9-1586-4c7b-b6b6-4343ff4a8646:
-    worlds:
-      admin:
-        permissions: []
-    options:
-      name: Biataria
