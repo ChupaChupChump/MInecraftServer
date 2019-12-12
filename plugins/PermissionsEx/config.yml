@@ -4,8 +4,8 @@ permissions:
   debug: false
   allowOps: false
   user-add-groups-last: false
-  log-players: false
-  createUserRecords: false
+  log-players: true
+  createUserRecords: true
   backend: file
   informplayers:
     changes: false
