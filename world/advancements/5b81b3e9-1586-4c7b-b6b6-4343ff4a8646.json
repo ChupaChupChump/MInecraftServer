@@ -1,7 +1,8 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:beach": "2019-12-12 04:07:06 +0000"
+      "minecraft:beach": "2019-12-12 04:07:06 +0000",
+      "minecraft:river": "2019-12-12 05:00:59 +0000"
     },
     "done": false
   },

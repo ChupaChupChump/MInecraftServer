@@ -1755,3 +1755,306 @@ org.bukkit.plugin.UnknownDependencyException: Vault
 [04:57:42] [Server thread/INFO]: [m
 [04:57:42] [Server thread/INFO]: Biataria's options:[m
 [04:57:42] [Server thread/INFO]:   name = "Biataria"[m
+[04:59:44] [Server thread/INFO]: Made Biataria a server operator
+[04:59:47] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[04:59:47] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[04:59:47] [Server thread/INFO]: Debug logging is disabled
+[04:59:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:59:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:59:47] [Server thread/INFO]: -------- World Settings For [world] --------
+[04:59:47] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:59:47] [Server thread/INFO]: Mob Spawn Range: 6
+[04:59:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[04:59:47] [Server thread/INFO]: Max TNT Explosions: 100
+[04:59:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:59:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[04:59:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:59:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:59:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Potato Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Vine Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: View Distance: 10
+[04:59:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:59:47] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:59:47] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:59:47] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:59:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:59:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:59:47] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[04:59:47] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:59:47] [Server thread/INFO]: Mob Spawn Range: 6
+[04:59:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[04:59:47] [Server thread/INFO]: Max TNT Explosions: 100
+[04:59:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:59:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[04:59:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:59:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:59:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Potato Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Vine Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: View Distance: 10
+[04:59:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:59:47] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:59:47] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:59:47] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:59:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:59:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:59:47] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[04:59:47] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:59:47] [Server thread/INFO]: Mob Spawn Range: 6
+[04:59:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[04:59:47] [Server thread/INFO]: Max TNT Explosions: 100
+[04:59:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:59:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[04:59:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:59:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:59:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Potato Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Vine Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[04:59:47] [Server thread/INFO]: View Distance: 10
+[04:59:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:59:47] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:59:47] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:59:47] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:59:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:59:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:59:47] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.17.1.0
+[04:59:47] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.1.0
+[04:59:47] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.17.1.0
+[04:59:47] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.17.1.0
+[04:59:47] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.1.0
+[04:59:47] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.6.1
+[04:59:47] [Server thread/INFO]: [MiniaturePets] Disabling MiniaturePets v2.3.4
+[04:59:47] [Server thread/INFO]: [Jobs] Disabling Jobs v4.14.3
+[04:59:47] [Jobs-DatabaseSaveTask/INFO]: [0;33;1m[Jobs] Database save task shutdown![m
+[04:59:47] [Jobs-BufferedPaymentThread/INFO]: [0;33;1m[Jobs] Buffered payment thread shutdown.[m
+[04:59:47] [Server thread/INFO]: [0;33;1m[Jobs] [0;32;22mPlugin has been disabled successfully.[m
+[04:59:47] [Server thread/INFO]: [Towny] Disabling Towny v0.95.2.0
+[04:59:47] [Server thread/INFO]: ==============================================================
+[04:59:47] [Server thread/INFO]: [Towny] Version: 0.95.2.0 - Mod Disabled
+[04:59:47] [Server thread/INFO]: =============================================================
+[04:59:47] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[04:59:47] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[04:59:47] [Server thread/INFO]: Loaded 6 recipes
+[04:59:47] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[04:59:47] [Server thread/INFO]: Loaded 6 recipes
+[04:59:48] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[04:59:48] [Server thread/WARN]: Plugin MiniaturePets v2.3.4 does not specify an api-version.
+[04:59:48] [Server thread/ERROR]: Could not load 'plugins/Lottery.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Vault
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:221) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.loadPlugins(CraftServer.java:350) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.reload(CraftServer.java:808) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.Bukkit.reload(Bukkit.java:576) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:710) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:695) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:430) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:394) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:970) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:815) [spigot.jar:git-Spigot-56f8471-6567017]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[04:59:48] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[04:59:48] [Server thread/INFO]: [Towny] Loading Towny v0.95.2.0
+[04:59:48] [Server thread/INFO]: [Jobs] Loading Jobs v4.14.3
+[04:59:48] [Server thread/INFO]: [MiniaturePets] Loading MiniaturePets v2.3.4
+[04:59:48] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.6.1
+[04:59:48] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.1.0
+[04:59:48] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.1.0
+[04:59:48] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.17.1.0
+[04:59:48] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.1.0
+[04:59:48] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.17.1.0
+[04:59:48] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.6.1
+[04:59:49] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[04:59:49] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[04:59:49] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[04:59:49] [Server thread/INFO]: [Towny] Enabling Towny v0.95.2.0
+[04:59:49] [Server thread/INFO]: ====================      Towny      ========================
+[04:59:50] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
+[04:59:50] [Server thread/WARN]: [Towny] Error: No compatible Economy plugins found. Install Vault.jar with any of the supported eco systems.
+[04:59:50] [Server thread/WARN]: [Towny] Error: If you do not want an economy to be used, set using_economy: false in your Towny config.yml.
+[04:59:50] [Server thread/INFO]: [Towny] Using: BukkitPermissions
+[04:59:50] [Server thread/INFO]: Time until a New Day: 7 hours, 10 seconds
+[04:59:50] [Server thread/INFO]: =============================================================
+[04:59:50] [Server thread/INFO]: [Towny] Version: 0.95.2.0 - Mod Enabled
+[04:59:50] [Server thread/INFO]: =============================================================
+[04:59:50] [Server thread/INFO]: [Jobs] Enabling Jobs v4.14.3
+[04:59:50] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 8 titles![m
+[04:59:50] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 75 protected blocks timers![m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 989 custom item names![m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 66 custom entity names![m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 37 custom enchant names![m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 16 custom color names![m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 4 shop items![m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Woodcutter[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Miner[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Builder[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Digger[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Farmer[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Hunter[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Explorer[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Crafter[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Fisherman[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Weaponsmith[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Brewer[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Enchanter[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 12 jobs![m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Explorer job manager registered![m
+[04:59:51] [Jobs-DatabaseSaveTask/INFO]: [0;33;1m[Jobs] Started database save task.[m
+[04:59:51] [Jobs-BufferedPaymentThread/INFO]: [0;33;1m[Jobs] Started buffered payment thread.[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Preloaded 2 players data in 0.0[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] [0;33;22mmcMMO was found - [0;31;1mBut your McMMO version is outdated, please update for full support.[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Registered McMMO 1.x listener[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loading explorer data[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Loaded explorer data (2)[m
+[04:59:51] [Server thread/INFO]: [0;33;1m[Jobs] Plugin has been enabled successfully.[m
+[04:59:51] [Server thread/INFO]: [MiniaturePets] Enabling MiniaturePets v2.3.4
+[04:59:51] [Server thread/INFO]: Loading reflections....[m
+[04:59:51] [Server thread/INFO]: Done loading[m
+[04:59:51] [Server thread/INFO]: [MiniaturePets] Starting to calculate Radians!
+[04:59:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.1.0
+[04:59:52] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[04:59:52] [Server thread/INFO]: No kits found to migrate.
+[04:59:52] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[04:59:52] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[04:59:52] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[04:59:52] [Server thread/INFO]: Loaded 20977 items from items.json.
+[04:59:52] [Server thread/INFO]: Using locale en_US
+[04:59:52] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[04:59:52] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[04:59:52] [Server thread/WARN]: [Essentials] Detected supported permissions plugin PermissionsEx without Vault installed.
+[04:59:52] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[04:59:52] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[04:59:52] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.1.0
+[04:59:52] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[04:59:52] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.17.1.0
+[04:59:52] [Server thread/WARN]: Unable to load JDK7 types (annotations, java.nio.file.Path): no Java7 support added
+[04:59:52] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[04:59:52] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.1.0
+[04:59:52] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.17.1.0
+[04:59:52] [Server thread/WARN]: config broken for xmpp
+[04:59:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:59:53] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[04:59:53] [Server thread/INFO]: Biataria issued server command: /gm c
+[04:59:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6570ms or 131 ticks behind
+[04:59:53] [Server thread/ERROR]: [Jobs] ==================== Jobs ====================
+[04:59:53] [Server thread/ERROR]: [Jobs] Vault is required by this plugin for economy support!
+[04:59:53] [Server thread/ERROR]: [Jobs] Please install them first!
+[04:59:53] [Server thread/ERROR]: [Jobs] You can find the latest versions here:
+[04:59:53] [Server thread/ERROR]: [Jobs] https://www.spigotmc.org/resources/vault.34315/
+[04:59:53] [Server thread/ERROR]: [Jobs] ==============================================
+[04:59:56] [Server thread/INFO]: Biataria issued server command: /pex
+[05:00:01] [Server thread/INFO]: Biataria issued server command: /help
+[05:00:03] [Server thread/INFO]: Biataria issued server command: /pex
+[05:00:08] [Server thread/INFO]: Biataria issued server command: /pex user
+[05:00:08] [Server thread/WARN]: [PermissionsEx] User Biataria tried to access chat command "pex user", but doesn't have permission to do this.
+[05:00:49] [Server thread/INFO]: [0;37;1mPermission "*" added![m
+[05:00:52] [Server thread/INFO]: Biataria issued server command: /pex
+[05:00:56] [Server thread/INFO]: Biataria issued server command: /pex groups
+[05:01:00] [Server thread/INFO]: Biataria issued server command: /pex
+[05:01:22] [Server thread/INFO]: Biataria issued server command: /pex group Admin rank 1
+[05:01:27] [Server thread/INFO]: Biataria issued server command: /pex groups
+[05:01:33] [Server thread/INFO]: Biataria issued server command: /pex group moderator rank 1
+[05:01:37] [Server thread/INFO]: Biataria issued server command: /pex group moderator rank 2
+[05:01:40] [Server thread/INFO]: Biataria issued server command: /demote Biataria
+[05:01:40] [Server thread/ERROR]: [PermissionsEx] Ranking Error (Biataria demotes 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria): User are not in this ladder
+[05:01:52] [Server thread/INFO]: Biataria issued server command: /pex group default rank 3
+[05:01:54] [Server thread/INFO]: Biataria issued server command: /promote Biataria
+[05:01:54] [Server thread/ERROR]: [PermissionsEx] Ranking Error (Biataria > 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria): Promoter don't have high enough rank to change 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria's rank
+[05:01:58] [Server thread/INFO]: Biataria issued server command: /demote Biataria
+[05:01:58] [Server thread/ERROR]: [PermissionsEx] Ranking Error (Biataria demotes 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria): Promoter don't have high enough rank to change 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria's rank
+[05:02:04] [Server thread/INFO]: Biataria issued server command: /pex user
+[05:02:07] [Server thread/INFO]: Biataria issued server command: /pex user help
+[05:02:10] [Server thread/INFO]: Biataria issued server command: /pex user
+[05:02:17] [Server thread/INFO]: Biataria issued server command: /pex user Biataria group
+[05:02:21] [Server thread/INFO]: Biataria issued server command: /pex user Biataria set
+[05:02:23] [Server thread/INFO]: Biataria issued server command: /pex user Biataria set group
+[05:02:25] [Server thread/INFO]: Biataria issued server command: /pex user Biataria set group Admin
+[05:02:29] [Server thread/INFO]: Biataria issued server command: /pex
+[05:02:34] [Server thread/INFO]: Biataria issued server command: /demote Biataria
+[05:02:34] [Server thread/ERROR]: [PermissionsEx] Ranking Error (Biataria demotes 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria): Promoter don't have high enough rank to change 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria's rank
+[05:02:40] [Server thread/INFO]: Biataria issued server command: /promote Biataria
+[05:02:40] [Server thread/ERROR]: [PermissionsEx] Ranking Error (Biataria > 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria): Promoter don't have high enough rank to change 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria's rank
+[05:02:43] [Server thread/INFO]: Biataria issued server command: /pex groups
+[05:02:59] [Server thread/INFO]: Biataria issued server command: /pex group Admin rank 100
+[05:03:02] [Server thread/INFO]: Biataria issued server command: /promote Biataria
+[05:03:02] [Server thread/ERROR]: [PermissionsEx] Ranking Error (Biataria > 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria): Promoter don't have high enough rank to change 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria's rank
+[05:03:04] [Server thread/INFO]: Biataria issued server command: /demote Biataria
+[05:03:04] [Server thread/ERROR]: [PermissionsEx] Ranking Error (Biataria demotes 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria): Promoter don't have high enough rank to change 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria's rank
+[05:03:12] [Server thread/INFO]: User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria demoted to admin group[m
+[05:03:12] [Server thread/INFO]: [PermissionsEx] User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria has been demoted to admin group on default ladder by console
+[05:03:18] [Server thread/INFO]: [0;31;1mDemotion error: User are not demoteable[m
+[05:03:18] [Server thread/ERROR]: [PermissionsEx] Ranking Error (console demotes 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria): User are not demoteable
+[05:03:23] [Server thread/INFO]: User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria promoted to default group[m
+[05:03:23] [Server thread/INFO]: [PermissionsEx] User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria has been promoted to default group on default ladder by console
+[05:03:24] [Server thread/INFO]: User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria promoted to moderator group[m
+[05:03:24] [Server thread/INFO]: [PermissionsEx] User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria has been promoted to moderator group on default ladder by console
+[05:03:46] [Server thread/INFO]: Biataria issued server command: /pex group Moderator rank 90
+[05:03:55] [Server thread/INFO]: Biataria issued server command: /pex group default rank 1
+[05:03:58] [Server thread/INFO]: Biataria issued server command: /pex group Moderator rank 9
+[05:04:06] [Server thread/INFO]: Biataria issued server command: /pex group Admin rank 10
+[05:04:13] [Server thread/INFO]: User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria demoted to admin group[m
+[05:04:13] [Server thread/INFO]: [PermissionsEx] User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria has been demoted to admin group on default ladder by console
+[05:04:16] [Server thread/INFO]: User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria promoted to moderator group[m
+[05:04:16] [Server thread/INFO]: [PermissionsEx] User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria has been promoted to moderator group on default ladder by console
+[05:04:18] [Server thread/INFO]: User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria promoted to default group[m
+[05:04:18] [Server thread/INFO]: [PermissionsEx] User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria has been promoted to default group on default ladder by console
+[05:04:24] [Server thread/INFO]: Biataria issued server command: /pex group Admin rank 0
+[05:04:29] [Server thread/INFO]: Biataria issued server command: /pex group Moderator rank 1
+[05:04:55] [Server thread/INFO]: Biataria issued server command: /pex group Admin rank 1
+[05:04:59] [Server thread/INFO]: Biataria issued server command: /pex group Moderator rank 2
+[05:05:10] [Server thread/INFO]: Biataria issued server command: /pex group default rank 9
+[05:05:20] [Server thread/INFO]: User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria promoted to moderator group[m
+[05:05:20] [Server thread/INFO]: [PermissionsEx] User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria has been promoted to moderator group on default ladder by console
+[05:05:25] [Server thread/INFO]: User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria promoted to admin group[m
+[05:05:25] [Server thread/INFO]: [PermissionsEx] User 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria has been promoted to admin group on default ladder by console
+[05:05:29] [Server thread/INFO]: Biataria issued server command: /groups
+[05:05:32] [Server thread/INFO]: Biataria issued server command: /pex groups
+[05:05:39] [Server thread/INFO]: Biataria issued server command: /pex
+[05:05:47] [Server thread/INFO]: Biataria issued server command: /pex group add *
+[05:05:53] [Server thread/INFO]: Biataria issued server command: /pex group Admin add *
+[05:05:55] [Async Chat Thread - #4/INFO]: [m[0;37;22m[default][m [0;31;22mBiataria[m[0;37;22m:[m ye[m
+[05:06:07] [Server thread/INFO]: Biataria issued server command: /pex group admin prefix admin
+[05:06:10] [Async Chat Thread - #4/INFO]: [m[0;37;22m[default][m [0;31;22mBiataria[m[0;37;22m:[m y[m
+[05:06:21] [Server thread/INFO]: Biataria issued server command: /pex group admin
+[05:06:31] [Server thread/INFO]: Biataria issued server command: /pex group moderator add *
