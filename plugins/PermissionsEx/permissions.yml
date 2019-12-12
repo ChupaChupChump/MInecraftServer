@@ -38,7 +38,7 @@ groups:
     - essentials.tpaccept
     - essentials.warp
     - essentials.warp.list
-   Citizen:
+  Citizen:
     options:
       default: false
       rank: '8'
