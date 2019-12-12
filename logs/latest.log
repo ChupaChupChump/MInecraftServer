@@ -487,3 +487,305 @@ java.lang.NullPointerException: null
 [09:12:53] [Server thread/INFO]: Biataria issued server command: /pex reload
 [09:12:53] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
 [09:12:55] [Server thread/INFO]: Biataria issued server command: /pex groups
+[09:15:50] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[09:15:50] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[09:15:51] [Server thread/INFO]: Debug logging is disabled
+[09:15:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:15:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:15:51] [Server thread/INFO]: -------- World Settings For [world] --------
+[09:15:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:15:51] [Server thread/INFO]: Mob Spawn Range: 6
+[09:15:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[09:15:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:15:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:15:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[09:15:51] [Server thread/INFO]: Max TNT Explosions: 100
+[09:15:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:15:51] [Server thread/INFO]: View Distance: 10
+[09:15:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:15:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:15:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:15:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:15:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:15:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:15:51] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[09:15:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:15:51] [Server thread/INFO]: Mob Spawn Range: 6
+[09:15:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[09:15:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:15:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:15:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[09:15:51] [Server thread/INFO]: Max TNT Explosions: 100
+[09:15:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:15:51] [Server thread/INFO]: View Distance: 10
+[09:15:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:15:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:15:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:15:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:15:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:15:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:15:51] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[09:15:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:15:51] [Server thread/INFO]: Mob Spawn Range: 6
+[09:15:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:15:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[09:15:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:15:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:15:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[09:15:51] [Server thread/INFO]: Max TNT Explosions: 100
+[09:15:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:15:51] [Server thread/INFO]: View Distance: 10
+[09:15:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:15:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:15:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:15:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:15:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:15:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:15:51] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.17.1.0
+[09:15:51] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.1.0
+[09:15:51] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.17.1.0
+[09:15:51] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.17.1.0
+[09:15:51] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.1.0
+[09:15:51] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[09:15:51] [Server thread/INFO]: [Lottery] Disabling Lottery v1.4.1
+[09:15:51] [Server thread/INFO]: [MiniaturePets] Disabling MiniaturePets v2.3.4
+[09:15:51] [Server thread/INFO]: [Jobs] Disabling Jobs v4.14.3
+[09:15:51] [Jobs-DatabaseSaveTask/INFO]: [0;33;1m[Jobs] Database save task shutdown![m
+[09:15:51] [Jobs-BufferedPaymentThread/INFO]: [0;33;1m[Jobs] Buffered payment thread shutdown.[m
+[09:15:51] [Server thread/INFO]: [0;33;1m[Jobs] [0;32;22mPlugin has been disabled successfully.[m
+[09:15:51] [Server thread/INFO]: [Towny] Disabling Towny v0.95.2.0
+[09:15:51] [Server thread/INFO]: ==============================================================
+[09:15:51] [Server thread/INFO]: [Towny] Version: 0.95.2.0 - Mod Disabled
+[09:15:51] [Server thread/INFO]: =============================================================
+[09:15:51] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[09:15:51] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.6.1
+[09:15:51] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[09:15:51] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[09:15:51] [Server thread/INFO]: Loaded 6 recipes
+[09:15:51] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[09:15:52] [Server thread/INFO]: Loaded 6 recipes
+[09:15:52] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[09:15:52] [Server thread/WARN]: Plugin MiniaturePets v2.3.4 does not specify an api-version.
+[09:15:52] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[09:15:52] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.6.1
+[09:15:52] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[09:15:52] [Server thread/INFO]: [Towny] Loading Towny v0.95.2.0
+[09:15:52] [Server thread/INFO]: [Jobs] Loading Jobs v4.14.3
+[09:15:52] [Server thread/INFO]: [MiniaturePets] Loading MiniaturePets v2.3.4
+[09:15:52] [Server thread/INFO]: [Lottery] Loading Lottery v1.4.1
+[09:15:52] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.1.0
+[09:15:52] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.1.0
+[09:15:52] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.17.1.0
+[09:15:52] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.1.0
+[09:15:52] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.17.1.0
+[09:15:52] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.6.1
+[09:15:54] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[09:15:54] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[09:15:54] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[09:15:54] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[09:15:54] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[09:15:54] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[09:15:54] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[09:15:54] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[09:15:54] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[09:15:55] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[09:15:55] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[09:15:55] [Server thread/INFO]: [Towny] Enabling Towny v0.95.2.0
+[09:15:55] [Server thread/INFO]: ====================      Towny      ========================
+[09:15:55] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
+[09:15:55] [Server thread/INFO]: [Towny] Using: Vault 1.7.2-b107 via Vault 1.7.2-b107, Essentials Economy via Vault
+[09:15:55] [Server thread/INFO]: Time until a New Day: 2 hours, 44 minutes, 5 seconds
+[09:15:55] [Server thread/INFO]: =============================================================
+[09:15:55] [Server thread/INFO]: [Towny] Version: 0.95.2.0 - Mod Enabled
+[09:15:55] [Server thread/INFO]: =============================================================
+[09:15:55] [Server thread/INFO]: [Jobs] Enabling Jobs v4.14.3
+[09:15:55] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 8 titles![m
+[09:15:55] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 75 protected blocks timers![m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 989 custom item names![m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 66 custom entity names![m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 37 custom enchant names![m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 16 custom color names![m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 4 shop items![m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Woodcutter[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Miner[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Builder[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Digger[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Farmer[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Hunter[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Explorer[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Crafter[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Fisherman[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Weaponsmith[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Brewer[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Enchanter[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 12 jobs![m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Explorer job manager registered![m
+[09:15:56] [Jobs-DatabaseSaveTask/INFO]: [0;33;1m[Jobs] Started database save task.[m
+[09:15:56] [Jobs-BufferedPaymentThread/INFO]: [0;33;1m[Jobs] Started buffered payment thread.[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Preloaded 2 players data in 0.01[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] [0;33;22mmcMMO was found - [0;31;1mBut your McMMO version is outdated, please update for full support.[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Registered McMMO 1.x listener[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loading explorer data[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Loaded explorer data (6)[m
+[09:15:56] [Server thread/INFO]: [0;33;1m[Jobs] Plugin has been enabled successfully.[m
+[09:15:56] [Server thread/INFO]: [MiniaturePets] Enabling MiniaturePets v2.3.4
+[09:15:57] [Server thread/INFO]: Loading reflections....[m
+[09:15:57] [Server thread/INFO]: Done loading[m
+[09:15:57] [Server thread/INFO]: [MiniaturePets] Starting to calculate Radians!
+[09:15:58] [Server thread/INFO]: [Lottery] Enabling Lottery v1.4.1
+[09:15:58] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.1.0
+[09:15:58] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[09:15:58] [Server thread/INFO]: No kits found to migrate.
+[09:15:58] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[09:15:58] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[09:15:58] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[09:15:58] [Server thread/INFO]: Loaded 20977 items from items.json.
+[09:15:58] [Server thread/INFO]: Using locale en_US
+[09:15:58] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[09:15:58] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[09:15:58] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[09:15:58] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[09:15:58] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.1.0
+[09:15:58] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[09:15:58] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.17.1.0
+[09:15:58] [Server thread/WARN]: Unable to load JDK7 types (annotations, java.nio.file.Path): no Java7 support added
+[09:15:58] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[09:15:59] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.1.0
+[09:15:59] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.17.1.0
+[09:15:59] [Server thread/WARN]: config broken for xmpp
+[09:15:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:15:59] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[09:16:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9014ms or 180 ticks behind
+[09:16:00] [Server thread/INFO]: [0;33;1m[Jobs] Successfully linked with Vault.[m
+[09:16:00] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[09:16:00] [Server thread/INFO]: [0;30;1m[[0;36;1mLottery[0;30;1m] [0;32;1mPlugin successfully linked with vault![m
+[09:16:01] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
+[09:16:09] [Server thread/INFO]: Biataria issued server command: /pex groups
+[09:16:16] [Server thread/INFO]: Biataria issued server command: /pex
+[09:16:38] [Server thread/INFO]: Biataria issued server command: /pex group admin
+[09:16:53] [Server thread/INFO]: Biataria issued server command: /pex group admin remove *
+[09:17:01] [Server thread/INFO]: Biataria issued server command: /pex group admin remove -permissions.*
+[09:17:13] [Server thread/INFO]: Biataria issued server command: /pex group Admin set parent Mod
+[09:17:16] [Server thread/INFO]: Biataria issued server command: /pex groups
+[09:17:22] [Server thread/INFO]: Biataria issued server command: /pex group admin
+[09:17:30] [Server thread/INFO]: Biataria issued server command: /pex group Mod
+[09:17:43] [Server thread/INFO]: Biataria issued server command: /pex group mod add -permissions.*
+[09:17:47] [Server thread/INFO]: Biataria issued server command: /pex group Citizen
+[09:18:06] [Server thread/INFO]: Biataria issued server command: /pex group Mod parent set Donator
+[09:18:09] [Server thread/INFO]: Biataria issued server command: /pex group Mod parents set Donator
+[09:18:12] [Server thread/INFO]: Biataria issued server command: /pex group mod
+[09:18:20] [Server thread/INFO]: Biataria issued server command: /pex groups
+[09:18:52] [Server thread/INFO]: Biataria issued server command: /pex group Admin parents set mod
+[09:19:09] [Server thread/INFO]: Biataria issued server command: /pex group Citizen parents set default
+[09:19:22] [Server thread/INFO]: Biataria issued server command: /pex group mod parents set Citizen
+[09:19:24] [Server thread/INFO]: Biataria issued server command: /pex groups
+[09:19:50] [Server thread/INFO]: Biataria issued server command: /pex
+[09:20:34] [Server thread/INFO]: Biataria issued server command: /pex group Citizen
+[09:20:39] [Server thread/INFO]: Biataria issued server command: /pex group Citizen remove *
+[09:20:41] [Server thread/INFO]: Biataria issued server command: /pex group Citizen
+[09:21:00] [Server thread/INFO]: Biataria issued server command: /pex group Citizen prefix
+[09:21:13] [Server thread/INFO]: Biataria issued server command: /kit color
+[09:21:14] [Server thread/INFO]: [Essentials] File book.txt does not exist. Creating one for you.
+[09:21:28] [Server thread/INFO]: Biataria issued server command: /pex group Citizen prefix &f[&eCitizen&f]
+[09:21:35] [Async Chat Thread - #0/INFO]: [m[0;37;1m[[0;31;1mDeveloper[0;37;1m] Biataria[m [m>> [0;37;1m[[0;33;1mCitizen[0;37;1m][m
+[09:21:52] [Server thread/INFO]: Biataria issued server command: /essentials
+[09:22:00] [Server thread/INFO]: Biataria issued server command: /essentials cleanup
+[09:22:05] [Server thread/INFO]: Biataria issued server command: /pl
+[09:22:13] [Server thread/INFO]: Biataria issued server command: /wild
+[09:22:18] [Server thread/INFO]: Biataria issued server command: /random
+[09:22:22] [Server thread/INFO]: Biataria issued server command: /rain
+[09:22:25] [Server thread/INFO]: Biataria issued server command: /clear
+[09:22:33] [Server thread/INFO]: Biataria issued server command: /weather
+[09:22:35] [Server thread/INFO]: Biataria issued server command: /weather sun
+[09:22:41] [Server thread/INFO]: Biataria lost connection: Disconnected
+[09:22:41] [Server thread/INFO]: -Biataria
+[09:22:41] [Server thread/WARN]: [Essentials] Task #115 for Essentials v2.17.1.0 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:394) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1022) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:393) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:970) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:815) [spigot.jar:git-Spigot-56f8471-6567017]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[09:23:24] [Server thread/INFO]: Stopping the server
+[09:23:24] [Server thread/INFO]: Stopping server
+[09:23:24] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.17.1.0
+[09:23:24] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.1.0
+[09:23:24] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.17.1.0
+[09:23:24] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.17.1.0
+[09:23:24] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.1.0
+[09:23:24] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[09:23:24] [Server thread/INFO]: [Lottery] Disabling Lottery v1.4.1
+[09:23:24] [Server thread/INFO]: [MiniaturePets] Disabling MiniaturePets v2.3.4
+[09:23:24] [Server thread/INFO]: [Jobs] Disabling Jobs v4.14.3
+[09:23:24] [Jobs-DatabaseSaveTask/INFO]: [0;33;1m[Jobs] Database save task shutdown![m
+[09:23:24] [Jobs-BufferedPaymentThread/INFO]: [0;33;1m[Jobs] Buffered payment thread shutdown.[m
+[09:23:24] [Server thread/INFO]: [0;33;1m[Jobs] [0;32;22mPlugin has been disabled successfully.[m
+[09:23:24] [Server thread/INFO]: [Towny] Disabling Towny v0.95.2.0
+[09:23:24] [Server thread/INFO]: ==============================================================
+[09:23:24] [Server thread/INFO]: [Towny] Version: 0.95.2.0 - Mod Disabled
+[09:23:24] [Server thread/INFO]: =============================================================
+[09:23:24] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[09:23:24] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.6.1
+[09:23:24] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[09:23:24] [Server thread/INFO]: Saving players
+[09:23:25] [Server thread/INFO]: Saving worlds
+[09:23:25] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[09:23:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:23:25] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[09:23:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:23:25] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[09:23:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:23:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:23:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:23:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

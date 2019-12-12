@@ -42,24 +42,29 @@ groups:
     options:
       default: false
       rank: '8'
-      prefix: '&f&l[&r&2MOD&f&l]'
-    permissions:
-    - '*'
+      prefix: '&f[&eCitizen&f]'
+    permissions: []
+    inheritance:
+    - default
   mod:
     options:
       default: false
       rank: '2'
       prefix: '&f&l[&r&2MOD&f&l]'
     permissions:
+    - -permissions.*
     - '*'
+    inheritance:
+    - Citizen
   admin:
     options:
       default: false
       rank: '2'
       prefix: '&f&l[&r&cADMIN&f&l]'
-    permissions:
-    - -permissions.*
-    - '*'
+      parent: Mod
+    permissions: []
+    inheritance:
+    - mod
   Developer:
     permissions:
     - '*'
@@ -75,7 +80,6 @@ users:
       name: Biataria
       group: Admin
       last-login-time: '1576138952'
-      last-logout-time: '1576140172'
+      last-logout-time: '1576142561'
     group:
     - Developer
-
