@@ -6,9 +6,46 @@ groups:
     permissions:
     - essentials.kit.firework
     - essentials.kit.tools
-    - essentials.kits
+    - essentials.kit
     - modifyworld.*
-  moderator:
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.delhome
+    - essentials.help
+    - essentials.helpop
+    - essentials.home
+    - essentials.home.bed
+    - essentials.ignore
+    - essentials.list
+    - essentials.mail
+    - essentials.msg
+    - essentials.pay
+    - essentials.payconfirmtoggle
+    - essentials.paytoggle
+    - essentials.ping
+    - essentials.realname
+    - essentials.rules
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.signs.use.*
+    - essentials.spawn
+    - essentials.time
+    - essentials.tpa
+    - essentials.tpacancel
+    - essentials.tpadeny
+    - essentials.tpaccept
+    - essentials.warp
+    - essentials.warp.list
+   Citizen:
+    options:
+      default: false
+      rank: '8'
+      prefix: '&f&l[&r&2MOD&f&l]'
+    permissions:
+    - '*'
+  mod:
     options:
       default: false
       rank: '2'
