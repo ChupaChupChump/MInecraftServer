@@ -4,30 +4,40 @@ groups:
       default: true
       rank: '9'
     permissions:
+    - essentials.kit.firework
+    - essentials.kit.tools
+    - essentials.kits
     - modifyworld.*
   moderator:
     options:
       default: false
       rank: '2'
+      prefix: '&f&l[&r&2MOD&f&l]'
     permissions:
     - '*'
   admin:
     options:
       default: false
-      rank: '1'
-      prefix: '&f&l[&cAdmin&f&l]'
+      rank: '2'
+      prefix: '&f&l[&r&cADMIN&f&l]'
     permissions:
     - -permissions.*
     - '*'
-  Biataria:
+  Developer:
+    permissions:
+    - '*'
     options:
-      prefix: admin
+      rank: '1'
+      prefix: '&f[&cDeveloper&f]'
 schema-version: 1
 users:
   5b81b3e9-1586-4c7b-b6b6-4343ff4a8646:
-    permissions: []
+    permissions:
+    - '*'
     options:
       name: Biataria
       group: Admin
+      last-login-time: '1576138952'
+      last-logout-time: '1576140172'
     group:
-    - admin
+    - Developer
