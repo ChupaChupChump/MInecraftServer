@@ -4,4 +4,14 @@ groups:
       default: true
     permissions:
     - modifyworld.*
+  moderator:
+    options:
+      default: false
+    permissions:
+    - *
+  admin:
+    options:
+      default: false
+    permissions:
+    - *
 schema-version: 1
