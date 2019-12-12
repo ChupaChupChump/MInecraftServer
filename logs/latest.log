@@ -2529,3 +2529,37 @@ org.bukkit.plugin.UnknownDependencyException: Vault
 [05:18:19] [Server thread/INFO]: Biataria issued server command: /pex user Biataria add *
 [05:18:19] [Server thread/WARN]: [PermissionsEx] User Biataria tried to access chat command "pex user Biataria add *", but doesn't have permission to do this.
 [05:18:29] [Server thread/INFO]: Biataria issued server command: /pex promote Biataria
+[05:20:10] [Server thread/INFO]: Stopping the server
+[05:20:10] [Server thread/INFO]: Stopping server
+[05:20:10] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.17.1.0
+[05:20:10] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.1.0
+[05:20:10] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.17.1.0
+[05:20:10] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.17.1.0
+[05:20:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.1.0
+[05:20:10] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[05:20:10] [Server thread/INFO]: [Lottery] Disabling Lottery v1.4.1
+[05:20:10] [Server thread/INFO]: [MiniaturePets] Disabling MiniaturePets v2.3.4
+[05:20:10] [Server thread/INFO]: [Jobs] Disabling Jobs v4.14.3
+[05:20:10] [Jobs-DatabaseSaveTask/INFO]: [0;33;1m[Jobs] Database save task shutdown![m
+[05:20:10] [Jobs-BufferedPaymentThread/INFO]: [0;33;1m[Jobs] Buffered payment thread shutdown.[m
+[05:20:10] [Server thread/INFO]: [0;33;1m[Jobs] [0;32;22mPlugin has been disabled successfully.[m
+[05:20:10] [Server thread/INFO]: [Towny] Disabling Towny v0.95.2.0
+[05:20:10] [Server thread/INFO]: ==============================================================
+[05:20:10] [Server thread/INFO]: [Towny] Version: 0.95.2.0 - Mod Disabled
+[05:20:10] [Server thread/INFO]: =============================================================
+[05:20:10] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[05:20:10] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.6.1
+[05:20:10] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[05:20:10] [Server thread/INFO]: Saving players
+[05:20:10] [Server thread/INFO]: Biataria lost connection: Server closed
+[05:20:10] [Server thread/INFO]: Biataria left the game
+[05:20:10] [Server thread/INFO]: Saving worlds
+[05:20:10] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[05:20:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:20:10] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[05:20:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:20:10] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[05:20:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:20:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:20:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:20:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
