@@ -8,10 +8,10 @@ groups:
     options:
       default: false
     permissions:
-    - *
+    - '*'
   admin:
     options:
       default: false
     permissions:
-    - *
+    - '*'
 schema-version: 1
