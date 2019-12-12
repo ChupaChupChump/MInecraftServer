@@ -45,23 +45,23 @@ change-displayname: true
 
 # When this option is enabled, the (tab) player list will be updated with the displayname.
 # The value of change-displayname (above) has to be true.
-#change-playerlist: true
+change-playerlist: true
 
 # When EssentialsChat.jar isn't used, force essentials to add the prefix and suffix from permission plugins to displayname.
 # This setting is ignored if EssentialsChat.jar is used, and defaults to 'true'.
 # The value of change-displayname (above) has to be true.
 # Do not edit this setting unless you know what you are doing!
-#add-prefix-suffix: false
+add-prefix-suffix: false
 
 # When this option is enabled, player prefixes will be shown in the playerlist.
 # This feature only works for Minecraft version 1.8 and higher.
 # This value of change-playerlist has to be true
-#add-prefix-in-playerlist: true
+add-prefix-in-playerlist: true
 
 # When this option is enabled, player suffixes will be shown in the playerlist.
 # This feature only works for Minecraft version 1.8 and higher. 
 # This value of change-playerlist has to be true
-#add-suffix-in-playerlist: true
+add-suffix-in-playerlist: true
 
 # If the teleport destination is unsafe, should players be teleported to the nearest safe location?
 # If this is set to true, Essentials will attempt to teleport players close to the intended destination.
@@ -285,7 +285,7 @@ player-commands:
 # This is useful if you want superperms-based permissions (with wildcards) for custom permissions plugins.
 # If you wish to use EssentialsX's built-in permissions using the `player-commands` section above, set this to false.
 # Default is true.
-use-bukkit-permissions: true
+use-bukkit-permissions: false
 
 # When this option is enabled, one-time use kits (ie. delay < 0) will be
 # removed from the /kit list when a player can no longer use it
@@ -304,20 +304,20 @@ pastebin-createkit: false
 # Color is not an actual sign, it's for enabling using color codes on signs, when the correct permissions are given.
 
 enabledSigns:
-  #- color
-  #- balance
-  #- buy
-  #- sell
+  - color
+  - balance
+  - buy
+  - sell
   #- trade
   #- free
-  #- disposal
-  #- warp
+  - disposal
+  - warp
   #- kit
   #- mail
-  #- enchant
+  - enchant
   #- gamemode
   #- heal
-  #- info
+  - info
   #- spawnmob
   #- repair
   #- time
@@ -358,8 +358,8 @@ per-warp-permission: false
 # Detailed instructions and examples can be found on the wiki: http://wiki.ess3.net/wiki/List
 list:
     # To merge groups, list the groups you wish to merge
-    #Staff: owner admin moderator
-    Admins: owner admin
+    Staff: admin moderator
+    #Admins: owner admin
     # To limit groups, set a max user limit
     #builder: 20
     # To hide groups, set the group as hidden
@@ -378,7 +378,7 @@ debug: false
 #locale: en
 
 # Turn off god mode when people leave the server.
-remove-god-on-disconnect: false
+remove-god-on-disconnect: true
 
 # Auto-AFK
 # After this timeout in seconds, the user will be set as AFK.
@@ -431,11 +431,11 @@ allow-silent-join-quit: false
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-join-message: "none"
+custom-join-message: "&a+&r{USERNAME}"
 
 # You can set a custom quit message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-quit-message: "none"
+custom-quit-message: "&c-&r{USERNAME}"
 
 # Add worlds to this list, if you want to automatically disable god mode there.
 no-god-in-worlds:
@@ -591,8 +591,7 @@ world-home-permissions: false
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
   default: 3
-  vip: 5
-  staff: 10
+  staff: 20
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 # Remember, they MUST have both permission nodes in order to be able to set multiple homes.
@@ -624,7 +623,7 @@ command-costs:
   # /example costs $1000 PER USE
   #example: 1000
   # /kit tools costs $1500 PER USE
-  #kit-tools: 1500
+  kit-tools: 1500
 
 # Set this to a currency symbol you want to use.
 # Remember, if you want to use special characters in this document, 
@@ -640,10 +639,10 @@ max-money: 10000000000000
 min-money: -10000
 
 # Enable this to log all interactions with trade/buy/sell signs and sell command.
-economy-log-enabled: false
+economy-log-enabled: true
 
 # Minimum acceptable amount to be used in /pay.
-minimum-pay-amount: 0.001
+minimum-pay-amount: 0.05
 
 # The format of currency, excluding symbols. See currency-symbol-format-locale for symbol configuration.
 #
@@ -695,13 +694,13 @@ chat:
   # For more information of chat formatting, check out the wiki: http://wiki.ess3.net/wiki/Chat_Formatting
   # For EssentialsX changes, take a look at the EssentialsX wiki: https://github.com/EssentialsX/Essentials/wiki
 
-  format: '<{DISPLAYNAME}> {MESSAGE}'
-  #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
+  #format: '<{DISPLAYNAME}> {MESSAGE}'
+  #format: '&f[&r{GROUP}&f]&r{DISPLAYNAME}&7>>&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
   group-formats:
-  #  Default: '{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'
-  #  Admins: '{WORLDNAME} &c[{GROUP}]&r {DISPLAYNAME}&7:&c {MESSAGE}'
+    Default: '{DISPLAYNAME}&7>>&r {MESSAGE}'
+    Admins: '&f&l[&r&4{GROUP}&f&l]&r {DISPLAYNAME}&7:&c {MESSAGE}'
 
   # If you are using group formats make sure to remove the '#' to allow the setting to be read.
 
