@@ -870,3 +870,888 @@ org.bukkit.plugin.UnknownDependencyException: Vault
 [04:42:55] [Server thread/INFO]: /pex worlds - Print loaded worlds[m
 [04:42:55] [Server thread/INFO]: /pex world <world> - Print <world> inheritance info[m
 [04:42:55] [Server thread/INFO]: /pex world <world> inherit <parentWorlds> - Set <parentWorlds> for <world>[m
+[04:53:36] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[04:53:36] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[04:53:36] [Server thread/INFO]: Debug logging is disabled
+[04:53:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:53:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:53:36] [Server thread/INFO]: -------- World Settings For [world] --------
+[04:53:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:53:36] [Server thread/INFO]: Mob Spawn Range: 6
+[04:53:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[04:53:36] [Server thread/INFO]: Max TNT Explosions: 100
+[04:53:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:53:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[04:53:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:53:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:53:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Potato Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: View Distance: 10
+[04:53:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:53:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:53:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:53:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:53:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:53:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:53:36] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[04:53:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:53:36] [Server thread/INFO]: Mob Spawn Range: 6
+[04:53:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[04:53:36] [Server thread/INFO]: Max TNT Explosions: 100
+[04:53:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:53:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[04:53:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:53:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:53:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Potato Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: View Distance: 10
+[04:53:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:53:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:53:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:53:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:53:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:53:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:53:36] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[04:53:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:53:36] [Server thread/INFO]: Mob Spawn Range: 6
+[04:53:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[04:53:36] [Server thread/INFO]: Max TNT Explosions: 100
+[04:53:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:53:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[04:53:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:53:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:53:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Potato Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[04:53:36] [Server thread/INFO]: View Distance: 10
+[04:53:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:53:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:53:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:53:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:53:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:53:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:53:36] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.17.1.0
+[04:53:36] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.1.0
+[04:53:36] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.17.1.0
+[04:53:37] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.17.1.0
+[04:53:37] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.1.0
+[04:53:37] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.6.1
+[04:53:37] [Server thread/INFO]: [MiniaturePets] Disabling MiniaturePets v2.3.4
+[04:53:37] [Server thread/INFO]: [Jobs] Disabling Jobs v4.14.3
+[04:53:37] [Jobs-DatabaseSaveTask/INFO]: [0;33;1m[Jobs] Database save task shutdown![m
+[04:53:37] [Jobs-BufferedPaymentThread/INFO]: [0;33;1m[Jobs] Buffered payment thread shutdown.[m
+[04:53:37] [Server thread/INFO]: [0;33;1m[Jobs] [0;32;22mPlugin has been disabled successfully.[m
+[04:53:37] [Server thread/INFO]: [Towny] Disabling Towny v0.95.2.0
+[04:53:37] [Server thread/INFO]: ==============================================================
+[04:53:37] [Server thread/INFO]: [Towny] Version: 0.95.2.0 - Mod Disabled
+[04:53:37] [Server thread/INFO]: =============================================================
+[04:53:37] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[04:53:37] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[04:53:37] [Server thread/INFO]: Loaded 6 recipes
+[04:53:37] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[04:53:37] [Server thread/INFO]: Loaded 6 recipes
+[04:53:37] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[04:53:38] [Server thread/WARN]: Plugin MiniaturePets v2.3.4 does not specify an api-version.
+[04:53:38] [Server thread/ERROR]: Could not load 'plugins/Lottery.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Vault
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:221) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.loadPlugins(CraftServer.java:350) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.reload(CraftServer.java:808) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.Bukkit.reload(Bukkit.java:576) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:710) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:695) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:430) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:394) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:970) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:815) [spigot.jar:git-Spigot-56f8471-6567017]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[04:53:38] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[04:53:38] [Server thread/INFO]: [Towny] Loading Towny v0.95.2.0
+[04:53:38] [Server thread/INFO]: [Jobs] Loading Jobs v4.14.3
+[04:53:38] [Server thread/INFO]: [MiniaturePets] Loading MiniaturePets v2.3.4
+[04:53:38] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.6.1
+[04:53:38] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.1.0
+[04:53:38] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.1.0
+[04:53:38] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.17.1.0
+[04:53:38] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.1.0
+[04:53:38] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.17.1.0
+[04:53:38] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.6.1
+[04:53:40] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[04:53:40] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[04:53:40] [Server thread/ERROR]: [PermissionsEx] 
+========== UNABLE TO LOAD PERMISSIONS BACKEND =========
+Your configuration must be fixed before PEX will enable
+Details: Error loading permissions file!
+=======================================================
+ru.tehkode.permissions.exceptions.PermissionBackendException: Error loading permissions file!
+	at ru.tehkode.permissions.backends.file.FileBackend.reload(FileBackend.java:321) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.backends.file.FileBackend.<init>(FileBackend.java:120) ~[PermissionsEx-1.23.4.jar:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:392) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:367) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.PermissionManager.createBackend(PermissionManager.java:624) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.PermissionManager.setBackend(PermissionManager.java:606) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.PermissionManager.initBackend(PermissionManager.java:693) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.PermissionManager.<init>(PermissionManager.java:67) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.bukkit.PermissionsEx.onEnable(PermissionsEx.java:175) [PermissionsEx-1.23.4.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.reload(CraftServer.java:810) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.Bukkit.reload(Bukkit.java:576) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:710) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:695) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:430) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:394) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:970) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:815) [spigot.jar:git-Spigot-56f8471-6567017]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.bukkit.configuration.InvalidConfigurationException: while scanning an alias
+ in 'string', line 11, column 7:
+        - *
+          ^
+expected alphabetic or numeric character, but found 
+(10)
+ in 'string', line 11, column 8:
+        - *
+           ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:56) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at ru.tehkode.permissions.backends.file.FileConfig.loadFromString(FileConfig.java:68) ~[?:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at ru.tehkode.permissions.backends.file.FileConfig.load(FileConfig.java:38) ~[?:?]
+	at ru.tehkode.permissions.backends.file.FileBackend.reload(FileBackend.java:309) ~[?:?]
+	... 28 more
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning an alias
+ in 'string', line 11, column 7:
+        - *
+          ^
+expected alphabetic or numeric character, but found 
+(10)
+ in 'string', line 11, column 8:
+        - *
+           ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanAnchor(ScannerImpl.java:1444) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchAlias(ScannerImpl.java:916) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:364) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:532) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:54) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at ru.tehkode.permissions.backends.file.FileConfig.loadFromString(FileConfig.java:68) ~[?:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at ru.tehkode.permissions.backends.file.FileConfig.load(FileConfig.java:38) ~[?:?]
+	at ru.tehkode.permissions.backends.file.FileBackend.reload(FileBackend.java:309) ~[?:?]
+	... 28 more
+[04:53:40] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[04:53:40] [Server thread/INFO]: [Towny] Enabling Towny v0.95.2.0
+[04:53:40] [Server thread/INFO]: ====================      Towny      ========================
+[04:53:40] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
+[04:53:40] [Server thread/WARN]: [Towny] Error: No compatible Economy plugins found. Install Vault.jar with any of the supported eco systems.
+[04:53:40] [Server thread/WARN]: [Towny] Error: If you do not want an economy to be used, set using_economy: false in your Towny config.yml.
+[04:53:40] [Server thread/INFO]: [Towny] Using: BukkitPermissions
+[04:53:40] [Server thread/INFO]: Time until a New Day: 7 hours, 6 minutes, 20 seconds
+[04:53:40] [Server thread/INFO]: =============================================================
+[04:53:40] [Server thread/INFO]: [Towny] Version: 0.95.2.0 - Mod Enabled
+[04:53:40] [Server thread/INFO]: =============================================================
+[04:53:40] [Server thread/INFO]: [Jobs] Enabling Jobs v4.14.3
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 8 titles![m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 75 protected blocks timers![m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 989 custom item names![m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 66 custom entity names![m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 37 custom enchant names![m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 16 custom color names![m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 4 shop items![m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Woodcutter[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Miner[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Builder[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Digger[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Farmer[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Hunter[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Explorer[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Crafter[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Fisherman[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Weaponsmith[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Brewer[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Enchanter[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 12 jobs![m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Explorer job manager registered![m
+[04:53:41] [Jobs-DatabaseSaveTask/INFO]: [0;33;1m[Jobs] Started database save task.[m
+[04:53:41] [Jobs-BufferedPaymentThread/INFO]: [0;33;1m[Jobs] Started buffered payment thread.[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Preloaded 2 players data in 0.0[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] [0;33;22mmcMMO was found - [0;31;1mBut your McMMO version is outdated, please update for full support.[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Registered McMMO 1.x listener[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loading explorer data[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Loaded explorer data (2)[m
+[04:53:41] [Server thread/INFO]: [0;33;1m[Jobs] Plugin has been enabled successfully.[m
+[04:53:41] [Server thread/INFO]: [MiniaturePets] Enabling MiniaturePets v2.3.4
+[04:53:42] [Server thread/INFO]: Loading reflections....[m
+[04:53:42] [Server thread/INFO]: Done loading[m
+[04:53:42] [Server thread/INFO]: [MiniaturePets] Starting to calculate Radians!
+[04:53:43] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.1.0
+[04:53:43] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[04:53:43] [Server thread/INFO]: No kits found to migrate.
+[04:53:43] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[04:53:43] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[04:53:43] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[04:53:43] [Server thread/INFO]: Loaded 20977 items from items.json.
+[04:53:43] [Server thread/INFO]: Using locale en_US
+[04:53:43] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[04:53:43] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[04:53:43] [Server thread/WARN]: [Essentials] Detected supported permissions plugin PermissionsEx without Vault installed.
+[04:53:43] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[04:53:43] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[04:53:43] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.1.0
+[04:53:43] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[04:53:43] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.17.1.0
+[04:53:43] [Server thread/WARN]: Unable to load JDK7 types (annotations, java.nio.file.Path): no Java7 support added
+[04:53:44] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[04:53:44] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.1.0
+[04:53:44] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.17.1.0
+[04:53:44] [Server thread/WARN]: config broken for xmpp
+[04:53:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:53:44] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[04:53:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7990ms or 159 ticks behind
+[04:53:44] [Server thread/ERROR]: [Jobs] ==================== Jobs ====================
+[04:53:44] [Server thread/ERROR]: [Jobs] Vault is required by this plugin for economy support!
+[04:53:45] [Server thread/ERROR]: [Jobs] Please install them first!
+[04:53:45] [Server thread/ERROR]: [Jobs] You can find the latest versions here:
+[04:53:45] [Server thread/ERROR]: [Jobs] https://www.spigotmc.org/resources/vault.34315/
+[04:53:45] [Server thread/ERROR]: [Jobs] ==============================================
+[04:53:52] [Server thread/WARN]: Unexpected exception while parsing console command "pex user Biataria add group admin"
+org.bukkit.command.CommandException: Cannot execute command 'pex' in plugin PermissionsEx v1.23.4 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:710) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:695) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:430) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:394) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:970) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:815) [spigot.jar:git-Spigot-56f8471-6567017]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[04:53:55] [Server thread/WARN]: Unexpected exception while parsing console command "pex"
+org.bukkit.command.CommandException: Cannot execute command 'pex' in plugin PermissionsEx v1.23.4 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:710) ~[spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:695) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:430) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:394) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:970) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:815) [spigot.jar:git-Spigot-56f8471-6567017]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[04:53:59] [Server thread/INFO]: CONSOLE issued server command: /help 
+[04:53:59] [Server thread/INFO]: To view help from the console, type '?'.[m
+[04:55:14] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[04:55:14] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[04:55:14] [Server thread/INFO]: Debug logging is disabled
+[04:55:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:55:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:55:14] [Server thread/INFO]: -------- World Settings For [world] --------
+[04:55:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:55:14] [Server thread/INFO]: Mob Spawn Range: 6
+[04:55:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[04:55:14] [Server thread/INFO]: Max TNT Explosions: 100
+[04:55:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:55:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[04:55:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:55:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:55:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Potato Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: View Distance: 10
+[04:55:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:55:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:55:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:55:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:55:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:55:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:55:14] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[04:55:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:55:14] [Server thread/INFO]: Mob Spawn Range: 6
+[04:55:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[04:55:14] [Server thread/INFO]: Max TNT Explosions: 100
+[04:55:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:55:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[04:55:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:55:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:55:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Potato Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: View Distance: 10
+[04:55:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:55:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:55:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:55:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:55:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:55:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:55:14] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[04:55:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:55:14] [Server thread/INFO]: Mob Spawn Range: 6
+[04:55:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[04:55:14] [Server thread/INFO]: Max TNT Explosions: 100
+[04:55:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:55:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[04:55:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:55:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:55:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Potato Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[04:55:14] [Server thread/INFO]: View Distance: 10
+[04:55:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:55:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:55:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:55:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:55:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:55:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:55:14] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.17.1.0
+[04:55:14] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.1.0
+[04:55:14] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.17.1.0
+[04:55:14] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.17.1.0
+[04:55:14] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.1.0
+[04:55:14] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.6.1
+[04:55:14] [Server thread/INFO]: [MiniaturePets] Disabling MiniaturePets v2.3.4
+[04:55:14] [Server thread/INFO]: [Jobs] Disabling Jobs v4.14.3
+[04:55:14] [Jobs-DatabaseSaveTask/INFO]: [0;33;1m[Jobs] Database save task shutdown![m
+[04:55:14] [Jobs-BufferedPaymentThread/INFO]: [0;33;1m[Jobs] Buffered payment thread shutdown.[m
+[04:55:14] [Server thread/INFO]: [0;33;1m[Jobs] [0;32;22mPlugin has been disabled successfully.[m
+[04:55:14] [Server thread/INFO]: [Towny] Disabling Towny v0.95.2.0
+[04:55:14] [Server thread/INFO]: ==============================================================
+[04:55:14] [Server thread/INFO]: [Towny] Version: 0.95.2.0 - Mod Disabled
+[04:55:14] [Server thread/INFO]: =============================================================
+[04:55:14] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[04:55:14] [Server thread/INFO]: Loaded 6 recipes
+[04:55:15] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[04:55:15] [Server thread/INFO]: Loaded 6 recipes
+[04:55:15] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[04:55:15] [Server thread/WARN]: Plugin MiniaturePets v2.3.4 does not specify an api-version.
+[04:55:15] [Server thread/ERROR]: Could not load 'plugins/Lottery.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Vault
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:221) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.loadPlugins(CraftServer.java:350) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.reload(CraftServer.java:808) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.Bukkit.reload(Bukkit.java:576) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:710) [spigot.jar:git-Spigot-56f8471-6567017]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:695) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:430) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:394) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:970) [spigot.jar:git-Spigot-56f8471-6567017]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:815) [spigot.jar:git-Spigot-56f8471-6567017]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[04:55:15] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[04:55:15] [Server thread/INFO]: [Towny] Loading Towny v0.95.2.0
+[04:55:15] [Server thread/INFO]: [Jobs] Loading Jobs v4.14.3
+[04:55:15] [Server thread/INFO]: [MiniaturePets] Loading MiniaturePets v2.3.4
+[04:55:15] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.6.1
+[04:55:15] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.1.0
+[04:55:15] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.1.0
+[04:55:15] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.17.1.0
+[04:55:15] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.1.0
+[04:55:15] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.17.1.0
+[04:55:15] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.6.1
+[04:55:17] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[04:55:17] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[04:55:17] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[04:55:17] [Server thread/INFO]: [Towny] Enabling Towny v0.95.2.0
+[04:55:17] [Server thread/INFO]: ====================      Towny      ========================
+[04:55:17] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
+[04:55:17] [Server thread/WARN]: [Towny] Error: No compatible Economy plugins found. Install Vault.jar with any of the supported eco systems.
+[04:55:17] [Server thread/WARN]: [Towny] Error: If you do not want an economy to be used, set using_economy: false in your Towny config.yml.
+[04:55:17] [Server thread/INFO]: [Towny] Using: BukkitPermissions
+[04:55:17] [Server thread/INFO]: Time until a New Day: 7 hours, 4 minutes, 43 seconds
+[04:55:17] [Server thread/INFO]: =============================================================
+[04:55:17] [Server thread/INFO]: [Towny] Version: 0.95.2.0 - Mod Enabled
+[04:55:17] [Server thread/INFO]: =============================================================
+[04:55:17] [Server thread/INFO]: [Jobs] Enabling Jobs v4.14.3
+[04:55:18] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 8 titles![m
+[04:55:18] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 75 protected blocks timers![m
+[04:55:18] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 989 custom item names![m
+[04:55:18] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 66 custom entity names![m
+[04:55:18] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 37 custom enchant names![m
+[04:55:18] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 16 custom color names![m
+[04:55:18] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 4 shop items![m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Woodcutter[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Miner[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Builder[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Digger[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Farmer[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Hunter[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Explorer[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Crafter[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Fisherman[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Weaponsmith[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Brewer[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 1 quests for Enchanter[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 12 jobs![m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Explorer job manager registered![m
+[04:55:19] [Jobs-DatabaseSaveTask/INFO]: [0;33;1m[Jobs] Started database save task.[m
+[04:55:19] [Jobs-BufferedPaymentThread/INFO]: [0;33;1m[Jobs] Started buffered payment thread.[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Preloaded 2 players data in 0.01[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] [0;33;22mmcMMO was found - [0;31;1mBut your McMMO version is outdated, please update for full support.[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Registered McMMO 1.x listener[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loading explorer data[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Loaded explorer data (2)[m
+[04:55:19] [Server thread/INFO]: [0;33;1m[Jobs] Plugin has been enabled successfully.[m
+[04:55:19] [Server thread/INFO]: [MiniaturePets] Enabling MiniaturePets v2.3.4
+[04:55:19] [Server thread/INFO]: Loading reflections....[m
+[04:55:19] [Server thread/INFO]: Done loading[m
+[04:55:20] [Server thread/INFO]: [MiniaturePets] Starting to calculate Radians!
+[04:55:20] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.1.0
+[04:55:20] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[04:55:20] [Server thread/INFO]: No kits found to migrate.
+[04:55:20] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[04:55:20] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[04:55:20] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[04:55:20] [Server thread/INFO]: Loaded 20977 items from items.json.
+[04:55:20] [Server thread/INFO]: Using locale en_US
+[04:55:20] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[04:55:20] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[04:55:20] [Server thread/WARN]: [Essentials] Detected supported permissions plugin PermissionsEx without Vault installed.
+[04:55:20] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[04:55:20] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[04:55:20] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.1.0
+[04:55:20] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[04:55:21] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.17.1.0
+[04:55:21] [Server thread/WARN]: Unable to load JDK7 types (annotations, java.nio.file.Path): no Java7 support added
+[04:55:21] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[04:55:21] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.1.0
+[04:55:21] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.17.1.0
+[04:55:21] [Server thread/WARN]: config broken for xmpp
+[04:55:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:55:22] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[04:55:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7749ms or 154 ticks behind
+[04:55:22] [Server thread/ERROR]: [Jobs] ==================== Jobs ====================
+[04:55:22] [Server thread/ERROR]: [Jobs] Vault is required by this plugin for economy support!
+[04:55:22] [Server thread/ERROR]: [Jobs] Please install them first!
+[04:55:22] [Server thread/ERROR]: [Jobs] You can find the latest versions here:
+[04:55:22] [Server thread/ERROR]: [Jobs] https://www.spigotmc.org/resources/vault.34315/
+[04:55:22] [Server thread/ERROR]: [Jobs] ==============================================
+[04:55:53] [Server thread/INFO]: [PermissionsEx] version [1.23.4][m
+[04:55:53] [Server thread/INFO]: Usage:[m
+[04:55:53] [Server thread/INFO]: /pex - Display help[m
+[04:55:53] [Server thread/INFO]: /pex reload - Reload environment[m
+[04:55:53] [Server thread/INFO]: /pex report - Report an issue with PEX[m
+[04:55:53] [Server thread/INFO]: /pex config <node> [value] - Print or set <node> [value][m
+[04:55:53] [Server thread/INFO]: /pex backend - Print currently used backend[m
+[04:55:53] [Server thread/INFO]: /pex backend <backend> - Change permission backend on the fly (Use with caution!)[m
+[04:55:53] [Server thread/INFO]: /pex hierarchy [world] - Print complete user/group hierarchy[m
+[04:55:53] [Server thread/INFO]: /pex import <backend> - Import data from <backend> into currently selected backend[m
+[04:55:53] [Server thread/INFO]: /pex convert uuid - Bulk convert user data to UUID-based storage[m
+[04:55:53] [Server thread/INFO]: /pex toggle debug - Enable/disable debug mode[m
+[04:55:53] [Server thread/INFO]: /pex help [page] [count] - PermissionsEx commands help[m
+[04:55:53] [Server thread/INFO]: /pex users list - List all registered users[m
+[04:55:53] [Server thread/INFO]: /pex users - List all registered users (alias)[m
+[04:55:53] [Server thread/INFO]: /pex user - List all registered users (alias)[m
+[04:55:53] [Server thread/INFO]: /pex user <user> - List user permissions (list alias)[m
+[04:55:53] [Server thread/INFO]: /pex user <user> list [world] - List user permissions[m
+[04:55:53] [Server thread/INFO]: /pex user <user> superperms - List user actual superperms[m
+[04:55:53] [Server thread/INFO]: /pex user <user> prefix [newprefix] [world] - Get or set <user> prefix[m
+[04:55:53] [Server thread/INFO]: /pex user <user> suffix [newsuffix] [world] - Get or set <user> suffix[m
+[04:55:53] [Server thread/INFO]: /pex user <user> toggle debug - Toggle debug only for <user>[m
+[04:55:53] [Server thread/INFO]: /pex user <user> check <permission> [world] - Checks player for <permission>[m
+[04:55:53] [Server thread/INFO]: /pex user <user> get <option> [world] - Toggle debug only for <user>[m
+[04:55:53] [Server thread/INFO]: /pex user <user> delete - Remove <user>[m
+[04:55:53] [Server thread/INFO]: /pex user <user> add <permission> [world] - Add <permission> to <user> in [world][m
+[04:55:53] [Server thread/INFO]: /pex user <user> remove <permission> [world] - Remove permission from <user> in [world][m
+[04:55:53] [Server thread/INFO]: /pex user <user> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself[m
+[04:55:53] [Server thread/INFO]: /pex user <user> timed add <permission> [lifetime] [world] - Add timed <permissions> to <user> for [lifetime] seconds in [world][m
+[04:55:53] [Server thread/INFO]: /pex user <user> timed remove <permission> [world] - Remove timed <permission> from <user> in [world][m
+[04:55:53] [Server thread/INFO]: /pex user <user> set <option> <value> [world] - Set <option> to <value> in [world][m
+[04:55:53] [Server thread/INFO]: /pex user <user> group list [world] - List all <user> groups[m
+[04:55:53] [Server thread/INFO]: /pex user <user> group add <group> [world] [lifetime] - Add <user> to <group>[m
+[04:55:53] [Server thread/INFO]: /pex user <user> group set <group> [world] - Set <group> for <user>[m
+[04:55:53] [Server thread/INFO]: /pex user <user> group remove <group> [world] - Remove <user> from <group>[m
+[04:55:53] [Server thread/INFO]: /pex users cleanup <group> [threshold] - Clean users of specified group, which last login was before threshold (in days). By default threshold is 30 days.[m
+[04:55:53] [Server thread/INFO]: /pex group <group> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself[m
+[04:55:53] [Server thread/INFO]: /pex groups list [world] - List all registered groups[m
+[04:55:53] [Server thread/INFO]: /pex groups - List all registered groups (alias)[m
+[04:55:53] [Server thread/INFO]: /pex group - List all registered groups (alias)[m
+[04:55:53] [Server thread/INFO]: /pex group <group> weight [weight] - Print or set group weight[m
+[04:55:53] [Server thread/INFO]: /pex group <group> toggle debug - Toggle debug mode for group[m
+[04:55:53] [Server thread/INFO]: /pex group <group> prefix [newprefix] [world] - Get or set <group> prefix.[m
+[04:55:53] [Server thread/INFO]: /pex group <group> suffix [newsuffix] [world] - Get or set <group> suffix[m
+[04:55:53] [Server thread/INFO]: /pex group <group> create [parents] - Create <group> and/or set [parents][m
+[04:55:53] [Server thread/INFO]: /pex group <group> delete - Remove <group>[m
+[04:55:53] [Server thread/INFO]: /pex group <group> parents [world] - List parents for <group> (alias)[m
+[04:55:53] [Server thread/INFO]: /pex group <group> parents list [world] - List parents for <group>[m
+[04:55:53] [Server thread/INFO]: /pex group <group> parents set <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[04:55:53] [Server thread/INFO]: /pex group <group> parents add <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[04:55:53] [Server thread/INFO]: /pex group <group> parents remove <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[04:55:53] [Server thread/INFO]: /pex group <group> - List all <group> permissions (alias)[m
+[04:55:53] [Server thread/INFO]: /pex group <group> list [world] - List all <group> permissions in [world][m
+[04:55:53] [Server thread/INFO]: /pex group <group> add <permission> [world] - Add <permission> to <group> in [world][m
+[04:55:53] [Server thread/INFO]: /pex group <group> set <option> <value> [world] - Set <option> <value> for <group> in [world][m
+[04:55:53] [Server thread/INFO]: /pex group <group> remove <permission> [world] - Remove <permission> from <group> in [world][m
+[04:55:53] [Server thread/INFO]: /pex group <group> timed add <permission> [lifetime] [world] - Add timed <permission> to <group> with [lifetime] in [world][m
+[04:55:53] [Server thread/INFO]: /pex group <group> timed remove <permission> [world] - Remove timed <permissions> for <group> in [world][m
+[04:55:53] [Server thread/INFO]: /pex group <group> users - List all users in <group>[m
+[04:55:53] [Server thread/INFO]: /pex group <group> user add <user> [world] - Add <user> (single or comma-separated list) to <group>[m
+[04:55:53] [Server thread/INFO]: /pex group <group> user remove <user> [world] - Add <user> (single or comma-separated list) to <group>[m
+[04:55:53] [Server thread/INFO]: /pex default group [world] - Print default groups for specified world[m
+[04:55:53] [Server thread/INFO]: /pex set default group <group> <value> [world] - Set whether a group is default for specified worlds[m
+[04:55:53] [Server thread/INFO]: /pex group <group> rank [rank] [ladder] - Get or set <group> [rank] [ladder][m
+[04:55:53] [Server thread/INFO]: /pex promote <user> [ladder] - Promotes <user> to next group on [ladder][m
+[04:55:53] [Server thread/INFO]: /pex demote <user> [ladder] - Demotes <user> to previous group or [ladder][m
+[04:55:53] [Server thread/INFO]: /pex worlds - Print loaded worlds[m
+[04:55:53] [Server thread/INFO]: /pex world <world> - Print <world> inheritance info[m
+[04:55:53] [Server thread/INFO]: /pex world <world> inherit <parentWorlds> - Set <parentWorlds> for <world>[m
+[04:56:04] [Server thread/INFO]: [0;37;1mPermission "group" added![m
+[04:56:10] [Async Chat Thread - #3/INFO]: [m[0;37;22m[default][m Biataria[0;37;22m:[m yes[m
+[04:56:12] [Server thread/INFO]: Biataria issued server command: /pex
+[04:56:21] [Server thread/INFO]: [0;31;1mError in command syntax. Check command help.[m
+[04:56:24] [Server thread/INFO]: [0;37;1mPermission "group" removed![m
+[04:56:26] [Server thread/INFO]: [PermissionsEx] version [1.23.4][m
+[04:56:26] [Server thread/INFO]: Usage:[m
+[04:56:26] [Server thread/INFO]: /pex - Display help[m
+[04:56:26] [Server thread/INFO]: /pex reload - Reload environment[m
+[04:56:26] [Server thread/INFO]: /pex report - Report an issue with PEX[m
+[04:56:26] [Server thread/INFO]: /pex config <node> [value] - Print or set <node> [value][m
+[04:56:26] [Server thread/INFO]: /pex backend - Print currently used backend[m
+[04:56:26] [Server thread/INFO]: /pex backend <backend> - Change permission backend on the fly (Use with caution!)[m
+[04:56:26] [Server thread/INFO]: /pex hierarchy [world] - Print complete user/group hierarchy[m
+[04:56:26] [Server thread/INFO]: /pex import <backend> - Import data from <backend> into currently selected backend[m
+[04:56:26] [Server thread/INFO]: /pex convert uuid - Bulk convert user data to UUID-based storage[m
+[04:56:26] [Server thread/INFO]: /pex toggle debug - Enable/disable debug mode[m
+[04:56:26] [Server thread/INFO]: /pex help [page] [count] - PermissionsEx commands help[m
+[04:56:26] [Server thread/INFO]: /pex users list - List all registered users[m
+[04:56:26] [Server thread/INFO]: /pex users - List all registered users (alias)[m
+[04:56:26] [Server thread/INFO]: /pex user - List all registered users (alias)[m
+[04:56:26] [Server thread/INFO]: /pex user <user> - List user permissions (list alias)[m
+[04:56:26] [Server thread/INFO]: /pex user <user> list [world] - List user permissions[m
+[04:56:26] [Server thread/INFO]: /pex user <user> superperms - List user actual superperms[m
+[04:56:26] [Server thread/INFO]: /pex user <user> prefix [newprefix] [world] - Get or set <user> prefix[m
+[04:56:26] [Server thread/INFO]: /pex user <user> suffix [newsuffix] [world] - Get or set <user> suffix[m
+[04:56:26] [Server thread/INFO]: /pex user <user> toggle debug - Toggle debug only for <user>[m
+[04:56:26] [Server thread/INFO]: /pex user <user> check <permission> [world] - Checks player for <permission>[m
+[04:56:26] [Server thread/INFO]: /pex user <user> get <option> [world] - Toggle debug only for <user>[m
+[04:56:26] [Server thread/INFO]: /pex user <user> delete - Remove <user>[m
+[04:56:26] [Server thread/INFO]: /pex user <user> add <permission> [world] - Add <permission> to <user> in [world][m
+[04:56:26] [Server thread/INFO]: /pex user <user> remove <permission> [world] - Remove permission from <user> in [world][m
+[04:56:26] [Server thread/INFO]: /pex user <user> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself[m
+[04:56:26] [Server thread/INFO]: /pex user <user> timed add <permission> [lifetime] [world] - Add timed <permissions> to <user> for [lifetime] seconds in [world][m
+[04:56:26] [Server thread/INFO]: /pex user <user> timed remove <permission> [world] - Remove timed <permission> from <user> in [world][m
+[04:56:26] [Server thread/INFO]: /pex user <user> set <option> <value> [world] - Set <option> to <value> in [world][m
+[04:56:26] [Server thread/INFO]: /pex user <user> group list [world] - List all <user> groups[m
+[04:56:26] [Server thread/INFO]: /pex user <user> group add <group> [world] [lifetime] - Add <user> to <group>[m
+[04:56:26] [Server thread/INFO]: /pex user <user> group set <group> [world] - Set <group> for <user>[m
+[04:56:26] [Server thread/INFO]: /pex user <user> group remove <group> [world] - Remove <user> from <group>[m
+[04:56:26] [Server thread/INFO]: /pex users cleanup <group> [threshold] - Clean users of specified group, which last login was before threshold (in days). By default threshold is 30 days.[m
+[04:56:26] [Server thread/INFO]: /pex group <group> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself[m
+[04:56:26] [Server thread/INFO]: /pex groups list [world] - List all registered groups[m
+[04:56:26] [Server thread/INFO]: /pex groups - List all registered groups (alias)[m
+[04:56:26] [Server thread/INFO]: /pex group - List all registered groups (alias)[m
+[04:56:26] [Server thread/INFO]: /pex group <group> weight [weight] - Print or set group weight[m
+[04:56:26] [Server thread/INFO]: /pex group <group> toggle debug - Toggle debug mode for group[m
+[04:56:26] [Server thread/INFO]: /pex group <group> prefix [newprefix] [world] - Get or set <group> prefix.[m
+[04:56:26] [Server thread/INFO]: /pex group <group> suffix [newsuffix] [world] - Get or set <group> suffix[m
+[04:56:26] [Server thread/INFO]: /pex group <group> create [parents] - Create <group> and/or set [parents][m
+[04:56:26] [Server thread/INFO]: /pex group <group> delete - Remove <group>[m
+[04:56:26] [Server thread/INFO]: /pex group <group> parents [world] - List parents for <group> (alias)[m
+[04:56:26] [Server thread/INFO]: /pex group <group> parents list [world] - List parents for <group>[m
+[04:56:26] [Server thread/INFO]: /pex group <group> parents set <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[04:56:26] [Server thread/INFO]: /pex group <group> parents add <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[04:56:26] [Server thread/INFO]: /pex group <group> parents remove <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[04:56:26] [Server thread/INFO]: /pex group <group> - List all <group> permissions (alias)[m
+[04:56:26] [Server thread/INFO]: /pex group <group> list [world] - List all <group> permissions in [world][m
+[04:56:26] [Server thread/INFO]: /pex group <group> add <permission> [world] - Add <permission> to <group> in [world][m
+[04:56:26] [Server thread/INFO]: /pex group <group> set <option> <value> [world] - Set <option> <value> for <group> in [world][m
+[04:56:26] [Server thread/INFO]: /pex group <group> remove <permission> [world] - Remove <permission> from <group> in [world][m
+[04:56:26] [Server thread/INFO]: /pex group <group> timed add <permission> [lifetime] [world] - Add timed <permission> to <group> with [lifetime] in [world][m
+[04:56:26] [Server thread/INFO]: /pex group <group> timed remove <permission> [world] - Remove timed <permissions> for <group> in [world][m
+[04:56:26] [Server thread/INFO]: /pex group <group> users - List all users in <group>[m
+[04:56:26] [Server thread/INFO]: /pex group <group> user add <user> [world] - Add <user> (single or comma-separated list) to <group>[m
+[04:56:26] [Server thread/INFO]: /pex group <group> user remove <user> [world] - Add <user> (single or comma-separated list) to <group>[m
+[04:56:26] [Server thread/INFO]: /pex default group [world] - Print default groups for specified world[m
+[04:56:26] [Server thread/INFO]: /pex set default group <group> <value> [world] - Set whether a group is default for specified worlds[m
+[04:56:26] [Server thread/INFO]: /pex group <group> rank [rank] [ladder] - Get or set <group> [rank] [ladder][m
+[04:56:26] [Server thread/INFO]: /pex promote <user> [ladder] - Promotes <user> to next group on [ladder][m
+[04:56:26] [Server thread/INFO]: /pex demote <user> [ladder] - Demotes <user> to previous group or [ladder][m
+[04:56:26] [Server thread/INFO]: /pex worlds - Print loaded worlds[m
+[04:56:26] [Server thread/INFO]: /pex world <world> - Print <world> inheritance info[m
+[04:56:26] [Server thread/INFO]: /pex world <world> inherit <parentWorlds> - Set <parentWorlds> for <world>[m
+[04:56:32] [Server thread/INFO]: [0;37;1mCurrently registered users: [m
+[04:56:32] [Server thread/INFO]: 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646[0;37;22m (Last known username: Biataria) [0;32;22m[default][m
+[04:56:35] [Server thread/INFO]: [PermissionsEx] version [1.23.4][m
+[04:56:35] [Server thread/INFO]: Usage:[m
+[04:56:35] [Server thread/INFO]: /pex - Display help[m
+[04:56:35] [Server thread/INFO]: /pex reload - Reload environment[m
+[04:56:35] [Server thread/INFO]: /pex report - Report an issue with PEX[m
+[04:56:35] [Server thread/INFO]: /pex config <node> [value] - Print or set <node> [value][m
+[04:56:35] [Server thread/INFO]: /pex backend - Print currently used backend[m
+[04:56:35] [Server thread/INFO]: /pex backend <backend> - Change permission backend on the fly (Use with caution!)[m
+[04:56:35] [Server thread/INFO]: /pex hierarchy [world] - Print complete user/group hierarchy[m
+[04:56:35] [Server thread/INFO]: /pex import <backend> - Import data from <backend> into currently selected backend[m
+[04:56:35] [Server thread/INFO]: /pex convert uuid - Bulk convert user data to UUID-based storage[m
+[04:56:35] [Server thread/INFO]: /pex toggle debug - Enable/disable debug mode[m
+[04:56:35] [Server thread/INFO]: /pex help [page] [count] - PermissionsEx commands help[m
+[04:56:35] [Server thread/INFO]: /pex users list - List all registered users[m
+[04:56:35] [Server thread/INFO]: /pex users - List all registered users (alias)[m
+[04:56:35] [Server thread/INFO]: /pex user - List all registered users (alias)[m
+[04:56:35] [Server thread/INFO]: /pex user <user> - List user permissions (list alias)[m
+[04:56:35] [Server thread/INFO]: /pex user <user> list [world] - List user permissions[m
+[04:56:35] [Server thread/INFO]: /pex user <user> superperms - List user actual superperms[m
+[04:56:35] [Server thread/INFO]: /pex user <user> prefix [newprefix] [world] - Get or set <user> prefix[m
+[04:56:35] [Server thread/INFO]: /pex user <user> suffix [newsuffix] [world] - Get or set <user> suffix[m
+[04:56:35] [Server thread/INFO]: /pex user <user> toggle debug - Toggle debug only for <user>[m
+[04:56:35] [Server thread/INFO]: /pex user <user> check <permission> [world] - Checks player for <permission>[m
+[04:56:35] [Server thread/INFO]: /pex user <user> get <option> [world] - Toggle debug only for <user>[m
+[04:56:35] [Server thread/INFO]: /pex user <user> delete - Remove <user>[m
+[04:56:35] [Server thread/INFO]: /pex user <user> add <permission> [world] - Add <permission> to <user> in [world][m
+[04:56:35] [Server thread/INFO]: /pex user <user> remove <permission> [world] - Remove permission from <user> in [world][m
+[04:56:35] [Server thread/INFO]: /pex user <user> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself[m
+[04:56:35] [Server thread/INFO]: /pex user <user> timed add <permission> [lifetime] [world] - Add timed <permissions> to <user> for [lifetime] seconds in [world][m
+[04:56:35] [Server thread/INFO]: /pex user <user> timed remove <permission> [world] - Remove timed <permission> from <user> in [world][m
+[04:56:35] [Server thread/INFO]: /pex user <user> set <option> <value> [world] - Set <option> to <value> in [world][m
+[04:56:35] [Server thread/INFO]: /pex user <user> group list [world] - List all <user> groups[m
+[04:56:35] [Server thread/INFO]: /pex user <user> group add <group> [world] [lifetime] - Add <user> to <group>[m
+[04:56:35] [Server thread/INFO]: /pex user <user> group set <group> [world] - Set <group> for <user>[m
+[04:56:35] [Server thread/INFO]: /pex user <user> group remove <group> [world] - Remove <user> from <group>[m
+[04:56:35] [Server thread/INFO]: /pex users cleanup <group> [threshold] - Clean users of specified group, which last login was before threshold (in days). By default threshold is 30 days.[m
+[04:56:35] [Server thread/INFO]: /pex group <group> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself[m
+[04:56:35] [Server thread/INFO]: /pex groups list [world] - List all registered groups[m
+[04:56:35] [Server thread/INFO]: /pex groups - List all registered groups (alias)[m
+[04:56:35] [Server thread/INFO]: /pex group - List all registered groups (alias)[m
+[04:56:35] [Server thread/INFO]: /pex group <group> weight [weight] - Print or set group weight[m
+[04:56:35] [Server thread/INFO]: /pex group <group> toggle debug - Toggle debug mode for group[m
+[04:56:35] [Server thread/INFO]: /pex group <group> prefix [newprefix] [world] - Get or set <group> prefix.[m
+[04:56:35] [Server thread/INFO]: /pex group <group> suffix [newsuffix] [world] - Get or set <group> suffix[m
+[04:56:35] [Server thread/INFO]: /pex group <group> create [parents] - Create <group> and/or set [parents][m
+[04:56:35] [Server thread/INFO]: /pex group <group> delete - Remove <group>[m
+[04:56:35] [Server thread/INFO]: /pex group <group> parents [world] - List parents for <group> (alias)[m
+[04:56:35] [Server thread/INFO]: /pex group <group> parents list [world] - List parents for <group>[m
+[04:56:35] [Server thread/INFO]: /pex group <group> parents set <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[04:56:35] [Server thread/INFO]: /pex group <group> parents add <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[04:56:35] [Server thread/INFO]: /pex group <group> parents remove <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[04:56:35] [Server thread/INFO]: /pex group <group> - List all <group> permissions (alias)[m
+[04:56:35] [Server thread/INFO]: /pex group <group> list [world] - List all <group> permissions in [world][m
+[04:56:35] [Server thread/INFO]: /pex group <group> add <permission> [world] - Add <permission> to <group> in [world][m
+[04:56:35] [Server thread/INFO]: /pex group <group> set <option> <value> [world] - Set <option> <value> for <group> in [world][m
+[04:56:35] [Server thread/INFO]: /pex group <group> remove <permission> [world] - Remove <permission> from <group> in [world][m
+[04:56:35] [Server thread/INFO]: /pex group <group> timed add <permission> [lifetime] [world] - Add timed <permission> to <group> with [lifetime] in [world][m
+[04:56:35] [Server thread/INFO]: /pex group <group> timed remove <permission> [world] - Remove timed <permissions> for <group> in [world][m
+[04:56:35] [Server thread/INFO]: /pex group <group> users - List all users in <group>[m
+[04:56:35] [Server thread/INFO]: /pex group <group> user add <user> [world] - Add <user> (single or comma-separated list) to <group>[m
+[04:56:35] [Server thread/INFO]: /pex group <group> user remove <user> [world] - Add <user> (single or comma-separated list) to <group>[m
+[04:56:35] [Server thread/INFO]: /pex default group [world] - Print default groups for specified world[m
+[04:56:35] [Server thread/INFO]: /pex set default group <group> <value> [world] - Set whether a group is default for specified worlds[m
+[04:56:35] [Server thread/INFO]: /pex group <group> rank [rank] [ladder] - Get or set <group> [rank] [ladder][m
+[04:56:35] [Server thread/INFO]: /pex promote <user> [ladder] - Promotes <user> to next group on [ladder][m
+[04:56:35] [Server thread/INFO]: /pex demote <user> [ladder] - Demotes <user> to previous group or [ladder][m
+[04:56:35] [Server thread/INFO]: /pex worlds - Print loaded worlds[m
+[04:56:35] [Server thread/INFO]: /pex world <world> - Print <world> inheritance info[m
+[04:56:35] [Server thread/INFO]: /pex world <world> inherit <parentWorlds> - Set <parentWorlds> for <world>[m
+[04:56:44] [Server thread/INFO]: [0;31;1mPromotion error: User are not in this ladder[m
+[04:56:44] [Server thread/ERROR]: [PermissionsEx] Ranking Error (console > 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria): User are not in this ladder
+[04:56:55] [Server thread/INFO]: [0;37;1mCurrently registered users: [m
+[04:56:55] [Server thread/INFO]: 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646[0;37;22m (Last known username: Biataria) [0;32;22m[default][m
+[04:56:59] [Server thread/INFO]: 'help/help' is a member of:[m
+[04:56:59] [Server thread/INFO]:    default (not ranked)[m
+[04:56:59] [Server thread/INFO]: help's permissions:[m
+[04:56:59] [Server thread/INFO]: [m
+[04:56:59] [Server thread/INFO]: help's options:[m
+[04:57:03] [Server thread/INFO]: [0;37;1mCurrently registered users: [m
+[04:57:03] [Server thread/INFO]: 5b81b3e9-1586-4c7b-b6b6-4343ff4a8646[0;37;22m (Last known username: Biataria) [0;32;22m[default][m
+[04:57:08] [Server thread/INFO]: [0;37;1mRegistered groups: [m
+[04:57:08] [Server thread/INFO]:   default  #0  [0;32;22m[][m
+[04:57:08] [Server thread/INFO]:   moderator  #0  [0;32;22m[][m
+[04:57:08] [Server thread/INFO]:   admin  #0  [0;32;22m[][m
+[04:57:22] [Server thread/INFO]: [PermissionsEx] version [1.23.4][m
+[04:57:22] [Server thread/INFO]: Usage:[m
+[04:57:22] [Server thread/INFO]: /pex - Display help[m
+[04:57:22] [Server thread/INFO]: /pex reload - Reload environment[m
+[04:57:22] [Server thread/INFO]: /pex report - Report an issue with PEX[m
+[04:57:22] [Server thread/INFO]: /pex config <node> [value] - Print or set <node> [value][m
+[04:57:22] [Server thread/INFO]: /pex backend - Print currently used backend[m
+[04:57:22] [Server thread/INFO]: /pex backend <backend> - Change permission backend on the fly (Use with caution!)[m
+[04:57:22] [Server thread/INFO]: /pex hierarchy [world] - Print complete user/group hierarchy[m
+[04:57:22] [Server thread/INFO]: /pex import <backend> - Import data from <backend> into currently selected backend[m
+[04:57:22] [Server thread/INFO]: /pex convert uuid - Bulk convert user data to UUID-based storage[m
+[04:57:22] [Server thread/INFO]: /pex toggle debug - Enable/disable debug mode[m
+[04:57:22] [Server thread/INFO]: /pex help [page] [count] - PermissionsEx commands help[m
+[04:57:22] [Server thread/INFO]: /pex users list - List all registered users[m
+[04:57:22] [Server thread/INFO]: /pex users - List all registered users (alias)[m
+[04:57:22] [Server thread/INFO]: /pex user - List all registered users (alias)[m
+[04:57:22] [Server thread/INFO]: /pex user <user> - List user permissions (list alias)[m
+[04:57:22] [Server thread/INFO]: /pex user <user> list [world] - List user permissions[m
+[04:57:22] [Server thread/INFO]: /pex user <user> superperms - List user actual superperms[m
+[04:57:22] [Server thread/INFO]: /pex user <user> prefix [newprefix] [world] - Get or set <user> prefix[m
+[04:57:22] [Server thread/INFO]: /pex user <user> suffix [newsuffix] [world] - Get or set <user> suffix[m
+[04:57:22] [Server thread/INFO]: /pex user <user> toggle debug - Toggle debug only for <user>[m
+[04:57:22] [Server thread/INFO]: /pex user <user> check <permission> [world] - Checks player for <permission>[m
+[04:57:22] [Server thread/INFO]: /pex user <user> get <option> [world] - Toggle debug only for <user>[m
+[04:57:22] [Server thread/INFO]: /pex user <user> delete - Remove <user>[m
+[04:57:22] [Server thread/INFO]: /pex user <user> add <permission> [world] - Add <permission> to <user> in [world][m
+[04:57:22] [Server thread/INFO]: /pex user <user> remove <permission> [world] - Remove permission from <user> in [world][m
+[04:57:22] [Server thread/INFO]: /pex user <user> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself[m
+[04:57:22] [Server thread/INFO]: /pex user <user> timed add <permission> [lifetime] [world] - Add timed <permissions> to <user> for [lifetime] seconds in [world][m
+[04:57:22] [Server thread/INFO]: /pex user <user> timed remove <permission> [world] - Remove timed <permission> from <user> in [world][m
+[04:57:22] [Server thread/INFO]: /pex user <user> set <option> <value> [world] - Set <option> to <value> in [world][m
+[04:57:22] [Server thread/INFO]: /pex user <user> group list [world] - List all <user> groups[m
+[04:57:22] [Server thread/INFO]: /pex user <user> group add <group> [world] [lifetime] - Add <user> to <group>[m
+[04:57:22] [Server thread/INFO]: /pex user <user> group set <group> [world] - Set <group> for <user>[m
+[04:57:22] [Server thread/INFO]: /pex user <user> group remove <group> [world] - Remove <user> from <group>[m
+[04:57:22] [Server thread/INFO]: /pex users cleanup <group> [threshold] - Clean users of specified group, which last login was before threshold (in days). By default threshold is 30 days.[m
+[04:57:22] [Server thread/INFO]: /pex group <group> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself[m
+[04:57:22] [Server thread/INFO]: /pex groups list [world] - List all registered groups[m
+[04:57:22] [Server thread/INFO]: /pex groups - List all registered groups (alias)[m
+[04:57:22] [Server thread/INFO]: /pex group - List all registered groups (alias)[m
+[04:57:22] [Server thread/INFO]: /pex group <group> weight [weight] - Print or set group weight[m
+[04:57:22] [Server thread/INFO]: /pex group <group> toggle debug - Toggle debug mode for group[m
+[04:57:22] [Server thread/INFO]: /pex group <group> prefix [newprefix] [world] - Get or set <group> prefix.[m
+[04:57:22] [Server thread/INFO]: /pex group <group> suffix [newsuffix] [world] - Get or set <group> suffix[m
+[04:57:22] [Server thread/INFO]: /pex group <group> create [parents] - Create <group> and/or set [parents][m
+[04:57:22] [Server thread/INFO]: /pex group <group> delete - Remove <group>[m
+[04:57:22] [Server thread/INFO]: /pex group <group> parents [world] - List parents for <group> (alias)[m
+[04:57:22] [Server thread/INFO]: /pex group <group> parents list [world] - List parents for <group>[m
+[04:57:22] [Server thread/INFO]: /pex group <group> parents set <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[04:57:22] [Server thread/INFO]: /pex group <group> parents add <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[04:57:22] [Server thread/INFO]: /pex group <group> parents remove <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[04:57:22] [Server thread/INFO]: /pex group <group> - List all <group> permissions (alias)[m
+[04:57:22] [Server thread/INFO]: /pex group <group> list [world] - List all <group> permissions in [world][m
+[04:57:22] [Server thread/INFO]: /pex group <group> add <permission> [world] - Add <permission> to <group> in [world][m
+[04:57:22] [Server thread/INFO]: /pex group <group> set <option> <value> [world] - Set <option> <value> for <group> in [world][m
+[04:57:22] [Server thread/INFO]: /pex group <group> remove <permission> [world] - Remove <permission> from <group> in [world][m
+[04:57:22] [Server thread/INFO]: /pex group <group> timed add <permission> [lifetime] [world] - Add timed <permission> to <group> with [lifetime] in [world][m
+[04:57:22] [Server thread/INFO]: /pex group <group> timed remove <permission> [world] - Remove timed <permissions> for <group> in [world][m
+[04:57:22] [Server thread/INFO]: /pex group <group> users - List all users in <group>[m
+[04:57:22] [Server thread/INFO]: /pex group <group> user add <user> [world] - Add <user> (single or comma-separated list) to <group>[m
+[04:57:22] [Server thread/INFO]: /pex group <group> user remove <user> [world] - Add <user> (single or comma-separated list) to <group>[m
+[04:57:22] [Server thread/INFO]: /pex default group [world] - Print default groups for specified world[m
+[04:57:22] [Server thread/INFO]: /pex set default group <group> <value> [world] - Set whether a group is default for specified worlds[m
+[04:57:22] [Server thread/INFO]: /pex group <group> rank [rank] [ladder] - Get or set <group> [rank] [ladder][m
+[04:57:22] [Server thread/INFO]: /pex promote <user> [ladder] - Promotes <user> to next group on [ladder][m
+[04:57:22] [Server thread/INFO]: /pex demote <user> [ladder] - Demotes <user> to previous group or [ladder][m
+[04:57:22] [Server thread/INFO]: /pex worlds - Print loaded worlds[m
+[04:57:22] [Server thread/INFO]: /pex world <world> - Print <world> inheritance info[m
+[04:57:22] [Server thread/INFO]: /pex world <world> inherit <parentWorlds> - Set <parentWorlds> for <world>[m
+[04:57:31] [Server thread/INFO]: '5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria' is a member of:[m
+[04:57:31] [Server thread/INFO]:    default (not ranked)[m
+[04:57:31] [Server thread/INFO]:   @admin:[m
+[04:57:31] [Server thread/INFO]: Biataria's permissions:[m
+[04:57:31] [Server thread/INFO]: [m
+[04:57:31] [Server thread/INFO]: Biataria's options:[m
+[04:57:31] [Server thread/INFO]:   name = "Biataria"[m
+[04:57:34] [Server thread/INFO]: [0;31;1mError in command syntax. Check command help.[m
+[04:57:36] [Server thread/INFO]: [0;31;1mError in command syntax. Check command help.[m
+[04:57:39] [Server thread/INFO]: [0;31;1mError in command syntax. Check command help.[m
+[04:57:42] [Server thread/INFO]: '5b81b3e9-1586-4c7b-b6b6-4343ff4a8646/Biataria' is a member of:[m
+[04:57:42] [Server thread/INFO]:    default (not ranked)[m
+[04:57:42] [Server thread/INFO]:   @admin:[m
+[04:57:42] [Server thread/INFO]: Biataria's permissions:[m
+[04:57:42] [Server thread/INFO]: [m
+[04:57:42] [Server thread/INFO]: Biataria's options:[m
+[04:57:42] [Server thread/INFO]:   name = "Biataria"[m
