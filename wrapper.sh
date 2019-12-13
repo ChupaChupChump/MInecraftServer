@@ -1,4 +1,3 @@
 #!/bin/bash
-cd  /server;
 
-java -XX:MaxPermSize=1024M -Xms512M -jar spigot.jar
+java -Xms512M -Xmx1024M -jar spigot.jar
