@@ -969,6 +969,13 @@ ItemList:
   WITHER_ROSE: Air
   YELLOW_DYE: Air
   COMPOSTER: Air
+  BEEHIVE: Beehive
+  BEE_NEST: Bee Nest
+  BEE_SPAWN_EGG: Bee Spawn Egg
+  HONEYCOMB: Honeycomb
+  HONEYCOMB_BLOCK: Honeycomb Block
+  HONEY_BLOCK: Honey Block
+  HONEY_BOTTLE: Honey Bottle
   LEGACY_STATIONARY_WATER: Source d'eau
   LEGACY_STATIONARY_LAVA: Source de lave
   LEGACY_BURNING_FURNACE: Fourneau brulant
@@ -1036,25 +1043,26 @@ EntityList:
   99-IRON_GOLEM: Golem de Fer
   100-HORSE: Cheval
   101-RABBIT: Lapin
+  59-RAVAGER: Ravager
   102-POLAR_BEAR: Ours blanc
   103-LLAMA: Lama
   105-PARROT: Perroquet
-  108-PUFFERFISH: Pufferfish
-  109-SALMON: Salmon
-  111-TROPICAL_FISH: Tropical Fish
-  112-COD: Cod
   113-PANDA: Panda
   114-PILLAGER: Pillager
   120-VILLAGER: Villageois
   121-FOX: Fox
+  604-WANDERING_TRADER: Wandering Trader
   901-TURTLE: Tortue
   902-PHANTOM: Phantom
+  904-COD: Cod
+  905-SALMON: Salmon
+  906-PUFFERFISH: Pufferfish
+  907-TROPICAL_FISH: Tropical Fish
   908-DROWNED: Noyé
   909-DOLPHIN: Dauphin
   914-PLAYER: Player
-  917-RAVAGER: Ravager
   918-TRADER_LLAMA: Trader Llama
-  919-WANDERING_TRADER: Wandering Trader
+  924-BEE: Bee
 EnchantList:
   Fire protection: Fire protection
   Sharpness: Sharpness

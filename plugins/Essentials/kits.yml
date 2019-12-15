@@ -18,6 +18,7 @@ kits:
       - stoneaxe 1
   dtools:
     delay: 600
+    uses: 1
     items:
       - dpickaxe 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
       - dshovel 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole

@@ -1,4 +1,4 @@
-towns=
+towns=SnowyMoutainGlade
 
 pvp=true
 forcepvp=false

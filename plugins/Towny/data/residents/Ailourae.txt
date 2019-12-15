@@ -1,0 +1,15 @@
+lastOnline=1576384590164
+registered=1576379080895
+isNPC=false
+isJailed=false
+JailSpawn=0
+JailDays=0
+JailTown=
+title=
+surname=
+town=SnowyMoutainGlade
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse

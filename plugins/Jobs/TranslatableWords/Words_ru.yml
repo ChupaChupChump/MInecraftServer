@@ -969,6 +969,13 @@ ItemList:
   WITHER_ROSE: Роза визера
   YELLOW_DYE: Жёлтый краситель
   COMPOSTER: Компостер
+  BEEHIVE: Beehive
+  BEE_NEST: Bee Nest
+  BEE_SPAWN_EGG: Bee Spawn Egg
+  HONEYCOMB: Honeycomb
+  HONEYCOMB_BLOCK: Honeycomb Block
+  HONEY_BLOCK: Honey Block
+  HONEY_BOTTLE: Honey Bottle
   LEGACY_STATIONARY_WATER: Неподвижная вода
   LEGACY_STATIONARY_LAVA: Неподвижная лава
   LEGACY_BURNING_FURNACE: Горящая печь
@@ -1036,25 +1043,26 @@ EntityList:
   99-IRON_GOLEM: Железный голем
   100-HORSE: Лошадь
   101-RABBIT: Кролик
+  59-RAVAGER: Ravager
   102-POLAR_BEAR: Белый медведь
   103-LLAMA: Лама
   105-PARROT: Попугай
-  108-PUFFERFISH: Иглобрюх
-  109-SALMON: Лосось
-  111-TROPICAL_FISH: Тропическая рыба
-  112-COD: Треска
   113-PANDA: Панда
   114-PILLAGER: Налётчик
   120-VILLAGER: Деревенский житель
   121-FOX: Лиса
+  604-WANDERING_TRADER: Wandering Trader
   901-TURTLE: Черепаха
   902-PHANTOM: Фантом
+  904-COD: Cod
+  905-SALMON: Salmon
+  906-PUFFERFISH: Pufferfish
+  907-TROPICAL_FISH: Tropical Fish
   908-DROWNED: Утопленник
   909-DOLPHIN: Дельчин
   914-PLAYER: Игрок
-  917-RAVAGER: Разоритель
   918-TRADER_LLAMA: Лама торговца
-  919-WANDERING_TRADER: Странствующий торговец
+  924-BEE: Bee
 EnchantList:
   Fire protection: Огнеупорность
   Sharpness: Острота
