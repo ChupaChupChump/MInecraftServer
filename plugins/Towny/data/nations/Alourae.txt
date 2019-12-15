@@ -1,0 +1,13 @@
+towns=SnowyMoutainGlade
+capital=SnowyMoutainGlade
+nationBoard=/nation set board [msg]
+assistants=
+allies=
+enemies=
+taxes=0.0
+spawnCost=0.0
+neutral=false
+uuid=b490aff5-8a9e-421c-ad81-0acde72ed86f
+registered=1576380178179
+isPublic=false
+isOpen=false
