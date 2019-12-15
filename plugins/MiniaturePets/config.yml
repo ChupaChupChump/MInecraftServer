@@ -18,3 +18,5 @@ runGUIAsync: true
 perPetName: true
 animationRefreshRate: 2
 SaveWithUUID: true
+PetSpawnDistance: -3
+PetNameLimit: 20

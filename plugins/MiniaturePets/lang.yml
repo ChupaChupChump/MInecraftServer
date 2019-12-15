@@ -14,3 +14,4 @@ worldDisablePet: Pet spawning is disabled in this world!
 worldDisableGUI: You can't open the pet GUI in this world!
 notYourPetInteraction: '&cThis pet belongs to &4%p_name%&c. You can''t take it for
   a walk, even if you wanted!'
+name-too-long: '&cThe name you chose is over the the name limit (&4%limit%&c)'
