@@ -1,0 +1,62 @@
+Prefix: '&8[&bLottery&8] '
+NoPermission: '&c&lYou dont have permission to do that!'
+Buy: '&a&lSuccessfully bought &6%tickets% &aLottery Tickets!'
+GlobalBuy: '&6&l%player% &abought &6%tickets% &aLottery Tickets!'
+NoMoney: '&c&lYou dont have enough money to buy &6&l%tickets% &c&lTickets. You need
+  &6&l%money% &c&lMoney to buy &6&l%tickets% &c&lTickets.'
+TicketLimit: '&c&lYou cant buy more Tickets!'
+Cooldown: '&c&lYou are on cooldown! You can buy Tickets again in &6%time% &c&lSeconds'
+Win: '&a&lCongratulations to &6&l%player% &a&lfor winning &6&l%money% &a&lMoney in
+  Lottery!'
+NoWinnerText: '&cNobody'
+NoPlayers: '&c&lThere were no Tickets sold.'
+FewPlayers: '&c&lThere were not enough players for Lottery to draw!'
+NotOnline: '&c&lThe Winner %player% is not online and could not win.'
+LoginWinMessage: '&a&lCongratulations! You won &c&l%moneygot% (Without Taxes %moneynotax%)
+  &a&lin the Lottery you last participated!'
+BlockedWorld: '&c&lThe Winner %player% is in a Blocked World and could not win.'
+BackToPot: '&6&lNobody won! &c&l%newpot% &6&lwas added back to the pot!'
+Reminder: '&a&lLottery will draw in &6&l%draw% &a&lMinutes! In Pot: &6&l%pot%'
+ToggleOFFBuyMessage: '&cYou wont receive any Buy messages from other Players anymore!'
+ToggleONBuyMessage: '&aYou will now again receive Buy messages from other Players!'
+ToggleOFFReminderMessage: '&cYou wont receive any Reminder messages anymore!'
+ToggleONReminderMessage: '&aYou will now again receive Reminder messages!'
+TimeTillDrawFormat: '&c%h%&8H &c%m%&8M &c%s%&8S'
+WaitingForDraw: '&cWaiting for current Draw..'
+Status:
+- '       &b&lLottery'
+- ' '
+- '&aYour Tickets: &c%ptickets%'
+- ' '
+- '&aGlobal Tickets: &c%gtickets%'
+- ' '
+- '&aIn Pot: &c%pot%'
+- ' '
+- '&aDraw in: &c%draw%'
+- ' '
+- '&aLast Winner: &c%winner%'
+HelpPage:
+  Users:
+  - §7===================================
+  - §8[§bLottery§8]
+  - §8[§bLottery§8] §e§l§o/Lottery buy (Number)
+  - §8[§bLottery§8]
+  - §8[§bLottery§8] §e§l§o/Lottery status
+  - §8[§bLottery§8]
+  - §8[§bLottery§8] §e§l§o/Lottery gui
+  - §8[§bLottery§8]
+  - §8[§bLottery§8] §e§l§o/Lottery toggleremindmsg
+  - §8[§bLottery§8]
+  - §8[§bLottery§8] §e§l§o/Lottery togglebuymsg
+  - §8[§bLottery§8]
+  - §7===================================
+  Admins:
+  - §7===================================
+  - §8[§bLottery§8]
+  - §8[§bLottery§8] §e§l§o/Lottery draw
+  - §8[§bLottery§8]
+  - §8[§bLottery§8] §e§l§o/Lottery reload
+  - §8[§bLottery§8]
+  - §8[§bLottery§8] §e§l§o/Lottery addpot <Number>
+  - §8[§bLottery§8]
+  - §7===================================
