@@ -2264,3 +2264,75 @@ java.lang.NullPointerException: null
 	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:978) [spigot.jar:git-Spigot-f39a89e-16dc575]
 	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:823) [spigot.jar:git-Spigot-f39a89e-16dc575]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
+[12:35:04] [Server thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
+[12:35:04] [Server thread/INFO]: Stopping server
+[12:35:04] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.17.1.0
+[12:35:04] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.17.1.0
+[12:35:04] [Server thread/INFO]: [Lottery] Disabling Lottery v1.4.1
+[12:35:04] [Server thread/INFO]: [Jobs] Disabling Jobs v4.15.0-devBuild
+[12:35:04] [Server thread/INFO]: [0;33;1m[Jobs] Saved 11 new explorer entries.[m
+[12:35:04] [Server thread/INFO]: [0;33;1m[Jobs] Updated 1 explorer entries.[m
+[12:35:04] [Jobs-DatabaseSaveTask/INFO]: [0;33;1m[Jobs] Database save task shutdown![m
+[12:35:04] [Jobs-BufferedPaymentThread/INFO]: [0;33;1m[Jobs] Buffered payment thread shutdown.[m
+[12:35:04] [Server thread/INFO]: [0;33;1m[Jobs] [0;32;22mPlugin has been disabled successfully.[m
+[12:35:04] [Server thread/INFO]: [Towny] Disabling Towny v0.95.2.0
+[12:35:04] [Server thread/INFO]: ==============================================================
+[12:35:04] [Server thread/INFO]: [Towny] Version: 0.95.2.0 - Mod Disabled
+[12:35:04] [Server thread/INFO]: =============================================================
+[12:35:04] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.17.1.0
+[12:35:04] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.1.0
+[12:35:04] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.1.0
+[12:35:04] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[12:35:04] [Server thread/INFO]: [Quests] Disabling Quests v3.8.1-b42
+[12:35:04] [Server thread/INFO]: [Quests] Saving Quester data...
+[12:35:04] [Server thread/INFO]: [MiniaturePets] Disabling MiniaturePets v2.3.4
+[12:35:04] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v1.9.0
+[12:35:04] [Server thread/INFO]: [VotingPlugin] Disabling VotingPlugin v5.20.5
+[12:35:04] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.1;f2118aa
+[12:35:04] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[12:35:04] [Server thread/INFO]: [Votifier] Disabling Votifier v1.9
+[12:35:04] [Server thread/INFO]: [Votifier] Votifier disabled.
+[12:35:04] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[12:35:04] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[12:35:04] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.6.1
+[12:35:04] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[12:35:04] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[12:35:04] [Server thread/INFO]: [React] Disabling React v6.614
+[12:35:04] [Server thread/ERROR]: Error occurred while disabling React v6.614 (Is it up to date?)
+java.lang.NullPointerException: null
+	at com.volmit.react.ReactPlugin.stop(ReactPlugin.java:198) ~[?:?]
+	at primal.bukkit.plugin.PrimalPlugin.onDisable(PrimalPlugin.java:69) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265) ~[spigot.jar:git-Spigot-f39a89e-16dc575]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:377) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:438) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:430) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.disablePlugins(CraftServer.java:396) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.stop(MinecraftServer.java:698) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.stop(DedicatedServer.java:683) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.close(MinecraftServer.java:675) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at org.spigotmc.RestartCommand.restart(RestartCommand.java:119) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at org.spigotmc.RestartCommand.restart(RestartCommand.java:40) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at org.spigotmc.RestartCommand$1.run(RestartCommand.java:31) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1043) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:393) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:978) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:823) [spigot.jar:git-Spigot-f39a89e-16dc575]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[12:35:04] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.0.1;61bc012
+[12:35:04] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[12:35:04] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v2.17.5
+[12:35:04] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[12:35:05] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v2.17.5
+[12:35:05] [Server thread/INFO]: Saving players
+[12:35:05] [Server thread/INFO]: Ailourae lost connection: Server closed
+[12:35:05] [Server thread/INFO]: Ailourae left the game
+[12:35:05] [Server thread/INFO]: Saving worlds
+[12:35:05] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[12:35:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:35:06] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[12:35:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:35:06] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[12:35:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:35:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:35:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:35:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
