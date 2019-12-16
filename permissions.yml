@@ -1,0 +1,178 @@
+groups:
+  default:
+    options:
+      default: true
+      rank: '9'
+    permissions:
+    - essentials.kit.firework
+    - essentials.kit.tools
+    - essentials.kit
+    - modifyworld.*
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.delhome
+    - essentials.help
+    - essentials.helpop
+    - essentials.home
+    - essentials.home.bed
+    - essentials.ignore
+    - essentials.list
+    - essentials.mail
+    - essentials.msg
+    - essentials.pay
+    - essentials.payconfirmtoggle
+    - essentials.paytoggle
+    - essentials.ping
+    - essentials.realname
+    - essentials.rules
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.signs.use.*
+    - essentials.spawn
+    - essentials.time
+    - essentials.tpa
+    - essentials.tpacancel
+    - essentials.tpadeny
+    - essentials.tpaccept
+    - essentials.warp
+    - essentials.warp.list
+    - mcmmo.commands.mmoinfo
+    - mcmmo.commands.mcmmo
+    - mcmmo.commands.mctop
+    - mcmmo.commands.mcrank
+    - mcmmo.commands.mcability
+    - mcmmo.commands.mccooldown
+    - mcmmo.commands.mcstats
+    - mcmmo.commands.ptp
+    - mcmmo.commands.party
+    - mcmmo.commands.inspect
+    - mcmmo.chat.partychat
+    - mcmmo.commands.excavation
+    - mcmmo.commands.herbalism
+    - mcmmo.commands.mining
+    - mcmmo.commands.woodcutting
+    - mcmmo.commands.axes
+    - mcmmo.commands.archery
+    - mcmmo.commands.swords
+    - mcmmo.commands.taming
+    - mcmmo.commands.unarmed
+    - mcmmo.commands.acrobatics
+    - mcmmo.commands.repair
+    - mcmmo.commands.fishing
+    - mcmmo.commands.smelting
+    - mcmmo.commands.alchemy
+    - mcmmo.commands.salvage
+    - mcmmo.commands.mcscoreboard
+    - mcmmo.ability.all */DOUBLE CHECK*/ 704
+    - mcmmo.commands.mcmmo.help
+    - mcmmo.commands.mcmmo.description */DOUBLE CHECK*/ 912
+    - mcmmo.commands.mcrank
+    - mcmmo.commands.mctop.*
+    - mcmmo.commands.mhd */DOUBLE CHECK*/ 165
+    - mcmmo.commands.party.*
+    - mcmmo.commands.ptp
+    - mcmmo.commands.ptp.send
+    - mcmmo.commands.ptp.accept
+    - mcmmo.defaults
+    - mcmmo.skills.all
+  Citizen:
+    options:
+      default: false
+      rank: '8'
+      prefix: '&f[&eCitizen&f]'
+    permissions:
+    - mcmmo.commands.ptp.acceptall
+    - mcmmo.perks.bypass.salvageenchant (IS THIS TO OP FOR CITEZEN? I’M ASSUMING CITIZEN IS A DONOR RANK?)
+    - mcmmo.perks.bypass.repairenchant
+    - mcmmo.perks.activationtime.twelveseconds
+    - mcmmo.perks.cooldowns.quartered
+    - mcmmo.perks.lucky.all
+    - mcmmo.perks.xp.10percentboost.all
+
+    inheritance:
+    - default
+  mod:
+    options:
+      default: false
+      rank: '2'
+      prefix: '&f&l[&r&2MOD&f&l]'
+    permissions:
+    - -permissions.*
+    - '*'
+    - mcmmo.commands.inspect.far
+    - mcmmo.commands.inspect.hidden
+    - mcmmo.commands.mcability.others
+    - mcmmo.commands.mccooldown
+    - mcmmo.commands.mcchatspy
+    - mcmmo.commands.mcchatspy.others
+    - mcmmo.commands.mcrefresh
+    - mcmmo.commands.mcrank.others.*
+    - mcmmo.commands.mmoedit
+    - mcmmo.commands.mmoedit.others
+    - mcmmo.commands.ptp.toggle
+    - mcmmo.commands.ptp.world.all
+    - mcmmo.commands.skillreset.*
+    - mcmmo.commands.xprate.*
+    - mcmmo.defaultsop
+    - mcmmo.perks.*
+    - mcmmo.showversion
+    inheritance:
+    - Citizen
+  admin:
+    options:
+      default: false
+      rank: '2'
+      prefix: '&f&l[&r&cADMIN&f&l]'
+      parent: Mod
+    permissions:
+    - mcmmo.*
+    - mcmmo.admin
+    - mcmmo.bypass.all
+    - mcmmo.chat.*
+    - mcmmo.commands.defaultsop
+    - mcmmo.commands.addlevels
+    - mcmmo.commands.addlevels.others
+    - mcmmo.commands.addxp
+    - mcmmo.commands.addxp.others
+    - mcmmo.commands.mcconvert.all
+    - mcmmo.commands.mcgod
+    - mcmmo.commands.mcgod.others
+    - mcmmo.commands.mcpurge
+    - mcmmo.commands.mcimport
+    - mcmmo.commands.mcremove
+    - mcmmo.commands.mmoshowdb
+    - mcmmo.commands.vampirism.*
+    - mcmmo.tools.*
+    inheritance:
+    - mod
+  Developer:
+    permissions:
+    - '*'
+    - mcmmo.commands.hardcore.*
+    inheritance:
+    - admin
+    options:
+      rank: '1'
+      prefix: '&f[&cDeveloper&f]'
+schema-version: 1
+users:
+  5b81b3e9-1586-4c7b-b6b6-4343ff4a8646:
+    permissions:
+    - '*'
+    options:
+      name: Biataria
+      group: Admin
+      last-login-time: '1576138952'
+      last-logout-time: '1576142561'
+    group:
+    - Developer
+  f934ed45-4c3d-435b-b34d-a53a325de217:
+    permissions:
+    - '*'
+    options:
+      name: _Chariti_
+      group: Developer
+      last-login-time: '1576227615'
+      last-logout-time: '1576227862'
