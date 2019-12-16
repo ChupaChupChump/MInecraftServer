@@ -3,6 +3,7 @@ groups:
     options:
       default: true
       rank: '9'
+      prefix: '&f[&8Guest&f]'
     permissions:
     - essentials.kit.firework
     - essentials.kit.tools
@@ -79,20 +80,20 @@ users:
     options:
       name: Biataria
       group: Admin
-      last-login-time: '1576457886'
-      last-logout-time: '1576459967'
+      last-login-time: '1576502176'
+      last-logout-time: '1576502192'
     group:
     - Developer
   84c9b050-9377-4c5b-8608-cceb2038c2cd:
     group: []
     options:
       name: CentrelinkFlex
-      last-login-time: '1576376827'
-      last-logout-time: '1576376838'
+      last-login-time: '1576484406'
+      last-logout-time: '1576485426'
   ccb5f7b2-dd1d-4555-9fd9-27941b946086:
     group:
     - admin
     options:
       name: Ailourae
-      last-login-time: '1576458062'
-      last-logout-time: '1576458044'
+      last-login-time: '1576460855'
+      last-logout-time: '1576467598'

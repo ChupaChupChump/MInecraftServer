@@ -703,9 +703,9 @@ protection:
   # To make changes for each world edit the settings in the relevant worlds data file 'plugins/Towny/data/worlds/'
  
 unclaimed:
-  unclaimed_zone_build: 'false'
-  unclaimed_zone_destroy: 'false'
-  unclaimed_zone_item_use: 'false'
+  unclaimed_zone_build: 'true'
+  unclaimed_zone_destroy: 'true'
+  unclaimed_zone_item_use: 'true'
   unclaimed_zone_ignore: SAPLING,GOLD_ORE,IRON_ORE,COAL_ORE,LOG,LEAVES,LAPIS_ORE,LONG_GRASS,YELLOW_FLOWER,RED_ROSE,BROWN_MUSHROOM,RED_MUSHROOM,TORCH,DIAMOND_ORE,LADDER,RAILS,REDSTONE_ORE,GLOWING_REDSTONE_ORE,CACTUS,CLAY,SUGAR_CANE_BLOCK,PUMPKIN,GLOWSTONE,LOG_2,VINE,NETHER_WARTS,COCOA
   unclaimed_zone_switch: 'false'
  

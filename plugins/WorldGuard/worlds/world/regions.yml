@@ -14,8 +14,18 @@ regions:
         min: {x: -4, y: 65, z: -4}
         max: {x: 4, y: 68, z: 4}
         members: {}
-        flags: {}
+        flags: {chorus-fruit-teleport: deny, greeting: Welcome to the center of the
+                wooorrrllldddd, lighter: deny, enderman-grief: deny, pvp: deny, chest-access: deny,
+            block-place: deny, enderdragon-block-damage: deny, enderpearl: deny, block-break: deny,
+            tnt: deny, heal-amount: 20, entity-item-frame-destroy: deny, heal-delay: 10,
+            farewell: You are now leaving the center of the wwoooorrrllldddd}
         owners:
             unique-ids: [5b81b3e9-1586-4c7b-b6b6-4343ff4a8646]
         type: cuboid
+        priority: 0
+    __global__:
+        members: {}
+        flags: {}
+        owners: {}
+        type: global
         priority: 0
