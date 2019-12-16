@@ -723,13 +723,13 @@ protect:
     lava-fire-spread: true
     flint-fire: false
     lightning-fire-spread: true
-    portal-creation: false
-    tnt-explosion: false
+    portal-creation: true
+    tnt-explosion: true
     tnt-playerdamage: false
-    tnt-minecart-explosion: false
+    tnt-minecart-explosion: true
     tnt-minecart-playerdamage: false
-    fireball-explosion: false
-    fireball-fire: false
+    fireball-explosion: true
+    fireball-fire: true
     fireball-playerdamage: false
     witherskull-explosion: false
     witherskull-playerdamage: false
@@ -737,7 +737,7 @@ protect:
     wither-blockreplace: false
     creeper-explosion: false
     creeper-playerdamage: false
-    creeper-blockdamage: false
+    creeper-blockdamage: true
     enderdragon-blockdamage: true
     enderman-pickup: false
     villager-death: false
@@ -793,7 +793,7 @@ protect:
     # Should drowning damage be disabled?
     # (Split into two behaviors; generally, you want both set to the same value.)
     drown: false
-    suffocate: false
+    suffocate: true
 
     # Should damage via lava be disabled?  Items that fall into lava will still burn to a crisp. ;)
     lavadmg: false
@@ -880,7 +880,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: '&dWelcome {DISPLAYNAME}&d to the server!'
+  announce-format: '&dWelcome {DISPLAYNAME}! &d It is their first time joining the server!'
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
