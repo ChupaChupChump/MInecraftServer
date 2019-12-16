@@ -1,0 +1,81 @@
+MainInventory: MainInventory
+Inventorys:
+    MainInventory:
+        Name: "&b&lLottery"
+        Size: 27
+        Items:
+            DrawTime:
+                ItemType: "clock"
+                Type: INFO
+                Name: "&bDraw: %draw%"
+                Slot: 0
+            InPot:
+                ItemType: "bucket"
+                Type: INFO
+                Name: "&bIn Pot: &c%pot%"
+                Slot: 2
+                Lore:
+                - "&bYour Tickets: &c%ptickets%"
+                - "&bGlobal Tickets: &c%gtickets%"
+            LastWin:
+                ItemType: "oak_sign"
+                Type: INFO
+                Name: "&bLast Winner: &c%winner%"
+                Slot: 4
+            BuyTickets:
+                ItemType: "diamond"
+                Type: INVENTORYOPEN
+                InventoryToOpen: BuyInventory
+                Name: "&bBuy Lottery Tickets"
+                Slot: 6
+            GlobalTickets:
+                ItemType: "chest"
+                Type: INVENTORYOPEN
+                InventoryToOpen: GlobalTickets
+                Name: "&bShow all Players"
+                Slot: 8
+            ToggleRemind:
+                ItemType: "lime_dye"
+                Type: COMMANDPLAYER
+                Name: "&bToggle Reminder Message"
+                Slot: 21
+                Commands:
+                - "lottery toggleremindmsg"
+            ToggleBuy:
+                ItemType: "lime_dye"
+                Type: COMMANDPLAYER
+                Name: "&bToggle Global Buy Message"
+                Slot: 23
+                Commands:
+                - "lottery togglebuymsg"
+    BuyInventory:
+        Name: "&bBuy Lottery Tickets"
+        Size: 9
+        Items:
+            Buy1:
+                ItemType: "paper"
+                Type: COMMANDPLAYER
+                Name: "&bBuy &6&l1 &bLottery Tickets"
+                Slot: 3
+                Commands:
+                - "lottery buy 1"
+            Buy2:
+                ItemType: "paper"
+                Type: COMMANDPLAYER
+                Name: "&bBuy &6&l2 &bLottery Tickets"
+                Slot: 4
+                Commands:
+                - "lottery buy 2"
+            Buy10:
+                ItemType: "paper"
+                Type: COMMANDPLAYER
+                Name: "&bBuy &6&l10 &bLottery Tickets"
+                Slot: 5
+                Commands:
+                - "lottery buy 10"
+            BackButton:
+                ItemType: "redstone_block"
+                Type: INVENTORYOPEN
+                InventoryToOpen: MainInventory
+                Name: "&cBack to main Menu"
+                Slot: 8

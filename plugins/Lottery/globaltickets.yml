@@ -1,0 +1,26 @@
+#This is NOT like the normal GUI System!!!! You can not add Items to this Inventory nor remove ones. 
+#You can only edit the items that already exist.
+#Please NEVER set a Slot value to anything above the last GUI row, otherwise the Skulls will overwrite them and errors may occur.
+GlobalTicketsInv:
+    Name: "&bGlobal Players"
+    Skulls:
+        Name: "&e%player%"
+        Lore:
+        - "&bTickets: &c%ptickets%"
+    BackButton:
+        Item: redstone_block
+        Name: "&bBack to Main Menu"
+        InventoryToOpen: MainInventory
+        Slot: 53
+    PageIndex:
+        Item: name_tag
+        Name: "&9Current Page: &8%page%"
+        Slot: 49
+    NextPage:
+        Item: lime_dye
+        Name: "&aNext Page"
+        Slot: 51
+    PastPage:
+        Item: gray_dye
+        Name: "&cPast Page"
+        Slot: 47
