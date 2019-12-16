@@ -1,7 +1,7 @@
 name=SnowyMoutainGlade
 residents=Ailourae
 mayor=Ailourae
-nation=Alourae
+nation=Ailourae
 assistants=
 
 

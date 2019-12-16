@@ -1,11 +1,5 @@
-15 Dec 2019 14:21:04,New Town Cost,[Resident] Biataria,250.0,[Server] 
-15 Dec 2019 14:21:29,Remove Town,[Town] SnowMountainGlade,0.0,[?] towny-war-chest
-15 Dec 2019 14:21:34,New Town Cost,[Resident] Ailourae,250.0,[Server] 
-15 Dec 2019 14:22:31,Town Deposit,[Resident] Ailourae,2000.0,[Town] SnowyMoutainGlade
-15 Dec 2019 14:22:58,New Nation Cost,[Town] SnowyMoutainGlade,1000.0,[Server] 
-15 Dec 2019 14:24:06,Town Claim (1),[Town] SnowyMoutainGlade,25.0,[Server] 
-15 Dec 2019 14:24:53,Town Claim (1),[Town] SnowyMoutainGlade,25.0,[Server] 
-15 Dec 2019 14:25:17,Town Claim (12),[Town] SnowyMoutainGlade,300.0,[Server] 
-15 Dec 2019 14:26:05,Town Claim (1),[Town] SnowyMoutainGlade,25.0,[Server] 
-15 Dec 2019 14:26:31,Town Claim (1),[Town] SnowyMoutainGlade,25.0,[Server] 
-15 Dec 2019 14:26:34,Town Claim (1),[Town] SnowyMoutainGlade,25.0,[Server] 
+16 Dec 2019 12:00:01,Town Upkeep,[Town] SnowyMoutainGlade,10.0,[Server] 
+16 Dec 2019 12:00:01,Remove Nation,[Nation] Alourae,0.0,[?] towny-war-chest
+16 Dec 2019 12:04:25,Town Deposit,[Resident] Ailourae,5000.0,[Town] SnowyMoutainGlade
+16 Dec 2019 12:14:27,New Nation Cost,[Town] SnowyMoutainGlade,1000.0,[Server] 
+16 Dec 2019 12:14:51,Nation Deposit,[Resident] Ailourae,10000.0,[Nation] Ailourae

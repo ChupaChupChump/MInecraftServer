@@ -1,14 +1,14 @@
 lastAccountName: Ailourae
 timestamps:
-  login: 1576394114683
-  logout: 1576403916962
+  login: 1576458062561
+  logout: 1576458044657
 ipAddress: 192.168.0.18
-money: '17750.0'
+money: '2988.0270000000000011'
 logoutlocation:
   world: world
-  x: -431.89309267149605
-  y: 85.12971580938992
-  z: 157.80335520764223
-  yaw: 352.4043
-  pitch: 44.40009
+  x: -432.1609321556837
+  y: 78.0
+  z: 155.85796524251916
+  yaw: -28.4445
+  pitch: 29.099503
 afk: false
