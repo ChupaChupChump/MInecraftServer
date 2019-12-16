@@ -3,7 +3,6 @@ groups:
     options:
       default: true
       rank: '9'
-      prefix: '&f[&8Guest&f]'
     permissions:
     - essentials.kit.firework
     - essentials.kit.tools
@@ -39,6 +38,45 @@ groups:
     - essentials.tpaccept
     - essentials.warp
     - essentials.warp.list
+    - mcmmo.commands.mmoinfo
+    - mcmmo.commands.mcmmo
+    - mcmmo.commands.mctop
+    - mcmmo.commands.mcrank
+    - mcmmo.commands.mcability
+    - mcmmo.commands.mccooldown
+    - mcmmo.commands.mcstats
+    - mcmmo.commands.ptp
+    - mcmmo.commands.party
+    - mcmmo.commands.inspect
+    - mcmmo.chat.partychat
+    - mcmmo.commands.excavation
+    - mcmmo.commands.herbalism
+    - mcmmo.commands.mining
+    - mcmmo.commands.woodcutting
+    - mcmmo.commands.axes
+    - mcmmo.commands.archery
+    - mcmmo.commands.swords
+    - mcmmo.commands.taming
+    - mcmmo.commands.unarmed
+    - mcmmo.commands.acrobatics
+    - mcmmo.commands.repair
+    - mcmmo.commands.fishing
+    - mcmmo.commands.smelting
+    - mcmmo.commands.alchemy
+    - mcmmo.commands.salvage
+    - mcmmo.commands.mcscoreboard
+    - mcmmo.ability.all
+    - mcmmo.commands.mcmmo.help
+    - mcmmo.commands.mcmmo.description
+    - mcmmo.commands.mcrank
+    - mcmmo.commands.mctop.*
+    - mcmmo.commands.mhd
+    - mcmmo.commands.party.*
+    - mcmmo.commands.ptp
+    - mcmmo.commands.ptp.send
+    - mcmmo.commands.ptp.accept
+    - mcmmo.defaults
+    - mcmmo.skills.all
   Citizen:
     options:
       default: false
@@ -69,6 +107,8 @@ groups:
   Developer:
     permissions:
     - '*'
+    inheritance:
+    - admin
     options:
       rank: '1'
       prefix: '&f[&cDeveloper&f]'
@@ -80,20 +120,15 @@ users:
     options:
       name: Biataria
       group: Admin
-      last-login-time: '1576502176'
-      last-logout-time: '1576502192'
+      last-login-time: '1576138952'
+      last-logout-time: '1576142561'
     group:
     - Developer
-  84c9b050-9377-4c5b-8608-cceb2038c2cd:
-    group: []
+  f934ed45-4c3d-435b-b34d-a53a325de217:
+    permissions:
+    - '*'
     options:
-      name: CentrelinkFlex
-      last-login-time: '1576484406'
-      last-logout-time: '1576485426'
-  ccb5f7b2-dd1d-4555-9fd9-27941b946086:
-    group:
-    - admin
-    options:
-      name: Ailourae
-      last-login-time: '1576460855'
-      last-logout-time: '1576467598'
+      name: _Chariti_
+      group: Developer
+      last-login-time: '1576227615'
+      last-logout-time: '1576227862'
