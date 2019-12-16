@@ -1,3 +1,3 @@
 #!/bin/bash
 
-java -Xms512M -Xmx1024M -jar spigot.jar
+java -Xms512M -Xmx1536M -jar paper.jar
