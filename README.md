@@ -1,5 +1,10 @@
 # Minecraft Server
 
+
+
+# Everything found on this page and external resources can be found at dev.biataria.net
+
+
 Please report any planned changes as an issue and use the appropriate lists in the Projects tab to track their progress. In addition; use only the master branch for updates that are intended to be pushed to the live server, use the staging branch for testing or as a "waiting" line for updates intended for the master branch, do NOT push staging to master if you are unsure about any changes, in the event of an immediate update contact the Administrator.
 
 Please remember to follow these steps
