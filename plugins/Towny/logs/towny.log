@@ -1,12 +1,4 @@
-2019-12-15 14:21:04,887 [Server thread] INFO com.palmergames.bukkit.towny - [Global Msg] Biataria created a new town called SnowMountainGlade
-2019-12-15 14:21:29,283 [Server thread] INFO com.palmergames.bukkit.towny - [Global Msg] The town of SnowMountainGlade fell into ruin!
-2019-12-15 14:21:34,402 [Server thread] INFO com.palmergames.bukkit.towny - [Global Msg] Ailourae created a new town called SnowyMoutainGlade
-2019-12-15 14:22:31,202 [Server thread] INFO com.palmergames.bukkit.towny - [Town Msg] SnowyMoutainGlade: Ailourae deposited 2000 into the town bank.
-2019-12-15 14:22:58,180 [Server thread] INFO com.palmergames.bukkit.towny - [Global Msg] Ailourae created a new nation called Alourae
-2019-12-15 14:24:06,918 [Server thread] INFO com.palmergames.bukkit.towny - Plot snapshots completed.
-2019-12-15 14:24:54,898 [Server thread] INFO com.palmergames.bukkit.towny - Plot snapshots completed.
-2019-12-15 14:25:28,900 [Server thread] INFO com.palmergames.bukkit.towny - Plot snapshots completed.
-2019-12-15 14:26:06,896 [Server thread] INFO com.palmergames.bukkit.towny - Plot snapshots completed.
-2019-12-15 14:26:31,978 [Server thread] INFO com.palmergames.bukkit.towny - Plot snapshots completed.
-2019-12-15 14:26:34,974 [Server thread] INFO com.palmergames.bukkit.towny - Plot snapshots completed.
-2019-12-15 16:08:07,590 [Server thread] INFO com.palmergames.bukkit.towny.Towny - [Towny] Disabling Towny v0.95.2.0
+2019-12-16 12:00:01,865 [Craft Scheduler Thread - 7] INFO com.palmergames.bukkit.towny - [Global Message] [Alourae ] couldn't afford to remain a nation.
+2019-12-16 12:04:25,582 [Server thread] INFO com.palmergames.bukkit.towny - [Town Msg] SnowyMoutainGlade: Ailourae deposited 5000 into the town bank.
+2019-12-16 12:14:27,438 [Server thread] INFO com.palmergames.bukkit.towny - [Global Msg] Ailourae created a new nation called Ailourae
+2019-12-16 12:14:51,444 [Server thread] INFO com.palmergames.bukkit.towny - [Nation Msg] Ailourae: Ailourae deposited 10000 into the nation bank.
