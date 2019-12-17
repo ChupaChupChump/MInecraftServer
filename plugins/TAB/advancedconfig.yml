@@ -17,11 +17,13 @@ sort-players-by-permissions: false
 fix-pet-names: false
 
 #asking permission plugin for primary group only
-use-primary-group: true
+use-primary-group: false
 
 #if the option above is disabled, full group list will be asked for and group higher in this list will be used as primary
 primary-group-finding-list:
   - Owner
+  - Developer
   - Admin
+  - Mod
   - Helper
   - default

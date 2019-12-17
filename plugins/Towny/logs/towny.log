@@ -1,5 +1,2 @@
-2019-12-16 12:00:01,865 [Craft Scheduler Thread - 7] INFO com.palmergames.bukkit.towny - [Global Message] [Alourae ] couldn't afford to remain a nation.
-2019-12-16 12:04:25,582 [Server thread] INFO com.palmergames.bukkit.towny - [Town Msg] SnowyMoutainGlade: Ailourae deposited 5000 into the town bank.
-2019-12-16 12:14:27,438 [Server thread] INFO com.palmergames.bukkit.towny - [Global Msg] Ailourae created a new nation called Ailourae
-2019-12-16 12:14:51,444 [Server thread] INFO com.palmergames.bukkit.towny - [Nation Msg] Ailourae: Ailourae deposited 10000 into the nation bank.
-2019-12-16 12:35:04,557 [Server thread] INFO com.palmergames.bukkit.towny.Towny - [Towny] Disabling Towny v0.95.2.0
+2019-12-16 23:13:21,350 [Server thread] INFO com.palmergames.bukkit.towny - [Nation Msg] Ailourae: Ailourae deposited 5000 into the nation bank.
+2019-12-16 23:13:31,589 [Server thread] INFO com.palmergames.bukkit.towny - [Town Msg] SnowyMoutainGlade: Ailourae deposited 5000 into the town bank.

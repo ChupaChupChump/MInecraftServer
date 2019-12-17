@@ -31,7 +31,7 @@ tablist-objective-custom-value: "%some_placeholderapi_placeholder%"
 
 #NOT case sensitive
 group-sorting-priority-list:
-  - owner
+  - developer
   - admin
   - mod
   - helper
@@ -43,7 +43,7 @@ group-sorting-priority-list:
 #properties: tabprefix, tabsuffix, tagprefix (in name tag), tagsuffix, customtabname (modifying the name itself), header, footer
 #extra ones which need unlimited nametag mode enabled: abovename (line of text above name tag), belowname (below name tag), customtagname
 Groups:
-  Owner:
+  example:
     tabprefix: "&0&l[&a&lOwner&0&l] &a"
     tagprefix: "&2&lOwner &a"
     header:
@@ -56,9 +56,9 @@ Groups:
       - "This is per-group header/footer"
       - "applied to Owner group"
       - "You can modify this or delete in config in Groups section"
+  Developer:
   Admin:
-    tabprefix: "&0&l[&4&lAdmin&0&l] &1"
-    tagprefix: "%animation:admin_prefix%"
+  Mod:
   Player:
     tabprefix: "&0&l[&7&lPlayer&0&l] &3"
     tagprefix: "&2&lPlayer &3"
@@ -144,13 +144,12 @@ placeholders:
   
 #better showing of %rank% placeholder
 rank-aliases:
+  Developer: "&cDeveloper"
   Admin: "&4&lADMIN"
-  Mod: "&b&lMOD"
-  Premium: "&6&lPREMIUM"
-  Ultra: "&b&lULTRA"
-  Legend: "&a&lLEGEND"
-  Titan: "&c&lTITAN"
-  Youtuber: "&c&lYOUTUBE"
+  Mod: "&2&lMOD"
+  Donator: "&6&lDonator"
+  Citizen: "Citizen"
+  Default: "Default"
   #any group not defined above
   _OTHER_: "&7No Rank"
   
