@@ -1,3 +1,3 @@
 #!/bin/bash
 
-java -Xms512M -Xmx1536M -jar paper.jar
+java -Xms512M -Xmx2048M -jar paper.jar
