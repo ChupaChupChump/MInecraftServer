@@ -93,6 +93,7 @@ groups:
       rank: '2'
       prefix: '&f[&2Mod&f]'
     permissions:
+    - -worldedit.limit.unrestricted
     - -permissions.*
     - '*'
     inheritance:
@@ -122,8 +123,8 @@ users:
     options:
       name: Biataria
       group: Admin
-      last-login-time: '1576552507'
-      last-logout-time: '1576548634'
+      last-login-time: '1576552827'
+      last-logout-time: '1576552650'
     group:
     - Developer
   f934ed45-4c3d-435b-b34d-a53a325de217:
@@ -139,8 +140,8 @@ users:
     - admin
     options:
       name: Ailourae
-      last-login-time: '1576550489'
-      last-logout-time: '1576544570'
+      last-login-time: '1576553142'
+      last-logout-time: '1576554211'
   84c9b050-9377-4c5b-8608-cceb2038c2cd:
     group:
     - Citizen
