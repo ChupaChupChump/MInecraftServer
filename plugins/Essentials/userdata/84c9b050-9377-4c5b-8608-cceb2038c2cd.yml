@@ -1,23 +1,23 @@
 lastAccountName: CentrelinkFlex
 timestamps:
-  login: 1576544051605
-  logout: 1576549679241
-  lastteleport: 1576549663380
+  login: 1576581391315
+  logout: 1576581458110
+  lastteleport: 1576578519533
 ipAddress: 192.168.0.1
 logoutlocation:
   world: world
-  x: 11.109173416082026
-  y: 65.41999998688698
-  z: 3.3055628320750943
-  yaw: 282.4491
-  pitch: 12.599939
+  x: -494.015483290054
+  y: 87.0
+  z: -133.26323940107864
+  yaw: 269.99634
+  pitch: 29.250093
 lastlocation:
   world: world
-  x: 1756.6547065547068
-  y: 77.0
-  z: 615.5710866866877
-  yaw: 24.605713
-  pitch: 51.44929
+  x: 24.46141685328626
+  y: 66.0
+  z: 1.4117211598094181
+  yaw: 280.3485
+  pitch: 9.149948
 afk: false
 money: '215.2319999999999954'
 godmode: false

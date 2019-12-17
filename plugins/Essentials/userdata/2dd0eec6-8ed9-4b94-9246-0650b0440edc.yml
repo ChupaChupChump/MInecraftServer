@@ -1,29 +1,12 @@
 lastAccountName: Captain_SUSHI
 timestamps:
-  login: 1576551268507
-  lastteleport: 1576551228221
-  logout: 1576551258364
-ipAddress: 124.171.54.171
-lastlocation:
-  world: world
-  x: 525.3849484246183
-  y: 111.67745363748605
-  z: -3433.106850177325
-  yaw: -278.21814
-  pitch: 51.30048
-geolocation: Australia
+  login: 1576580232064
+  logout: 1576580275470
+ipAddress: 120.18.163.92
 logoutlocation:
   world: world
-  x: 1295.5
-  y: 64.0
-  z: -1613.5
-  yaw: 297.64032
-  pitch: 34.500725
-homes:
-  home:
-    world: world
-    x: 1165.4914267115307
-    y: 108.97613074964404
-    z: 124.32763972624271
-    yaw: -327.55792
-    pitch: 51.30106
+  x: 1288.699999988079
+  y: 63.0
+  z: 106.30000001192093
+  yaw: 210.64342
+  pitch: 5.551288

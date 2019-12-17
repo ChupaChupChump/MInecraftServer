@@ -4,6 +4,7 @@ groups:
       default: true
       rank: '9'
     permissions:
+    - essentials.warp.*
     - rtp.world.world
     - rtp.tp
     - essentials.kit.firework
@@ -123,8 +124,8 @@ users:
     options:
       name: Biataria
       group: Admin
-      last-login-time: '1576552827'
-      last-logout-time: '1576552650'
+      last-login-time: '1576583415'
+      last-logout-time: '1576583558'
     group:
     - Developer
   f934ed45-4c3d-435b-b34d-a53a325de217:
@@ -147,12 +148,12 @@ users:
     - Citizen
     options:
       name: CentrelinkFlex
-      last-login-time: '1576544051'
-      last-logout-time: '1576549679'
+      last-login-time: '1576581391'
+      last-logout-time: '1576581458'
   2dd0eec6-8ed9-4b94-9246-0650b0440edc:
     group:
     - mod
     options:
       name: Captain_SUSHI
-      last-login-time: '1576551268'
-      last-logout-time: '1576551258'
+      last-login-time: '1576580231'
+      last-logout-time: '1576580275'

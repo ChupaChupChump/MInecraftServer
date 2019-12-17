@@ -1,29 +1,29 @@
 lastAccountName: Biataria
 timestamps:
-  login: 1576552829189
-  logout: 1576552650068
+  login: 1576583415548
+  logout: 1576583558238
   kits:
     color: 1576142473993
     dtools: 1576385794367
     tools: 1576140059798
-  lastteleport: 1576559924440
+  lastteleport: 1576582504842
 ipAddress: 192.168.0.1
 logoutlocation:
   world: world
-  x: 625.8994631996004
-  y: 72.0
-  z: -2693.574903402407
-  yaw: 307.70035
-  pitch: 28.04986
-afk: true
-money: '1680.3384999999999551'
+  x: -749.8227874328688
+  y: 94.56407404847576
+  z: 405.4782052987646
+  yaw: -137.38028
+  pitch: 22.651756
+afk: false
+money: '1835.4784999999999361'
 lastlocation:
   world: world
-  x: 351.7060780239598
-  y: 179.83448807571406
-  z: 665.7627383247789
-  yaw: 233.55243
-  pitch: 72.75055
+  x: 1376.2931252869782
+  y: 97.0
+  z: 87.01082814051932
+  yaw: 192.26521
+  pitch: 36.001007
 godmode: false
 homes:
   home:

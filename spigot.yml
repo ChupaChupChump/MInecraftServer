@@ -133,3 +133,5 @@ world-settings:
       entity: 50
     squid-spawn-range:
       min: 45.0
+  worldeditregentempworld:
+    verbose: false
