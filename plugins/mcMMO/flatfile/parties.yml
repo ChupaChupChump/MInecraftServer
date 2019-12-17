@@ -1,0 +1,17 @@
+LaughingCoffin:
+  Leader: c51a704f-5ce0-4032-8377-f88e0c97d6ed|Faeshadow
+  Password: Joker
+  Locked: true
+  Level: 0
+  Xp: 0
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - c51a704f-5ce0-4032-8377-f88e0c97d6ed|Faeshadow

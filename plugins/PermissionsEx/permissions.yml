@@ -124,8 +124,8 @@ users:
     options:
       name: Biataria
       group: Admin
-      last-login-time: '1576583415'
-      last-logout-time: '1576583558'
+      last-login-time: '1576584104'
+      last-logout-time: '1576584440'
     group:
     - Developer
   f934ed45-4c3d-435b-b34d-a53a325de217:
@@ -157,3 +157,9 @@ users:
       name: Captain_SUSHI
       last-login-time: '1576580231'
       last-logout-time: '1576580275'
+  c51a704f-5ce0-4032-8377-f88e0c97d6ed:
+    group: []
+    options:
+      name: Faeshadow
+      last-login-time: '1576586497'
+      last-logout-time: '1576587964'
