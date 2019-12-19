@@ -140,9 +140,9 @@ FoodKey:
             - 'unique:(),     chance:(1),          item:(mushroom_stew 1)'
 # -------------------------------------------------------------------------------------------------------------------
 # An example of a key crate with animations (Roulette)
-FoodKeyT2:
+CandyCaneKey:
     type: KEYCRATE # Set this crate to a block, and players may right click the block to use "keys"
-    item: 'NETHER_STAR 1 name:&c[&6Foodie_&eKey&c]_&f#2 lore:&7Mmmm,_something_smells_good.|&8Right_click_a_chest_to_receive_a_pack_of_food! glow:true'
+    item: 'NETHER_STAR 1 name:&c[&6CHristmas_&eKey&c]_&f#2 lore:&7Mmmm,_something_smells_good.|&8Right_click_a_chest_to_receive_a_christmas_present! glow:true'
     animation: 'ROULETTE'
     display-name: '&c[&6Foodie Crate&c] &f#2'
     holographic:

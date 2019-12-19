@@ -17,8 +17,19 @@ regions:
         flags: {chorus-fruit-teleport: deny, greeting: Welcome to the center of the
                 wooorrrllldddd, lighter: deny, enderman-grief: deny, pvp: deny, chest-access: deny,
             block-place: deny, enderdragon-block-damage: deny, enderpearl: deny, block-break: deny,
-            tnt: deny, heal-amount: 20, entity-item-frame-destroy: deny, heal-delay: 10,
+            tnt: deny, entity-item-frame-destroy: deny, heal-amount: 20, heal-delay: 10,
             farewell: You are now leaving the center of the wwoooorrrllldddd}
+        owners:
+            unique-ids: [5b81b3e9-1586-4c7b-b6b6-4343ff4a8646]
+        type: cuboid
+        priority: 0
+    christmas:
+        min: {x: -520, y: 62, z: -159}
+        max: {x: -468, y: 84, z: -105}
+        members: {}
+        flags: {use: allow, invincible: allow, mob-damage: deny, block-break: deny,
+            interact: allow, invincible-group: MEMBERS, pvp: deny, greeting-title: Merry
+                Christmas!, chest-access: allow, block-place: deny, mob-spawning: deny}
         owners:
             unique-ids: [5b81b3e9-1586-4c7b-b6b6-4343ff4a8646]
         type: cuboid
