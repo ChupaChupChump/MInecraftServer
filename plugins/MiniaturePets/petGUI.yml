@@ -88,3 +88,4 @@ petInteract:
     removePet:
       adminMessage: '&cYou removed &c%owner%&c''s pet'
       playerMessage: '&cAn admin have removed your pet'
+useGenericItemIfNoPerms: true

@@ -163,3 +163,14 @@ users:
       name: Faeshadow
       last-login-time: '1576586497'
       last-logout-time: '1576587964'
+  c32ec490-fc75-41f7-8cb6-9909a9a09a26:
+    group:
+    - Developer
+    options:
+      name: ChupaChupChump
+      last-login-time: '1656767371'
+  chupachupchumper:
+    group:
+    - Developer
+    permissions:
+    - '*'

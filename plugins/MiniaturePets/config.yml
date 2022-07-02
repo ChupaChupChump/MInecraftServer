@@ -20,3 +20,24 @@ animationRefreshRate: 2
 SaveWithUUID: true
 PetSpawnDistance: -3
 PetNameLimit: 20
+hideDisguisedPlayers: true
+respawnOnFallingToVoid: true
+standardizedPermissions: false
+dismountOnWater: false
+bypassSpawnProtections: false
+minimumPetTeleportRange: 40.0
+petTeleportCheckSeconds: 6.0
+disallowDisguiseTeleport: true
+respawnPetOnWorldMove: false
+downloadDefaultPetsIfNone: true
+disallowedPetNameWords:
+- GAMERS
+- RISE
+- UP
+respawnPetOnJoin: true
+petLoadingMessage: false
+despawnOnGamemodeChangeTo:
+- LIST
+- OF
+- GAMEMODES
+petDistance: 4

@@ -7,3 +7,4 @@ password: ''
 method: MySQL
 autoReconnect: false
 useSSL: false
+tablePrefix: ''

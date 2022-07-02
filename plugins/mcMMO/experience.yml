@@ -1,48 +1,74 @@
+
 #
 #  Experience configuration
-#  Last updated on 1.6.2-SNAPSHOT-b72
+#  Last updated on 1.6.5-b${BUILD_NUMBER}
 #
 #  Configure the experience formula and experience settings here.
 #
 #####
-
 ExploitFix:
     Fishing: true
 
+#
+#        Settings for XP formula
+# ##
+#
+#    Settings for XP formula
+# ##
 #
 #  Settings for XP formula
 ###
 Experience_Formula:
     # Valid values are: LINEAR and EXPONENTIAL
     # If an invalid value is entered, this will reset to the default setting, which is LINEAR
+    # LINEAR:                        base + (level * multiplier)
+    # EXPONENTIAL: multiplier * level ^ exponent + base
+    # Valid values are: LINEAR and EXPONENTIAL
+    # If an invalid value is entered, this will reset to the default setting, which is LINEAR
+    # LINEAR:            base + (level * multiplier)
+    # EXPONENTIAL: multiplier * level ^ exponent + base
+    # Valid values are: LINEAR and EXPONENTIAL
+    # If an invalid value is entered, this will reset to the default setting, which is LINEAR
     # LINEAR:      base + (level * multiplier)
     # EXPONENTIAL: multiplier * level ^ exponent + base
     Curve: LINEAR
-
+    
+    # If invalid values are entered mcMMO will not start and print an error in the console
+    # If invalid values are entered mcMMO will not start and print an error in the console
     # If invalid values are entered mcMMO will not start and print an error in the console
     Linear_Values:
         base: 1020
         multiplier: 20
     Exponential_Values:
         multiplier: 0.1
-        exponent: 1.80
+        exponent: 1.8
         base: 2000
-
+    
+    # Cumulative experience curves will use a players power level instead of their skill level,
+    # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
+    # Cumulative experience curves will use a players power level instead of their skill level,
+    # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
     # Cumulative experience curves will use a players power level instead of their skill level,
     # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
     Cumulative_Curve: false
-
+    
+    # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
+    # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
     # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
     Multiplier:
         Global: 1.0
         PVP: 1.0
-
+    
+    # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
+    # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
     # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
     Mobspawners:
         Multiplier: 0
     Breeding:
         Multiplier: 1.0
-
+    
+    # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
+    # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
     # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
     Modifier:
         Swords: 1.0
@@ -58,7 +84,11 @@ Experience_Formula:
         Repair: 1.0
         Fishing: 1.0
         Alchemy: 1.0
-
+    
+    # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
+    # with 1.25 by default, resulting in a 25% XP boost
+    # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
+    # with 1.25 by default, resulting in a 25% XP boost
     # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
     # with 1.25 by default, resulting in a 25% XP boost
     Custom_XP_Perk:
@@ -66,10 +96,20 @@ Experience_Formula:
 
 #
 # Settings for Diminished Returns
+# ##
+#
+# Settings for Diminished Returns
+# ##
+#
+# Settings for Diminished Returns
 ###
 Diminished_Returns:
     Enabled: false
-
+    
+    # Limit the amount of experience a player can earn:
+    # Threshold (amount of experience) per Time_Interval (in minutes)
+    # Limit the amount of experience a player can earn:
+    # Threshold (amount of experience) per Time_Interval (in minutes)
     # Limit the amount of experience a player can earn:
     # Threshold (amount of experience) per Time_Interval (in minutes)
     Threshold:
@@ -86,16 +126,30 @@ Diminished_Returns:
         Repair: 20000
         Fishing: 20000
         Alchemy: 20000
-
+    
     Time_Interval: 10
 
+#
+#        Settings for XP conversion with '/mcconvert experience'
+# ##
+#
+#    Settings for XP conversion with '/mcconvert experience'
+# ##
 #
 #  Settings for XP conversion with '/mcconvert experience'
 ###
 Conversion:
     # Old experience will get divided by this modifier
+    # Old experience will get divided by this modifier
+    # Old experience will get divided by this modifier
     Exp_Modifier: 1
 
+#
+#        Settings for XP distribution
+# ##
+#
+#    Settings for XP distribution
+# ##
 #
 #  Settings for XP distribution
 ###
@@ -106,10 +160,24 @@ Experience:
         Dodge: 120
         Roll: 80
         Fall: 120
-
+        
+        # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
+        # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
         # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
         FeatherFall_Multiplier: 2.0
     Alchemy:
+        # Alchemy potion stages are based on the number of ingredients added
+        # Potion_Stage_1 represents a base potion
+        # Potion_Stage_2 represents a base potion with one ingredient
+        # Potion_Stage_3 represents a base potion with one ingredient and one amplifier
+        # Potion_Stage_4 represents a base potion with one ingredient and two amplifiers
+        # Potion_Stage_5 represents a base potion with one ingredient where the amplifiers are swapped
+        # Alchemy potion stages are based on the number of ingredients added
+        # Potion_Stage_1 represents a base potion
+        # Potion_Stage_2 represents a base potion with one ingredient
+        # Potion_Stage_3 represents a base potion with one ingredient and one amplifier
+        # Potion_Stage_4 represents a base potion with one ingredient and two amplifiers
+        # Potion_Stage_5 represents a base potion with one ingredient where the amplifiers are swapped
         # Alchemy potion stages are based on the number of ingredients added
         # Potion_Stage_1 represents a base potion
         # Potion_Stage_2 represents a base potion with one ingredient
@@ -142,6 +210,7 @@ Experience:
         Snow: 20
         Snow_Block: 40
         Soul_Sand: 40
+        Soul_Soil: 40
     Woodcutting:
         Oak_Log: 70
         Spruce_Log: 80
@@ -170,6 +239,17 @@ Experience:
         Red_Mushroom_Block: 70
         Brown_Mushroom_Block: 70
         Mushroom_Stem: 80
+        Stripped_Crimson_Hyphae: 50
+        Warped_Stem: 35
+        Crimson_Roots: 35
+        Warped_Roots: 35
+        Crimson_Hyphae: 50
+        Stripped_Warped_Hyphae: 50
+        Shroomlight: 100
+        Crimson_Stem: 35
+        Warped_Hyphae: 50
+        Warped_Wart_Block: 1
+        Nether_Wart_Block: 1
     Herbalism:
         Bee_Nest: 100
         Sweet_Berry_Bush: 300
@@ -246,6 +326,21 @@ Experience:
         Cornflower: 150
         Lily_of_the_valley: 150
         Wither_rose: 500
+        Weeping_Vines: 10
+        Moss_Block: 150
+        Nether_Wart_Block: 3
+        Shroomlight: 250
+        Crimson_Fungus: 50
+        Nether_Sprouts: 10
+        Crimson_Roots: 6
+        Warped_Roots: 6
+        Big_Dripleaf: 140
+        Cave_Vines_Plant: 90
+        Small_Dripleaf: 140
+        Warped_Fungus: 50
+        Cave_Vines: 90
+        Glow_Lichen: 200
+        Warped_Wart_Block: 3
     Mining:
         Tube_Coral_Block: 75
         Brain_Coral_Block: 80
@@ -304,6 +399,28 @@ Experience:
         Purpur_Pillar: 250
         Purpur_Slab: 150
         Purpur_Stairs: 250
+        Bone_Block: 500
+        Deepslate_Lapis_Lazuli_Ore: 600
+        Warped_Nylium: 5
+        Deepslate_Emerald_Ore: 750
+        Cracked_Nether_Bricks: 50
+        Deepslate_Iron_Ore: 350
+        Crying_Obsidian: 3000
+        Lapis_Lazuli_Ore: 400
+        Deepslate_Gold_Ore: 550
+        Chain: 100
+        Copper_Ore: 400
+        Chiseled_Nether_Bricks: 50
+        Deepslate_Coal_Ore: 150
+        Deepslate_Redstone_Ore: 225
+        Basalt: 40
+        Ancient_Debris: 7777
+        Blackstone: 55
+        Deepslate_Copper_Ore: 600
+        Red_Nether_Bricks: 50
+        Magma_Block: 30
+        Nether_Bricks: 50
+        Crimson_Nylium: 5
     Repair:
         Base: 1000.0
         Wood: 0.6
@@ -323,6 +440,21 @@ Experience:
         Lapis_Ore: 40
         Nether_Quartz_Ore: 25
         Redstone_Ore: 15
+        Lapis_Lazuli_Ore: 40
+        Cobbled_Deepslate: 5
+        Deepslate_Redstone_Ore: 30
+        Raw_Gold: 35
+        Raw_Iron: 25
+        Nether_Gold_Ore: 35
+        Deepslate_Iron_Ore: 40
+        Deepslate_Coal_Ore: 20
+        Deepslate_Gold_Ore: 50
+        Deepslate_Copper_Ore: 100
+        Deepslate_Emerald_Ore: 110
+        Ancient_Debris: 200
+        Deepslate_Diamond_Ore: 140
+        Copper_Ore: 75
+        Deepslate_Lapis_Lazuli_Ore: 60
     Taming:
         Animal_Taming:
             Llama: 1200
@@ -338,6 +470,8 @@ Experience:
             Fox: 1000
             Panda: 1000
             Bee: 50
+            Goat: 250
+            Axolotl: 600
     Combat:
         Multiplier:
             Animals: 1.0
@@ -400,3 +534,13 @@ Experience:
             Trader_Llama: 1.0
             Wandering_trader: 1.0
             Bee: 1.0
+            Strider: 1.2
+            Goat: 1.5
+            Zombified_Piglin: 3.0
+            Glow_Squid: 1.5
+            Hoglin: 4.0
+            Axolotl: 1.75
+            Piglin_Brute: 4.5
+            Zombie_Pigman: 3.0
+            Zoglin: 2.5
+            Piglin: 2.0
