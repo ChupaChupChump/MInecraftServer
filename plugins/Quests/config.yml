@@ -1,3 +1,33 @@
+allow-pranks: true
+clickable-prompts: true
+condition-interval: 10
+confirm-abandon: true
+confirm-accept: true
+console-logging: 2
+disable-command-feedback: false
+give-journal-item: false
+language-override-client: false
+storage-data:
+  address: localhost:3306
+  database: minecraft
+  username: root
+  password: ''
+  table_prefix: quests_
+  pool-settings:
+    max-pool-size: 10
+    min-idle: 10
+    max-lifetime: 1800000
+    keepalive-time: 0
+    connection-timeout: 5000
+    properties:
+      useUnicode: true
+      characterEncoding: utf8
+storage-method:
+  player-data: yaml
+strict-player-movement: 0
+top-limit: 150
+trial-save: false
+update-check: true
 # See https://github.com/FlyingPikachu/Quests/wiki/2-%E2%80%90-Configuration
 accept-timeout: 20
 allow-command-questing: true

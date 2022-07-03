@@ -1,9 +1,7 @@
-lastAccountName: CentrelinkFlex
 timestamps:
   login: 1576581391315
   logout: 1576581458110
   lastteleport: 1576578519533
-ipAddress: 192.168.0.1
 logoutlocation:
   world: world
   x: -494.015483290054
@@ -29,3 +27,5 @@ homes:
     z: 616.5392646310784
     yaw: 150.30383
     pitch: 66.300125
+ip-address: 192.168.0.1
+last-account-name: CentrelinkFlex

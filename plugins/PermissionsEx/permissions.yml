@@ -168,7 +168,8 @@ users:
     - Developer
     options:
       name: ChupaChupChump
-      last-login-time: '1656767371'
+      last-login-time: '1656818865'
+      last-logout-time: '1656820562'
   chupachupchumper:
     group:
     - Developer

@@ -1,12 +1,40 @@
-lastAccountName: ChupaChupChump
 timestamps:
-  login: 1656767371900
-ipAddress: 127.0.0.1
+  login: 1656818865882
+  lastteleport: 1656820013696
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1656820562615
+  kits:
+    tools: 1656820031075
 lastlocation:
-  world: world
-  x: -8.5
-  y: 69.0
-  z: 6.5
-  yaw: 5.653301
-  pitch: 0.0
+  world: 2fd3e091-6c35-4bf7-ac14-072a935bd99b
+  x: -663.8370102356683
+  y: 52.2064630577804
+  z: 1454.17165591587
+  yaw: 177.74874877929688
+  pitch: 31.500019073486328
+  world-name: world_nether
 afk: false
+ip-address: 127.0.0.1
+last-account-name: ChupaChupChump
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+money: '1000'
+logoutlocation:
+  world: 7109f2dd-d9b2-4bc2-b5ea-c4fc90b11118
+  world-name: world
+  x: -70.01308808798807
+  y: 65.0
+  z: -1.5103487674184517
+  yaw: 55.7999267578125
+  pitch: -42.15005111694336

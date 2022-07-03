@@ -1,12 +1,11 @@
-lastOnline=1656768800493
+uuid=c32ec490-fc75-41f7-8cb6-9909a9a09a26
+lastOnline=1656820562595
 registered=1656767371881
+joinedTownAt=0
 isNPC=false
-isJailed=false
-JailSpawn=0
-JailDays=0
-JailTown=
 title=
 surname=
 friends=
 
 protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=
