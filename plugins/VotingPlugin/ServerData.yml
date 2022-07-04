@@ -1,7 +1,26 @@
 VotingPlugin:
-  Version: 'git-Paper-19 (MC: 1.15)'
+  Version: 'git-Paper-45 (MC: 1.19)'
 PluginVersions:
-  VotingPlugin: 5.20.5
-PrevDay: 17
-PrevWeek: 51
-Month: DECEMBER
+  VotingPlugin: 6.9.2
+PrevDay: 4
+PrevWeek: 28
+Month: JULY
+LastUpdated: 1656901791321
+IntColumns:
+- VotePartyVotes
+- MilestoneCount
+- MonthTotal
+- AllTimeTotal
+- DailyTotal
+- WeeklyTotal
+- Points
+- DayVoteStreak
+- BestDayVoteStreak
+- WeekVoteStreak
+- BestWeekVoteStreak
+- MonthVoteStreak
+- HighestDailyTotal
+- HighestMonthlyTotal
+- HighestWeeklyTotal
+- LastMonthTotal
+- BestMonthVoteStreak

@@ -6,7 +6,6 @@ limitedItem:
   error:
     levelup: '&cSzintet kell lépned a(z) [jobname] munkában, hogy használd ezt az elemet!'
 general:
-  Spawner: '&r[type] Spawner'
   info:
     toplineseparator: '&7*********************** &6%playername% &7***********************'
     separator: '&7*******************************************************'
@@ -18,28 +17,31 @@ general:
     invalidPage: '&cÉrvénytelen oldal'
     'true': '&2Igaz'
     'false': '&cHamis'
+    blocks:
+      furnace: Kemence
+      smoker: Füstölő
+      blastfurnace: Kohó
+      brewingstand: Főzőállvány
   admin:
     error: '&cHiba történt a parancsban.'
     success: '&eA parancs végrehajtásra került.'
   error:
-    noHelpPage: '&cNincs több segítség oldal szám!'
+    noHelpPage: '&cNincs segítség ezzel az oldalszámmal!'
     notNumber: '&eKérlek, használj számokat!'
-    job: '&cEz a munka nem létezik!'
+    job: '&cA kiválasztott munka nem létezik, vagy nem csatlakoztál ehhez'
     noCommand: '&cNincs ilyen parancs ezzel a névvel!'
     permission: '&cNincs jogosultságod a használatára!'
     noinfo: '&cNincs információ találva!'
     noinfoByPlayer: '&cNincs információ [%playername%] játékosról!'
     ingame: '&cEz a parancs csak a játékban használható!'
     fromconsole: '&cEz a parancs csak a konzolon használható!'
-    worldisdisabled: '&cNem tudsz használni parancsot ebben a világban!'
-    newFurnaceRegistration: '&eA kemence új tulajdonosa regisztrálva &7[current]&e/&f[max]'
-    newBrewingRegistration: '&eA Potions Support új tulajdonosa regisztrálva &7[current]&e/&f[max]'
-    noFurnaceRegistration: '&cElérted a kemencék maximális számát!'
-    noBrewingRegistration: '&cElérted a bájital főzés maximális számát!'
+    worldisdisabled: '&cNem használhatsz parancsot ebben a világban!'
+    newRegistration: '&eA(z) [block] új tulajdonosa regisztrálva &7[current]&e/&f[max]'
+    noRegistration: '&cElérted a(z) [block] maximális számát!'
 command:
   help:
     output:
-      info: Típus /jobs [cmd] ? további információ a parancsról.
+      info: Írd be /jobs [cmd] ? a további információ a parancsról.
       cmdUsage: '&2Használat: &7[command]'
       label: Jobs
       cmdInfoFormat: '[command] &f- &2[description]'
@@ -53,10 +55,13 @@ command:
       nextPage: '&6 Következő &2>>----'
       nextPageOff: '&7 Következő >>----'
       pageCount: '&2[current]/[total]'
+      pageCountHover: '&e[totalEntries] bejegyzések'
+      prevPageGui: '&6Előző oldal '
+      nextPageGui: '&6Következő oldal'
   moneyboost:
     help:
       info: Növeli a pénzszerzést minden játékos számára
-      args: '[jobname] [rate]'
+      args: '[jobname]/all/reset [time]/[rate]'
     output:
       allreset: Minden pénznövekedés kikapcsolva
       jobsboostreset: '&cPénznövekedés a(z) %jobname% munkánál kikapcsolva'
@@ -67,7 +72,7 @@ command:
   pointboost:
     help:
       info: Növeli a játékosok pontszerzését minden játékos számára
-      args: '[jobname] [rate]'
+      args: '[jobname]/all/reset [time]/[rate]'
     output:
       allreset: '&aMinden pont lendülete kikapcsolva.'
       jobsboostreset: '&cPont lendület a(z) %jobname% munkánál visszaállítva.'
@@ -78,7 +83,7 @@ command:
   expboost:
     help:
       info: Növeli az összes játékos exp nyereségét.
-      args: '[jobname] [rate]'
+      args: '[jobname]/all/reset [time]/[rate]'
     output:
       allreset: '&aMinden tapasztalat növelés kikapcsolva.'
       jobsboostreset: '&cTapasztalat lendület a(z) %jobname% munkánál kikapcsolva.'
@@ -86,12 +91,21 @@ command:
       boostalladded: '&aTapasztalat növelése %boost% minden munkához hozzáadva!'
       boostadded: '&aTapasztalat növelése &e%boost% &ahozzáadva a(z) &e%jobname% &amunkához!'
       infostats: '&c-----> &aTapasztalat arány x%boost% engedélyezve&c <-------'
+  schedule:
+    help:
+      info: Engedélyezi a megadott feladatot
+      args: enable [scheduleName] [untilTime]
+    output:
+      noScheduleFound: '&cFeladat ezzel a névvel nem található.'
+      alreadyEnabled: '&cEz a feladat már engedélyezve van.'
+      enabled: '&eA feladat engedélyezve &a%from%&e-tól &a%until%&e-ig'
   itembonus:
     help:
       info: Ellenőrzi az elem bónuszt.
       args: ''
     output:
       list: '&e[jobname]: %money% %points% %exp%'
+      notAplyingList: '&7[jobname]: %money% %points% %exp%'
       hover: '&7%itemtype%'
       hoverLevelLimits: "&7Szinttől: %from%\n&7Szintig: %until%"
   edititembonus:
@@ -104,15 +118,15 @@ command:
       args: '[jobname]'
     output:
       topline: '&7**************** &2[money] &6[points] &e[exp] &7****************'
-      permission: ' &eJog bónusz: %money% %points% %exp%'
-      item: ' &eTárgy bónusz: %money% %points% %exp%'
-      global: ' &eGlobális bónusz: %money% %points% %exp%'
-      dynamic: ' &eDinamikus bónusz: %money% %points% %exp%'
-      nearspawner: ' &eIdéző bónusz: %money% %points% %exp%'
-      petpay: ' &ePetPay bónusz: %money% %points% %exp%'
-      area: ' &eTerület bónusz: %money% %points% %exp%'
-      mcmmo: ' &eMcMMO bónusz: %money% %points% %exp%'
-      final: ' &eVégső bónusz: %money% %points% %exp%'
+      permission: ' &eJog bónusz: &2%money% &6%points% &e%exp%'
+      item: ' &eTárgy bónusz: &2%money% &6%points% &e%exp%'
+      global: ' &eGlobális bónusz: &2%money% &6%points% &e%exp%'
+      dynamic: ' &eDinamikus bónusz: &2%money% &6%points% &e%exp%'
+      nearspawner: ' &eIdéző bónusz: &2%money% &6%points% &e%exp%'
+      petpay: ' &ePetPay bónusz: &2%money% &6%points% &e%exp%'
+      area: ' &eTerület bónusz: &2%money% &6%points% &e%exp%'
+      mcmmo: ' &eMcMMO bónusz: &2%money% &6%points% &e%exp%'
+      final: ' &eVégső bónusz: &2%money% &6%points% &e%exp%'
       finalExplanation: ' &eNem tartalmazza a Petpay és az idéző bónusz/penaltyFinal bónuszt'
   convert:
     help:
@@ -242,7 +256,11 @@ command:
       args: '[playername]'
     error:
       nojob: '&cElőször csatlakozz egy munkához.'
-    output: ' lvl%joblevel% %jobname% : %jobxp%/%jobmaxxp% xp'
+    output:
+      message: ' lvl%joblevel% %jobname%: %jobxp%/%jobmaxxp% xp'
+      max-level: '     &cMax szint   -   %jobname%'
+    bossBarOutput: 'Lvl %joblevel% %jobname%: %jobxp%/%jobmaxxp% xp%gain%'
+    bossBarGain: ' &7(&f%gain%&7)'
   shop:
     help:
       info: Megnyitja a különleges munkák boltját.
@@ -254,6 +272,9 @@ command:
       reqJobs: '&eSzükséges munkák:'
       reqJobsList: '  &6%jobsname%&e: &e%level% lvl'
       reqTotalLevel: '&6Szükséges teljes szint: &e%totalLevel%'
+      reqJobsColor: '&c'
+      reqJobsLevelColor: '&4'
+      reqTotalLevelColor: '&4'
       cantOpen: '&cNem nyithatod meg ezt az oldalt!'
       NoPermForItem: '&cNincs jogod ehhez az elemhez!'
       NoPermToBuy: '&cNincs jogod ennek az elemnek a megvásárlásához!'
@@ -272,11 +293,11 @@ command:
       info: A tárgyakat a feladatok neve és az elemek kategóriája alapján adja meg. A játékos neve opcionális.
       args: '[playername] [jobname]/[jobitemname] [items/limiteditems] [jobitemname]'
     output:
-      notonline: '&4[%playername%] nem elérhető!'
+      notonline: '&4Játékos ezzel a névvel nem elérhető!'
       noitem: '&4Nincs találat ezzel a névvel lévő tárgyról!'
   info:
     help:
-      title: '&2*** &eJobs&2 ***'
+      title: '&2*** &eMunkák&2 ***'
       info: Megmutatja, hogy mennyi minden munkát fizet, és miért.
       penalty: '&eEz a munka &c[penalty]% &ebüntetés miatt túl sok játékos dolgozik benne.'
       bonus: '&eEz a munka &2[bonus]% &ebónusza van, mert nem elég játékos dolgozik benne.'
@@ -290,17 +311,20 @@ command:
       levelUntil: ' &a(amíg &e%levelUntil% &aszint)'
       money: ' &2%money%$'
       points: ' &6%points% pont'
-      exp: ' &e%exp%xp'
+      exp: ' &e%exp%tapasztalat'
     gui:
       pickjob: '&eVálassz egy munkát!'
-      jobinfo: '&e[jobname] info!'
+      jobinfo: '&e[jobname] információ!'
       actions: '&eÉrvényes akciók:'
       leftClick: '&eTovábbi információért kattints bal gombbal'
+      middleClick: '&eKözépkattintás a munka elhagyásához'
       rightClick: '&eJobb kattintás a munkához való csatlakozáshoz'
-      leftSlots: '&eBal oldali helyek:&f '
+      leftSlots: '&eMaradt helyek:&f '
       working: '&2&nMár dolgozol'
+      cantJoin: '&cNem csatlakozhatsz a kiválasztott munkához.'
       max: '&eMax. szint:&f '
       back: '&e<<< Vissza'
+      next: '&eKövetkező >>>'
     output:
       break:
         info: '&eEltör'
@@ -405,6 +429,7 @@ command:
       info: Ellenőrzi, ki látogatta meg ezt a darabot.
     error:
       noexplore: '&cSenki sem látogatta meg ezt a darabot.'
+    fullExplore: '&aEzt a darabot teljesen felfedezték'
     list: '&e%place%. %playername%'
   browse:
     help:
@@ -438,7 +463,13 @@ command:
       info: Tulajdonjog törlése.
       args: '[playername]'
     output:
-      cleared: '&2Eltávolítva &7[furnaces] &2kemence &7[brewing] &2főzet.'
+      cleared: '&2Eltávolítva &7[furnaces] &2kemence, &7[brewing] &2főzőállvány, &7[smoker]&2 füstölő és &7[blast]&2 kohó.'
+  skipquest:
+    help:
+      info: Hagyja ki a meghatározott küldetést, és szerezzen újat
+      args: '[jobname] [questname] (játékos név)'
+    output:
+      questSkipForCost: '&2Átugrottad a küldetést és fizettél:&e %amount%$'
   quests:
     help:
       info: Megmutassa a rendelkezésre álló küldetések listáját.
@@ -446,9 +477,15 @@ command:
     error:
       noquests: '&cNincsenek küldetések.'
     toplineseparator: '&7*********************** &6[playerName] &2(&f[questsDone]&2) &7***********************'
+    status:
+      changed: '&2A küldetések állapota megváltoztatva&r %status%'
+      started: '&aElindítva'
+      stopped: '&cLeállítva'
     output:
       completed: '&2      !Teljesítve!&r      '
       questLine: '[progress] &7[questName] &f[done]&7/&8[required]'
+      skip: '&7Kattints, hogy hagyja ki ezt a küldetést'
+      skips: '&7Maradt ugrások: &f[skips]'
       hover: "&f[jobName] \n[desc] \n&7Következő küldetés: [time]"
   fire:
     help:
@@ -461,7 +498,7 @@ command:
   fireall:
     help:
       info: Kirúgás minden munkából.
-      args: '[playername]'
+      args: '[playername]/all'
     error:
       nojobs: '&cA játékosnak nincsenek olyan munkái, amelyekről ki lehet rúgni.'
     output:
@@ -478,7 +515,7 @@ command:
   top:
     help:
       info: Top játékosok megjelenítése munka alapján.
-      args: '[jobname]'
+      args: '[jobname]/clear oldalszám'
     error:
       nojob: '&cNem találok semmilyen munkát ezzel a névvel.'
     output:
@@ -489,8 +526,8 @@ command:
       show: '&2Megjelenítés &e[from]&2-tól/től &e[until]&2-ig.'
   gtop:
     help:
-      info: A top %amount% legjobb játékosokat mutatja a globális munkákon.
-      args: ''
+      info: Megmutatja a legjobb játékosokat a globális munkákon.
+      args: clear/oldalszám
     error:
       nojob: '&cNem találok semmilyen információt.'
     output:
@@ -527,8 +564,9 @@ command:
       topline: '&7************************* &6%playername% &7*************************'
       ls: '&7* &6%number%. &3%action%: &6%item% &emennyiség: %qty% %money%%exp%%points%'
       money: '&6pénz: %amount% '
-      exp: '&eexp: %amount% '
+      exp: '&eTapasztalat: %amount% '
       points: '&6pontok: %amount%'
+      totalIncomes: '    &6Összes pénz:&2 %money%&6, Összes exp:&2 %exp%&6, Összes pontok:&2 %points%'
       bottomline: '&7***********************************************************'
       prev: '&e<<<<< Előző oldal &2|'
       next: '&2|&e Következő oldal >>>>'
@@ -543,6 +581,7 @@ command:
       money: '&6pénz: %amount% '
       exp: '&etapasztalat: %amount% '
       points: '&6pontok: %amount%'
+      totalIncomes: '    &6Összes pénz:&2 %money%&6, Összes exp:&2 %exp%&6, Összes pontok:&2 %points%'
       bottomline: '&7**************************************************************'
       nodata: '&cAz adatok nem találhatóak.'
   transfer:
@@ -621,7 +660,7 @@ command:
 message:
   skillup:
     broadcast: '%playername% játékost előléptették a %titlename% %jobname% munkában.'
-    nobroadcast: '&aGratulálok, képességet léptél a(z)&r %titlename% %jobname%&a munkában.'
+    nobroadcast: '&aGratulálok, előléptettek a(z)&r %titlename% %jobname%&a munkában.'
   levelup:
     broadcast: '%playername% %joblevel% szintet lépett a(z) %jobname% munkában.'
     nobroadcast: '&aSzintet léptél a(z) %jobname% &amunkában! Szint:&6 %joblevel%&a.'
@@ -629,7 +668,6 @@ message:
     message: '&e%lostLevel%&c szintet estél a(z)&e %jobname%&c munkában! Szint:&6 %joblevel%&c.'
   cowtimer: '&eMég várnod kell &6%time% &emásodpercet, hogy fizesse ezt a munkát.'
   blocktimer: '&eKérlek, várj &3[time] &emásodpercet, hogy újra küldjön pénzt!'
-  placeblocktimer: '&eNem lehet gyorsabban lerakni blokkokat &6[time] &esec intervallumot ugyanazon a helyen!'
   taxes: '&3[amount] &eszerver adókat, amennyiben átutalták erre a fiókra.'
   boostStarted: '&eMegkezdődött a munka pénz gyorsítása!'
   boostStoped: '&eA munka növelési ideje befejeződött!'
@@ -660,13 +698,13 @@ signs:
     join: '&0Csatlakozás'
     leave: '&0Elhagyás'
     toggle: '&0Váltás'
-    top: '&0Top'
+    top: '&0Toplista'
     browse: '&0Böngészés'
     stats: '&0Statizstika'
-    limit: '&0Limit'
-    info: '&0Info'
+    limit: '&0Korlát'
+    info: '&0Infó'
     archive: '&0Archív'
 scoreboard:
-  topline: '&2Top &e%jobname%'
+  topline: '&2Legjobb &e%jobname%'
   gtopline: '&2Globális top lista'
   line: '&2%number%. &e%playername% (&6%level%&e)'

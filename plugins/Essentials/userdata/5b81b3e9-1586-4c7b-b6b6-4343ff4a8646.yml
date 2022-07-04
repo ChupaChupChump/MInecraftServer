@@ -1,4 +1,3 @@
-lastAccountName: Biataria
 timestamps:
   login: 1576584105464
   logout: 1576584440164
@@ -7,7 +6,6 @@ timestamps:
     dtools: 1576385794367
     tools: 1576140059798
   lastteleport: 1576584184668
-ipAddress: 192.168.0.1
 logoutlocation:
   world: world
   x: -229.41047048891068
@@ -34,3 +32,5 @@ homes:
     yaw: 100.80294
     pitch: 47.549976
 powertools: {}
+ip-address: 192.168.0.1
+last-account-name: Biataria

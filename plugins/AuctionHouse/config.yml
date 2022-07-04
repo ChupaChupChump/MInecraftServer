@@ -1,35 +1,25 @@
-# 
+economy: vault
+announce:
+  chat:
+    listings: false
+    purchases: false
+  action_bar:
+    listings: false
+    purchases: false
+  discord:
+    listings: false
+    purchases: false
+anticheat:
+  spam_check: true
+#
 # AuctionHouse
 locale: en_us
 decimal_format: '#,##0.00'
 strict: false
 chatHook: true
 updateTicks: 20
-blacklist:
-  '0':
-    item: minecraft:bedrock
-  '1':
-    item: minecraft:barrier
-  '2':
-    item: minecraft:command_block
-  '3':
-    item: minecraft:structure_block
-  example:
-    name: \u00a7cVorpal Sword
-    item: minecraft:diamond_sword
-    lore:
-    - Special Item
-    - Does not list in AuctionHouse
-    enchantments:
-    - ench: minecraft:sharpness
-      level: 10
-    - ench: minecraft:unbreaking
-      level: 3
-    - ench: minecraft:looting
-      level: 3
-    - ench: minecraft:fire_aspect
-      level: 2
 sounds:
+  sold: block.note_block.chime
   click: ui.button.click
   fail: entity.villager.no
   drop: entity.player.burp
@@ -59,6 +49,11 @@ log:
   purged: true
 disabled-worlds: []
 auction:
+  preventFilledContainers: false
+  showSeconds: true
+  spawnerInfo: true
+  integerPrice: false
+  showRepairCost: true
   listingPrice: 0.0
   listingRate: 0.0
   listingCooldown: 0d0h0m0s
@@ -90,4 +85,34 @@ triggers:
   sign: '[AuctionHouse]'
   block_name: Auction House
   entity_name: Auction House
-configVersion: 21
+configVersion: 33
+restricted_items:
+  mcmmo:
+    lore:
+    - mcMMO Ability Tool
+  mcmmo_ability:
+    persistent_data:
+      mcmmo:super_ability_boosted: 0
+  '0':
+    item: minecraft:bedrock
+  '1':
+    item: minecraft:barrier
+  '2':
+    item: minecraft:command_block
+  '3':
+    item: minecraft:structure_block
+  example:
+    name: \u00a7cVorpal Sword
+    item: minecraft:diamond_sword
+    lore:
+    - Special Item
+    - Does not list in AuctionHouse
+    enchantments:
+    - ench: minecraft:sharpness
+      level: 10
+    - ench: minecraft:unbreaking
+      level: 3
+    - ench: minecraft:looting
+      level: 3
+    - ench: minecraft:fire_aspect
+      level: 2

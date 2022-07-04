@@ -1,0 +1,6 @@
+BuycraftX v12.0.6
+ChestShop v3.10 (build 165)
+ClearLag v3.1.0
+RandomTeleport v2.5.1
+TAB v2.6.0-pre17
+Votifier v3.0.0-SNAPSHOT

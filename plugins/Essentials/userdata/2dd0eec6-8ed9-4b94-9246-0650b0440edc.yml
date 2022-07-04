@@ -1,8 +1,6 @@
-lastAccountName: Captain_SUSHI
 timestamps:
   login: 1576580232064
   logout: 1576580275470
-ipAddress: 120.18.163.92
 logoutlocation:
   world: world
   x: 1288.699999988079
@@ -10,3 +8,5 @@ logoutlocation:
   z: 106.30000001192093
   yaw: 210.64342
   pitch: 5.551288
+ip-address: 120.18.163.92
+last-account-name: Captain_SUSHI

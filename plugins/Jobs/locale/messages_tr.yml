@@ -6,7 +6,6 @@ limitedItem:
   error:
     levelup: '&cBunun için [meslek] mesleğinde level atlaman lazım!'
 general:
-  Spawner: '&r[type] Spawner'
   info:
     toplineseparator: '&7*********************** &6%playername% &7***********************'
     separator: '&7*******************************************************'
@@ -15,32 +14,35 @@ general:
       hours: '&e%hours% &6saat '
       mins: '&e%mins% &6dakika '
       secs: '&e%secs% &6saniye '
-    invalidPage: '&cInvalid page'
-    'true': '&2True'
-    'false': '&cFalse'
+    invalidPage: '&cGeçersiz Sayfa'
+    'true': '&2Doğru'
+    'false': '&cYanlış'
+    blocks:
+      furnace: Fırın
+      smoker: Dumancı
+      blastfurnace: Yüksek fırın
+      brewingstand: Simya Standı
   admin:
     error: '&cKomut uygulanırken bir hata oluştu.'
     success: '&eKomut başarıyla uygulandı.'
   error:
     noHelpPage: '&cBu sayıda bir yardım sayfası yok!'
     notNumber: '&eLütfen sayıları kullanın!'
-    job: '&cBöyle bir meslek bulunmamaktadır!'
-    noCommand: '&cThere is no command by this name!'
+    job: '&cSeçtiğiniz iş mevcut değil veya buna katılmadınız'
+    noCommand: '&cBu isimde bir komut yok!'
     permission: '&cBunun için yetkiniz bulunmamaktadır!'
     noinfo: '&cBilgi bulunamadı!'
     noinfoByPlayer: '&cŞuan [%playername%] adlı oyuncunun bilgisi yok!'
     ingame: '&cBu komutu sadece oyundakiler kullanabilir!'
     fromconsole: '&cBu komutu sadece konsoldan kullanabilirsiniz!'
     worldisdisabled: '&cBu dünyada bu komut kullanılamaz!'
-    newFurnaceRegistration: '&eRegistered new ownership for furnace &7[current]&e/&f[max]'
-    newBrewingRegistration: '&eRegistered new ownership for brewing stand &7[current]&e/&f[max]'
-    noFurnaceRegistration: '&cYou''ve reached max furnace count!'
-    noBrewingRegistration: '&cYou''ve reached max brewing stand count!'
+    newRegistration: '&eRegistered new ownership for [block] &7[current]&e/&f[max]'
+    noRegistration: '&cYou''ve reached max [block] count!'
 command:
   help:
     output:
       info: /jobs [komut] ? yazarak komut hakkında bilgi alabilirsin.
-      cmdUsage: '&2Usage: &7[command]'
+      cmdUsage: '&2Kullanımı: &7[command]'
       label: Jobs
       cmdInfoFormat: '[command] &f- &2[description]'
       cmdFormat: '&7/[command] &f[arguments]'
@@ -48,15 +50,18 @@ command:
       title: '&e-------&e ======= &6Meslekler &e======= &e-------'
       page: '&e-----&e ====== Sayfa &6[1] &eSonraki &6[2] &e====== &e-----'
       fliperSimbols: '&e----------'
-      prevPage: '&2----<< &6Prev '
-      prevPageOff: '&7----<< Prev '
-      nextPage: '&6 Next &2>>----'
-      nextPageOff: '&7 Next >>----'
+      prevPage: '&2----<< &6Önceki '
+      prevPageOff: '&7----<< Önceki '
+      nextPage: '&6 Sonraki &2>>----'
+      nextPageOff: '&7 Sonraki >>----'
       pageCount: '&2[current]/[total]'
+      pageCountHover: '&e[totalEntries] entries'
+      prevPageGui: '&6Önceki sayfa'
+      nextPageGui: '&6Sonraki Sayfa'
   moneyboost:
     help:
       info: Tüm oyunculara para avansı verir.
-      args: '[jobname] [rate]'
+      args: '[jobname]/all/reset [time]/[rate]'
     output:
       allreset: Tüm oyuncuların para avansı kapatıldı.
       jobsboostreset: Para avansı %jobname% mesleği için kapatıldı.
@@ -67,7 +72,7 @@ command:
   pointboost:
     help:
       info: Tüm oyunculara puan avansı verir.
-      args: '[jobname] [rate]'
+      args: '[jobname]/all/reset [time]/[rate]'
     output:
       allreset: Tüm puan avansları kapatıldı
       jobsboostreset: Puan avansı %jobname% mesleği için kapatıldı.
@@ -78,7 +83,7 @@ command:
   expboost:
     help:
       info: Tüm oyunculara exp avansı verir.
-      args: '[jobname] [rate]'
+      args: '[jobname]/all/reset [time]/[rate]'
     output:
       allreset: Tüm exp avansları kapatıldı.
       jobsboostreset: Exp avansı %jobname% mesleği için kapatıldı.
@@ -86,12 +91,21 @@ command:
       boostalladded: Exp avansı %boost% tüm mesleklere eklendi!
       boostadded: Exp avansı &e%boost% &aşuan &e%jobname% &amesleğine eklendi!
       infostats: '&c-----> &aExp avansı x%boost% aktif&c <-------'
+  schedule:
+    help:
+      info: Enables the given scheduler
+      args: enable [scheduleName] [untilTime]
+    output:
+      noScheduleFound: '&cSchedule with this name not found.'
+      alreadyEnabled: '&cThis schedule already enabled.'
+      enabled: '&eSchedule have been enabled from&a %from%&e until&a %until%'
   itembonus:
     help:
       info: Check item bonus
       args: ''
     output:
       list: '&e[jobname]: %money% %points% %exp%'
+      notAplyingList: '&7[jobname]: %money% %points% %exp%'
       hover: '&7%itemtype%'
       hoverLevelLimits: "&7From level: %from% \n&7Until level: %until%"
   edititembonus:
@@ -103,16 +117,16 @@ command:
       info: Meslek bonuslarını gösterir
       args: '[jobname]'
     output:
-      topline: '&7**************** &2[Para] &6[Puan] &e[EXP] &7****************'
-      permission: ' &eYetki bonusu: %money% %points% %exp%'
-      item: ' &eItem bonusu: %money% %points% %exp%'
-      global: ' &eGenell bonus: %money% %points% %exp%'
-      dynamic: ' &eDinamik ödeme bonus: %money% %points% %exp%'
-      nearspawner: ' &eSpawner bonus: %money% %points% %exp%'
-      petpay: ' &ePetPay bonus: %money% %points% %exp%'
-      area: ' &eAlan bonusu: %money% %points% %exp%'
-      mcmmo: ' &eMcMMO bonus: %money% %points% %exp%'
-      final: ' &eFinal bonus: %money% %points% %exp%'
+      topline: '&7**************** &2[money] &6[points] &e[exp] &7****************'
+      permission: ' &ePerm bonus: &2%money% &6%points% &e%exp%'
+      item: ' &eItem bonus: &2%money% &6%points% &e%exp%'
+      global: ' &eGlobal bonus: &2%money% &6%points% &e%exp%'
+      dynamic: ' &eDynamic bonus: &2%money% &6%points% &e%exp%'
+      nearspawner: ' &eSpawner bonus: &2%money% &6%points% &e%exp%'
+      petpay: ' &ePetPay bonus: &2%money% &6%points% &e%exp%'
+      area: ' &eArea bonus: &2%money% &6%points% &e%exp%'
+      mcmmo: ' &eMcMMO bonus: &2%money% &6%points% &e%exp%'
+      final: ' &eFinal bonus: &2%money% &6%points% &e%exp%'
       finalExplanation: ' &eSpawner ve Pet bonusu dahil değildir.'
   convert:
     help:
@@ -169,7 +183,7 @@ command:
       info: Edit current jobs.
       args: ''
       list:
-        job: '&eJobs:'
+        job: '&eMeslek:'
         jobs: '  -> [&e%jobname%&r]'
         actions: '    -> [&e%actionname%&r]'
         material: '      -> [&e%materialname%&r]      '
@@ -181,14 +195,14 @@ command:
       modify:
         newValue: '&eEnter new value'
         enter: '&eEnter new name or press '
-        hand: '&6HAND '
+        hand: '&6El '
         handHover: '&6Press to grab info from item in your hand'
         or: '&eor '
-        look: '&6LOOKING AT'
+        look: '&6Bakmak'
         lookHover: '&6Press to grab info from block you are looking'
   editquests:
     help:
-      info: Edit current quests.
+      info: Mevcut görevleri düzenleyin.
       args: ''
       list:
         quest: '&eQuests:'
@@ -221,8 +235,8 @@ command:
       args: ''
     output:
       name: ' &eItem ismi: &6%itemname%'
-      id: ' &eItem id: &6%itemid%'
-      data: ' &eItem data: &6%itemdata%'
+      id: ' &eEşya id: &6%itemid%'
+      data: ' &eEşya ismi: &6%itemdata%'
       usage: ' &eKullanımı: &6%first% &eveya &6%second%'
   placeholders:
     help:
@@ -230,7 +244,7 @@ command:
       args: (parse) (placeholder)
     output:
       list: '&e[place]. &7[placeholder]'
-      outputResult: ' &eresult: &7[result]'
+      outputResult: ' &eSonuç: &7[result]'
       parse: '&6[placeholder] &7by [source] &6result &8|&f[result]&8|'
   entitylist:
     help:
@@ -242,7 +256,11 @@ command:
       args: '[playername]'
     error:
       nojob: Lütfen önce bir mesleğe giriniz.
-    output: ' lvl%joblevel% %jobname% : %jobxp%/%jobmaxxp% xp'
+    output:
+      message: 'Level %joblevel% for %jobname%: %jobxp%/%jobmaxxp% xp'
+      max-level: '     &cMaks Level   -   %jobname%'
+    bossBarOutput: 'Level %joblevel% %jobname%: %jobxp%/%jobmaxxp% xp%gain%'
+    bossBarGain: ' &7(&f%gain%&7)'
   shop:
     help:
       info: Özel meslek marketini açar.
@@ -254,6 +272,9 @@ command:
       reqJobs: '&eGereken Meslekler:'
       reqJobsList: '  &6%jobsname%&e: &e%level% lvl'
       reqTotalLevel: '&6Gereken toplam level: &e%totalLevel%'
+      reqJobsColor: '&c'
+      reqJobsLevelColor: '&4'
+      reqTotalLevelColor: '&4'
       cantOpen: '&cBu sayfayı açamazsın.'
       NoPermForItem: '&cBunu kullanmak için yetkin yok!'
       NoPermToBuy: '&cBu item için yetkin yok'
@@ -272,7 +293,7 @@ command:
       info: Meslek marketinden item verir. Oyuncu ismi opsiyoneldir
       args: '[playername] [jobname] [items/limiteditems] [jobitemname]'
     output:
-      notonline: '&4Oyuncu [%playername%] şuan açık değil!'
+      notonline: '&4Player with that name is not online!'
       noitem: '&4Böyle bir item bulunamadı!'
   info:
     help:
@@ -296,11 +317,14 @@ command:
       jobinfo: '&b[meslek] &abilgi!'
       actions: '&bPara &aKazanılan Eylemler :'
       leftClick: '&bSol &atıklayarak bilgi al'
+      middleClick: '&eMiddle Click to leave this job'
       rightClick: '&bSağ &atıklayarak katıl'
       leftSlots: '&eKalan Slotlar:&f '
       working: '&2&nZaten alınmış'
+      cantJoin: '&cYou can''t join to the selected job.'
       max: '&eMaximum level:&f '
       back: '&e<<< Geri'
+      next: '&eNext >>>'
     output:
       break:
         info: 'Kırmak'
@@ -312,7 +336,7 @@ command:
         info: 'Yerleştirmek'
         none: '%jobname% bu iş için para vermez.'
       striplogs:
-        info: '&eStrip logs'
+        info: '&eŞerit Geçmişi'
         none: '%jobname% does not get money for stripping logs.'
       kill:
         info: 'Öldürmek'
@@ -369,7 +393,7 @@ command:
         info: '&eCollect'
         none: '%jobname% does not get money for collecting blocks.'
       bake:
-        info: '&eBake'
+        info: '&ePişir'
         none: '%jobname% does not get money for cooking foods.'
   playerinfo:
     help:
@@ -405,6 +429,7 @@ command:
       info: Check who visited this chunk
     error:
       noexplore: No one visited this chunk
+    fullExplore: '&aThis chunk is fully explored'
     list: '&e%place%. %playername%'
   browse:
     help:
@@ -438,17 +463,29 @@ command:
       info: Clear block ownership
       args: '[playername]'
     output:
-      cleared: '&2Removed &7[furnaces] &2furnaces and &7[brewing] &2brewing stands'
+      cleared: '&2Removed &7[furnaces] &2furnaces, &7[brewing] &2brewing stands, &7[smoker]&2 smokers and &7[blast]&2 blast furnaces.'
+  skipquest:
+    help:
+      info: Skip defined quest and get new one
+      args: '[jobname] [questname] (playerName)'
+    output:
+      questSkipForCost: '&2You skipped the quest and paid:&e %amount%$'
   quests:
     help:
-      info: List available quests
+      info: Mevcut görevleri listele
       args: '[playername]'
     error:
-      noquests: '&cThere are no quests'
+      noquests: '&cGörev yok'
     toplineseparator: '&7*********************** &6[playerName] &2(&f[questsDone]&2) &7***********************'
+    status:
+      changed: '&2The quests status has been changed to&r %status%'
+      started: '&aBaşlatıldı'
+      stopped: '&cDurduruldu'
     output:
       completed: '&2      !Completed!&r      '
       questLine: '[progress] &7[questName] &f[done]&7/&8[required]'
+      skip: '&7Click to skip this quest'
+      skips: '&7Left skips: &f[skips]'
       hover: "&f[jobName] \n[desc] \n&7New quest in: [time]"
   fire:
     help:
@@ -461,7 +498,7 @@ command:
   fireall:
     help:
       info: Oyuncunun tüm mesleklerini siler.
-      args: '[playername]'
+      args: '[playername]/all'
     error:
       nojobs: Şuan hiçbir mesleği yok!
     output:
@@ -478,7 +515,7 @@ command:
   top:
     help:
       info: Shows top players by jobs name.
-      args: '[jobname]'
+      args: '[jobname]/clear pageNumber'
     error:
       nojob: Bu isimde bir meslek bulunamadı.
     output:
@@ -489,8 +526,8 @@ command:
       show: '&2Şuan &e[from] &2kadar &e[until] &2kadarı gösteriliyor'
   gtop:
     help:
-      info: Genel olarak en yüksek mesleğe sahip %amount% oyuncuyu gösterir.
-      args: ''
+      info: Shows top players by global jobs level.
+      args: clear/pageNumber
     error:
       nojob: Bir bilgi bulunamadı.
     output:
@@ -526,9 +563,10 @@ command:
     output:
       topline: '&7************************* &6%playername% &7*************************'
       ls: '&7* &6%number%. &3%action%: &6%item% &eqty: %qty% %money%%exp%%points%'
-      money: '&6money: %amount% '
-      exp: '&eexp: %amount% '
-      points: '&6points: %amount%'
+      money: '&6Para: %amount% '
+      exp: '&eXP: %amount% '
+      points: '&6Puan: %amount%'
+      totalIncomes: '    &6Total money:&2 %money%&6, Total exp:&2 %exp%&6, Total points:&2 %points%'
       bottomline: '&7***********************************************************'
       prev: '&e<<<<< Önceki Sayfa &2|'
       next: '&2|&e Sonraki Sayfa >>>>'
@@ -543,6 +581,7 @@ command:
       money: '&6money: %amount% '
       exp: '&eexp: %amount% '
       points: '&6points: %amount%'
+      totalIncomes: '    &6Total money:&2 %money%&6, Total exp:&2 %exp%&6, Total points:&2 %points%'
       bottomline: '&7**************************************************************'
       nodata: '&cVeri bulunamadı'
   transfer:
@@ -629,7 +668,6 @@ message:
     message: '&cYou lost level&e %lostLevel%&c in&e %jobname%&c job! Level:&6 %joblevel%&c.'
   cowtimer: '&eŞuan ödeme alabilmen için &6%time% &esaniye beklemen gerek.'
   blocktimer: '&eÖdeme yapabilmen için gereken süre: &3[time] !'
-  placeblocktimer: '&eYou cant place block faster than &6[time] &esec interval in same place!'
   taxes: '&3[amount] &ekadar vergi hesabınıza eklendi'
   boostStarted: '&eMeslek avansı şuan başladı!'
   boostStoped: '&eMeslek avansı şuan sona erdi!'

@@ -1,7 +1,6 @@
-towns=SnowyMoutainGlade
 capital=SnowyMoutainGlade
 nationBoard=/nation set board [msg]
-assistants=
+mapColorHexCode=000000
 allies=
 enemies=
 taxes=0.0
@@ -11,3 +10,4 @@ uuid=4b896a29-3502-4d8e-a8f4-10b59090360e
 registered=1576458867435
 isPublic=false
 isOpen=false
+metadata=

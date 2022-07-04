@@ -22,6 +22,10 @@ mainCommand:
     noPet: '&cThe pet %name% doesn''t exists'
     noPermissionPet: '&cYou dont have permissions to spawn the pet %name%'
     missingArgs: '&cMissing args , currect usage : /%maincommand% %petcommand% (petName)'
+    playerOnly: This command can only be executed by players!
+    pet:
+      command: pet
+    noPermission: '&cYou lack the required permissions to run this command!'
   reload:
     command: reload
     help: Use this command to reload the pets
@@ -37,6 +41,7 @@ mainCommand:
     command: call
     help: Call your pet to you!
     teleportMessage: '&aYour pet has been teleported to you'
+    playerOnly: This command can only be executed by players!
   setname:
     command: setName
     help: Use this command to name your pet - /mpet setName (Name)
@@ -48,12 +53,17 @@ mainCommand:
     help: Wear your pet as a hat!
     disableHat: '&cYou removed your mpet hat'
     enableHat: '&aYou are now wearing a mpet hat'
+    playerOnly: This command can only be executed by players!
+    cantUseHatWhileRiding: '&cYou can''t use the hat command while riding.'
   ride:
     command: ride
     help: Use this command to ride your pet
     disguiseInterrupt: '&cYou can''t ride your pet while you''re disguised'
     ridingMessage: '&aYou are now riding your pet'
     notRidingMessage: '&cYou are now not riding your pet'
+    hatInterrupt: '&cYou can''t start riding your pet when you''re wearing it as a
+      hat.'
+    notSupportingRide: '&cThe specified pet doesn''t support riding.'
   disguise:
     command: disguise
     help: Use this command to disguise as your pet
@@ -61,9 +71,14 @@ mainCommand:
     toUndisguise: '&aTo undisguise use the disguise command agian'
     disguised: '&aYou are now disguised'
     notDisguised: '&cYou are now not disguised'
+    notSupportingDisuigse: '&cThe pet you are trying to disguise as does not support
+      it.'
+    serverNotAllowingDisguise: '&cDisguising has been disabled on this server.'
   sit:
     command: sit
     help: Use this command to make your pet sit and not follow you
     staticError: '&cYour pet is already static'
     petSit: '&aYour pet is now sitting'
     petUnsit: '&cYour pet is no longer sitting'
+playerOnly: This command can only be executed by players!
+notSupportingRename: '&cThe specified pet cannot be renamed.'

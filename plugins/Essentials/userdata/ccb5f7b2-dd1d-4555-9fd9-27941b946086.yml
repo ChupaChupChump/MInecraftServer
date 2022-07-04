@@ -1,9 +1,7 @@
-lastAccountName: Ailourae
 timestamps:
   login: 1576553142667
   logout: 1576553096438
   lastteleport: 1576548398747
-ipAddress: 192.168.0.1
 money: '4360.4040000000000630'
 logoutlocation:
   world: world
@@ -21,3 +19,5 @@ lastlocation:
   yaw: 111.60001
   pitch: 28.050026
 socialspy: true
+ip-address: 192.168.0.1
+last-account-name: Ailourae
