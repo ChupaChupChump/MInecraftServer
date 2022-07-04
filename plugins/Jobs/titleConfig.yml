@@ -1,11 +1,12 @@
 # Title configuration
 # Stores the titles people gain at certain levels.
-# Each title requres to have a name, short name (used when the player has more than
-# 1 job) the colour of the title and the level requrirement to attain the title.
+# Each title requires to have a name, short name (used when the player has more than 1 job)
+# the colour of the title and the level requirement to attain the title.
+# Colour can ether be a word like Brown, can be color character like &5 or hex color code like {#6600cc}
 # It is recommended but not required to have a title at level 0.
 # Titles are completely optional.
-# Posible variable are {level} to add current jobs level.
-# Optionaly you can set different titles based by job.
+# Possible variable are {level} to add current jobs level.
+# Optionally you can set different titles based by job.
 #   JobName: Miner
 
 Titles:

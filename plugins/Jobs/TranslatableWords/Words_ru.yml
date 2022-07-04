@@ -115,6 +115,7 @@ ItemList:
   BUBBLE_CORAL_WALL_FAN: Стена веерного пузырчатого коралла
   BUCKET: Ведро
   CACTUS: Кактус
+  CACTUS_GREEN: Cactus Green
   CAKE: Торт
   CARROT: Морковь
   CARROTS: Морковь
@@ -194,6 +195,7 @@ ItemList:
   CYAN_WOOL: Бирюзовая шерсть
   DAMAGED_ANVIL: Наковальня
   DANDELION: Одуванчик
+  DANDELION_YELLOW: Dandelion Yellow
   DARK_OAK_BOAT: Лодка из тёмного дуба
   DARK_OAK_BUTTON: Кнопка из тёмного дуба
   DARK_OAK_DOOR: Тёмнодубовая дверь
@@ -331,7 +333,6 @@ ItemList:
   GRANITE: Гранит
   GRASS: Высокая трава
   GRASS_BLOCK: Трава
-  GRASS_PATH: Травяная тропинка
   GRAVEL: Гравий
   GRAY_BANNER: Флаг
   GRAY_BED: Кровать
@@ -699,6 +700,7 @@ ItemList:
   REPEATER: Красный повторитель
   REPEATING_COMMAND_BLOCK: Воздух
   ROSE_BUSH: Розовый куст
+  ROSE_RED: Rose Red
   ROTTEN_FLESH: Гнилая плоть
   SADDLE: Седло
   SALMON: Сырой лосось
@@ -718,7 +720,6 @@ ItemList:
   SHULKER_BOX: Шалкеровый ящик
   SHULKER_SHELL: Оболочка шалкера
   SHULKER_SPAWN_EGG: Яйцо призыва шалкера
-  SIGN: Табличка
   SILVERFISH_SPAWN_EGG: Яйцо призыва чешуйницы
   SKELETON_HORSE_SPAWN_EGG: Spawn Skeleton Horse
   SKELETON_SKULL: Голова (Скелет)
@@ -976,12 +977,321 @@ ItemList:
   HONEYCOMB_BLOCK: Honeycomb Block
   HONEY_BLOCK: Honey Block
   HONEY_BOTTLE: Honey Bottle
+  ANCIENT_DEBRIS: Ancient Debris
+  BASALT: Basalt
+  BLACKSTONE: Blackstone
+  BLACKSTONE_SLAB: Blackstone Slab
+  BLACKSTONE_STAIRS: Blackstone Stairs
+  BLACKSTONE_WALL: Blackstone Wall
+  CHAIN: Chain
+  CHISELED_NETHER_BRICKS: Chiseled Nether Bricks
+  CHISELED_POLISHED_BLACKSTONE: Chiseled Polished Blackstone
+  CRACKED_NETHER_BRICKS: Cracked Nether Bricks
+  CRACKED_POLISHED_BLACKSTONE_BRICKS: Cracked Polished Blackstone Bricks
+  CRIMSON_BUTTON: Crimson Button
+  CRIMSON_DOOR: Crimson Door
+  CRIMSON_FENCE: Crimson Fence
+  CRIMSON_FENCE_GATE: Crimson Fence Gate
+  CRIMSON_FUNGUS: Crimson Fungus
+  CRIMSON_HYPHAE: Crimson Hyphae
+  CRIMSON_NYLIUM: Crimson Nylium
+  CRIMSON_PLANKS: Crimson Planks
+  CRIMSON_PRESSURE_PLATE: Crimson Pressure Plate
+  CRIMSON_ROOTS: Crimson Roots
+  CRIMSON_SIGN: Crimson Sign
+  CRIMSON_SLAB: Crimson Slab
+  CRIMSON_STAIRS: Crimson Stairs
+  CRIMSON_STEM: Crimson Stem
+  CRIMSON_TRAPDOOR: Crimson Trapdoor
+  CRIMSON_WALL_SIGN: Crimson Wall Sign
+  CRYING_OBSIDIAN: Crying Obsidian
+  GILDED_BLACKSTONE: Gilded Blackstone
+  HOGLIN_SPAWN_EGG: Hoglin Spawn Egg
+  LODESTONE: Lodestone
+  MUSIC_DISC_PIGSTEP: Music Disc Pigstep
+  NETHERITE_AXE: Netherite Axe
+  NETHERITE_BLOCK: Netherite Block
+  NETHERITE_BOOTS: Netherite Boots
+  NETHERITE_CHESTPLATE: Netherite Chestplate
+  NETHERITE_HELMET: Netherite Helmet
+  NETHERITE_HOE: Netherite Hoe
+  NETHERITE_INGOT: Netherite Ingot
+  NETHERITE_LEGGINGS: Netherite Leggings
+  NETHERITE_PICKAXE: Netherite Pickaxe
+  NETHERITE_SCRAP: Netherite Scrap
+  NETHERITE_SHOVEL: Netherite Shovel
+  NETHERITE_SWORD: Netherite Sword
+  NETHER_GOLD_ORE: Nether Gold Ore
+  NETHER_SPROUTS: Nether Sprouts
+  PIGLIN_BANNER_PATTERN: Piglin Banner Pattern
+  PIGLIN_SPAWN_EGG: Piglin Spawn Egg
+  POLISHED_BASALT: Polished Basalt
+  POLISHED_BLACKSTONE: Polished Blackstone
+  POLISHED_BLACKSTONE_BRICKS: Polished Blackstone Bricks
+  POLISHED_BLACKSTONE_BRICK_SLAB: Polished Blackstone Brick Slab
+  POLISHED_BLACKSTONE_BRICK_STAIRS: Polished Blackstone Brick Stairs
+  POLISHED_BLACKSTONE_BRICK_WALL: Polished Blackstone Brick Wall
+  POLISHED_BLACKSTONE_BUTTON: Polished Blackstone Button
+  POLISHED_BLACKSTONE_PRESSURE_PLATE: Polished Blackstone Pressure Plate
+  POLISHED_BLACKSTONE_SLAB: Polished Blackstone Slab
+  POLISHED_BLACKSTONE_STAIRS: Polished Blackstone Stairs
+  POLISHED_BLACKSTONE_WALL: Polished Blackstone Wall
+  POTTED_CRIMSON_FUNGUS: Potted Crimson Fungus
+  POTTED_CRIMSON_ROOTS: Potted Crimson Roots
+  POTTED_WARPED_FUNGUS: Potted Warped Fungus
+  POTTED_WARPED_ROOTS: Potted Warped Roots
+  QUARTZ_BRICKS: Quartz Bricks
+  RESPAWN_ANCHOR: Respawn Anchor
+  SHROOMLIGHT: Shroomlight
+  SOUL_CAMPFIRE: Soul Campfire
+  SOUL_FIRE: Soul Fire
+  SOUL_LANTERN: Soul Lantern
+  SOUL_SOIL: Soul Soil
+  SOUL_TORCH: Soul Torch
+  SOUL_WALL_TORCH: Soul Wall Torch
+  STRIDER_SPAWN_EGG: Strider Spawn Egg
+  STRIPPED_CRIMSON_HYPHAE: Stripped Crimson Hyphae
+  STRIPPED_CRIMSON_STEM: Stripped Crimson Stem
+  STRIPPED_WARPED_HYPHAE: Stripped Warped Hyphae
+  STRIPPED_WARPED_STEM: Stripped Warped Stem
+  TARGET: Target
+  TWISTING_VINES: Twisting Vines
+  TWISTING_VINES_PLANT: Twisting Vines Plant
+  WARPED_BUTTON: Warped Button
+  WARPED_DOOR: Warped Door
+  WARPED_FENCE: Warped Fence
+  WARPED_FENCE_GATE: Warped Fence Gate
+  WARPED_FUNGUS: Warped Fungus
+  WARPED_FUNGUS_ON_A_STICK: Warped Fungus On A Stick
+  WARPED_HYPHAE: Warped Hyphae
+  WARPED_NYLIUM: Warped Nylium
+  WARPED_PLANKS: Warped Planks
+  WARPED_PRESSURE_PLATE: Warped Pressure Plate
+  WARPED_ROOTS: Warped Roots
+  WARPED_SIGN: Warped Sign
+  WARPED_SLAB: Warped Slab
+  WARPED_STAIRS: Warped Stairs
+  WARPED_STEM: Warped Stem
+  WARPED_TRAPDOOR: Warped Trapdoor
+  WARPED_WALL_SIGN: Warped Wall Sign
+  WARPED_WART_BLOCK: Warped Wart Block
+  WEEPING_VINES: Weeping Vines
+  WEEPING_VINES_PLANT: Weeping Vines Plant
+  ZOGLIN_SPAWN_EGG: Zoglin Spawn Egg
+  ZOMBIFIED_PIGLIN_SPAWN_EGG: Zombified Piglin Spawn Egg
+  PIGLIN_BRUTE_SPAWN_EGG: Piglin Brute Spawn Egg
+  AMETHYST_BLOCK: Amethyst Block
+  AMETHYST_CLUSTER: Amethyst Cluster
+  AMETHYST_SHARD: Amethyst Shard
+  AXOLOTL_BUCKET: Axolotl Bucket
+  AXOLOTL_SPAWN_EGG: Axolotl Spawn Egg
+  AZALEA: Azalea
+  AZALEA_LEAVES: Azalea Leaves
+  BIG_DRIPLEAF: Big Dripleaf
+  BIG_DRIPLEAF_STEM: Big Dripleaf Stem
+  BLACK_CANDLE: Black Candle
+  BLACK_CANDLE_CAKE: Black Candle Cake
+  BLUE_CANDLE: Blue Candle
+  BLUE_CANDLE_CAKE: Blue Candle Cake
+  BROWN_CANDLE: Brown Candle
+  BROWN_CANDLE_CAKE: Brown Candle Cake
+  BUDDING_AMETHYST: Budding Amethyst
+  BUNDLE: Bundle
+  CALCITE: Calcite
+  CANDLE: Candle
+  CANDLE_CAKE: Candle Cake
+  CAVE_VINES: Cave Vines
+  CAVE_VINES_PLANT: Cave Vines Plant
+  CHISELED_DEEPSLATE: Chiseled Deepslate
+  COBBLED_DEEPSLATE: Cobbled Deepslate
+  COBBLED_DEEPSLATE_SLAB: Cobbled Deepslate Slab
+  COBBLED_DEEPSLATE_STAIRS: Cobbled Deepslate Stairs
+  COBBLED_DEEPSLATE_WALL: Cobbled Deepslate Wall
+  COPPER_BLOCK: Copper Block
+  COPPER_INGOT: Copper Ingot
+  COPPER_ORE: Copper Ore
+  CRACKED_DEEPSLATE_BRICKS: Cracked Deepslate Bricks
+  CRACKED_DEEPSLATE_TILES: Cracked Deepslate Tiles
+  CUT_COPPER: Cut Copper
+  CUT_COPPER_SLAB: Cut Copper Slab
+  CUT_COPPER_STAIRS: Cut Copper Stairs
+  CYAN_CANDLE: Cyan Candle
+  CYAN_CANDLE_CAKE: Cyan Candle Cake
+  DEEPSLATE: Deepslate
+  DEEPSLATE_BRICKS: Deepslate Bricks
+  DEEPSLATE_BRICK_SLAB: Deepslate Brick Slab
+  DEEPSLATE_BRICK_STAIRS: Deepslate Brick Stairs
+  DEEPSLATE_BRICK_WALL: Deepslate Brick Wall
+  DEEPSLATE_COAL_ORE: Deepslate Coal Ore
+  DEEPSLATE_COPPER_ORE: Deepslate Copper Ore
+  DEEPSLATE_DIAMOND_ORE: Deepslate Diamond Ore
+  DEEPSLATE_EMERALD_ORE: Deepslate Emerald Ore
+  DEEPSLATE_GOLD_ORE: Deepslate Gold Ore
+  DEEPSLATE_IRON_ORE: Deepslate Iron Ore
+  DEEPSLATE_LAPIS_ORE: Deepslate Lapis Ore
+  DEEPSLATE_REDSTONE_ORE: Deepslate Redstone Ore
+  DEEPSLATE_TILES: Deepslate Tiles
+  DEEPSLATE_TILE_SLAB: Deepslate Tile Slab
+  DEEPSLATE_TILE_STAIRS: Deepslate Tile Stairs
+  DEEPSLATE_TILE_WALL: Deepslate Tile Wall
+  DIRT_PATH: Dirt Path
+  DRIPSTONE_BLOCK: Dripstone Block
+  EXPOSED_COPPER: Exposed Copper
+  EXPOSED_CUT_COPPER: Exposed Cut Copper
+  EXPOSED_CUT_COPPER_SLAB: Exposed Cut Copper Slab
+  EXPOSED_CUT_COPPER_STAIRS: Exposed Cut Copper Stairs
+  FLOWERING_AZALEA: Flowering Azalea
+  FLOWERING_AZALEA_LEAVES: Flowering Azalea Leaves
+  GLOW_BERRIES: Glow Berries
+  GLOW_INK_SAC: Glow Ink Sac
+  GLOW_ITEM_FRAME: Glow Item Frame
+  GLOW_LICHEN: Glow Lichen
+  GLOW_SQUID_SPAWN_EGG: Glow Squid Spawn Egg
+  GOAT_SPAWN_EGG: Goat Spawn Egg
+  GRAY_CANDLE: Gray Candle
+  GRAY_CANDLE_CAKE: Gray Candle Cake
+  GREEN_CANDLE: Green Candle
+  GREEN_CANDLE_CAKE: Green Candle Cake
+  HANGING_ROOTS: Hanging Roots
+  INFESTED_DEEPSLATE: Infested Deepslate
+  LARGE_AMETHYST_BUD: Large Amethyst Bud
+  LAVA_CAULDRON: Lava Cauldron
+  LIGHT: Light
+  LIGHTNING_ROD: Lightning Rod
+  LIGHT_BLUE_CANDLE: Light Blue Candle
+  LIGHT_BLUE_CANDLE_CAKE: Light Blue Candle Cake
+  LIGHT_GRAY_CANDLE: Light Gray Candle
+  LIGHT_GRAY_CANDLE_CAKE: Light Gray Candle Cake
+  LIME_CANDLE: Lime Candle
+  LIME_CANDLE_CAKE: Lime Candle Cake
+  MAGENTA_CANDLE: Magenta Candle
+  MAGENTA_CANDLE_CAKE: Magenta Candle Cake
+  MEDIUM_AMETHYST_BUD: Medium Amethyst Bud
+  MOSS_BLOCK: Moss Block
+  MOSS_CARPET: Moss Carpet
+  ORANGE_CANDLE: Orange Candle
+  ORANGE_CANDLE_CAKE: Orange Candle Cake
+  OXIDIZED_COPPER: Oxidized Copper
+  OXIDIZED_CUT_COPPER: Oxidized Cut Copper
+  OXIDIZED_CUT_COPPER_SLAB: Oxidized Cut Copper Slab
+  OXIDIZED_CUT_COPPER_STAIRS: Oxidized Cut Copper Stairs
+  PINK_CANDLE: Pink Candle
+  PINK_CANDLE_CAKE: Pink Candle Cake
+  POINTED_DRIPSTONE: Pointed Dripstone
+  POLISHED_DEEPSLATE: Polished Deepslate
+  POLISHED_DEEPSLATE_SLAB: Polished Deepslate Slab
+  POLISHED_DEEPSLATE_STAIRS: Polished Deepslate Stairs
+  POLISHED_DEEPSLATE_WALL: Polished Deepslate Wall
+  POTTED_AZALEA_BUSH: Potted Azalea Bush
+  POTTED_FLOWERING_AZALEA_BUSH: Potted Flowering Azalea Bush
+  POWDER_SNOW: Powder Snow
+  POWDER_SNOW_BUCKET: Powder Snow Bucket
+  POWDER_SNOW_CAULDRON: Powder Snow Cauldron
+  PURPLE_CANDLE: Purple Candle
+  PURPLE_CANDLE_CAKE: Purple Candle Cake
+  RAW_COPPER: Raw Copper
+  RAW_COPPER_BLOCK: Raw Copper Block
+  RAW_GOLD: Raw Gold
+  RAW_GOLD_BLOCK: Raw Gold Block
+  RAW_IRON: Raw Iron
+  RAW_IRON_BLOCK: Raw Iron Block
+  RED_CANDLE: Red Candle
+  RED_CANDLE_CAKE: Red Candle Cake
+  ROOTED_DIRT: Rooted Dirt
+  SCULK_SENSOR: Sculk Sensor
+  SMALL_AMETHYST_BUD: Small Amethyst Bud
+  SMALL_DRIPLEAF: Small Dripleaf
+  SMOOTH_BASALT: Smooth Basalt
+  SPORE_BLOSSOM: Spore Blossom
+  SPYGLASS: Spyglass
+  TINTED_GLASS: Tinted Glass
+  TUFF: Tuff
+  WATER_CAULDRON: Water Cauldron
+  WAXED_COPPER_BLOCK: Waxed Copper Block
+  WAXED_CUT_COPPER: Waxed Cut Copper
+  WAXED_CUT_COPPER_SLAB: Waxed Cut Copper Slab
+  WAXED_CUT_COPPER_STAIRS: Waxed Cut Copper Stairs
+  WAXED_EXPOSED_COPPER: Waxed Exposed Copper
+  WAXED_EXPOSED_CUT_COPPER: Waxed Exposed Cut Copper
+  WAXED_EXPOSED_CUT_COPPER_SLAB: Waxed Exposed Cut Copper Slab
+  WAXED_EXPOSED_CUT_COPPER_STAIRS: Waxed Exposed Cut Copper Stairs
+  WAXED_OXIDIZED_COPPER: Waxed Oxidized Copper
+  WAXED_OXIDIZED_CUT_COPPER: Waxed Oxidized Cut Copper
+  WAXED_OXIDIZED_CUT_COPPER_SLAB: Waxed Oxidized Cut Copper Slab
+  WAXED_OXIDIZED_CUT_COPPER_STAIRS: Waxed Oxidized Cut Copper Stairs
+  WAXED_WEATHERED_COPPER: Waxed Weathered Copper
+  WAXED_WEATHERED_CUT_COPPER: Waxed Weathered Cut Copper
+  WAXED_WEATHERED_CUT_COPPER_SLAB: Waxed Weathered Cut Copper Slab
+  WAXED_WEATHERED_CUT_COPPER_STAIRS: Waxed Weathered Cut Copper Stairs
+  WEATHERED_COPPER: Weathered Copper
+  WEATHERED_CUT_COPPER: Weathered Cut Copper
+  WEATHERED_CUT_COPPER_SLAB: Weathered Cut Copper Slab
+  WEATHERED_CUT_COPPER_STAIRS: Weathered Cut Copper Stairs
+  WHITE_CANDLE: White Candle
+  WHITE_CANDLE_CAKE: White Candle Cake
+  YELLOW_CANDLE: Yellow Candle
+  YELLOW_CANDLE_CAKE: Yellow Candle Cake
+  MUSIC_DISC_OTHERSIDE: Music Disc Otherside
+  ACACIA_CHEST_BOAT: Acacia chest boat
+  ALLAY_SPAWN_EGG: Allay spawn egg
+  BIRCH_CHEST_BOAT: Birch chest boat
+  DARK_OAK_CHEST_BOAT: Dark oak chest boat
+  DISC_FRAGMENT_5: Disc fragment 5
+  ECHO_SHARD: Echo shard
+  FROGSPAWN: Frogspawn
+  FROG_SPAWN_EGG: Frog spawn egg
+  GOAT_HORN: Goat horn
+  JUNGLE_CHEST_BOAT: Jungle chest boat
+  MANGROVE_BOAT: Mangrove boat
+  MANGROVE_BUTTON: Mangrove button
+  MANGROVE_CHEST_BOAT: Mangrove chest boat
+  MANGROVE_DOOR: Mangrove door
+  MANGROVE_FENCE: Mangrove fence
+  MANGROVE_FENCE_GATE: Mangrove fence gate
+  MANGROVE_LEAVES: Mangrove leaves
+  MANGROVE_LOG: Mangrove log
+  MANGROVE_PLANKS: Mangrove planks
+  MANGROVE_PRESSURE_PLATE: Mangrove pressure plate
+  MANGROVE_PROPAGULE: Mangrove propagule
+  MANGROVE_ROOTS: Mangrove roots
+  MANGROVE_SIGN: Mangrove sign
+  MANGROVE_SLAB: Mangrove slab
+  MANGROVE_STAIRS: Mangrove stairs
+  MANGROVE_TRAPDOOR: Mangrove trapdoor
+  MANGROVE_WALL_SIGN: Mangrove wall sign
+  MANGROVE_WOOD: Mangrove wood
+  MUD: Mud
+  MUDDY_MANGROVE_ROOTS: Muddy mangrove roots
+  MUD_BRICKS: Mud bricks
+  MUD_BRICK_SLAB: Mud brick slab
+  MUD_BRICK_STAIRS: Mud brick stairs
+  MUD_BRICK_WALL: Mud brick wall
+  MUSIC_DISC_5: Music disc 5
+  OAK_CHEST_BOAT: Oak chest boat
+  OCHRE_FROGLIGHT: Ochre froglight
+  PACKED_MUD: Packed mud
+  PEARLESCENT_FROGLIGHT: Pearlescent froglight
+  POTTED_MANGROVE_PROPAGULE: Potted mangrove propagule
+  RECOVERY_COMPASS: Recovery compass
+  REINFORCED_DEEPSLATE: Reinforced deepslate
+  SCULK: Sculk
+  SCULK_CATALYST: Sculk catalyst
+  SCULK_SHRIEKER: Sculk shrieker
+  SCULK_VEIN: Sculk vein
+  SPRUCE_CHEST_BOAT: Spruce chest boat
+  STRIPPED_MANGROVE_LOG: Stripped mangrove log
+  STRIPPED_MANGROVE_WOOD: Stripped mangrove wood
+  TADPOLE_BUCKET: Tadpole bucket
+  TADPOLE_SPAWN_EGG: Tadpole spawn egg
+  VERDANT_FROGLIGHT: Verdant froglight
+  WARDEN_SPAWN_EGG: Warden spawn egg
+  SIGN: Табличка
   LEGACY_STATIONARY_WATER: Неподвижная вода
   LEGACY_STATIONARY_LAVA: Неподвижная лава
   LEGACY_BURNING_FURNACE: Горящая печь
   LEGACY_NETHER_WARTS: Адский нарост
   LEGACY_IRON_DOOR_BLOCK: Железная дверь
-  LEGACY_GLOWING_REDSTONE_ORE: Светящаяся красная руда
+  LEGACY_GLOWING_REDSTON_ORE: Glowing Redstone Ore
   LEGACY_SUGAR_CANE_BLOCK: Сахарный тростник
   LEGACY_RAW_FISH: Сырая рыба
   LEGACY_SKULL: Голова
@@ -992,9 +1302,18 @@ ItemList:
   LEGACY_CAKE_BLOCK: Торт
   LEGACY_DIODE_BLOCK_OFF: Красный повторитель (выкл)
   LEGACY_DIODE_BLOCK_ON: Красный повторитель (вкл)
-  LEGACY_BREWING_STAND: Варочная стойка
+  LEGACY_MELON_BLOCK: Melon Block
   LEGACY_REDSTONE_COMPARATOR_OFF: Компаратор (неактивный)
   LEGACY_REDSTONE_COMPARATOR_ON: Компаратор (активный)
+  LEGACY_WOODEN_DOOR_BLOCK: Wooden Door Block
+  LEGACY_SPRUCE_DOOR: Spruce Door Block
+  LEGACY_BIRCH_DOOR: Birch Door Block
+  LEGACY_JUNGLE_DOOR: Jungle Door Block
+  LEGACY_ACACIA_DOOR: Acacia Door Block
+  LEGACY_DARK_OAK_DOOR: Dark Oak Door Block
+  LEGACY_GLOWING_REDSTONE_ORE: Светящаяся красная руда
+  LEGACY_BREWING_STAND: Варочная стойка
+  LEGACY_WHEAT: Wheat Block
 EntityList:
   4-ELDER_GUARDIAN: Древний страж
   5-WITHER_SKELETON: Визер скелет
@@ -1017,7 +1336,7 @@ EntityList:
   54-ZOMBIE: Зомби
   55-SLIME: Слизень
   56-GHAST: Гаст
-  57-PIG_ZOMBIE: Зомби-свиночеловек
+  925-ZOMBIFIED_PIGLIN: Zombified Piglin
   58-ENDERMAN: Странник Края
   59-CAVE_SPIDER: Пещерный паук
   60-SILVERFISH: Чешуйница
@@ -1030,7 +1349,6 @@ EntityList:
   67-ENDERMITE: Чешуйница Края
   68-GUARDIAN: Страж
   69-SHULKER: Шалкер
-  75-CAT: Cat
   90-PIG: Свинья
   91-SHEEP: Овца
   92-COW: Корова
@@ -1043,15 +1361,10 @@ EntityList:
   99-IRON_GOLEM: Железный голем
   100-HORSE: Лошадь
   101-RABBIT: Кролик
-  59-RAVAGER: Ravager
   102-POLAR_BEAR: Белый медведь
   103-LLAMA: Лама
   105-PARROT: Попугай
-  113-PANDA: Панда
-  114-PILLAGER: Налётчик
   120-VILLAGER: Деревенский житель
-  121-FOX: Лиса
-  604-WANDERING_TRADER: Wandering Trader
   901-TURTLE: Черепаха
   902-PHANTOM: Фантом
   904-COD: Cod
@@ -1060,13 +1373,32 @@ EntityList:
   907-TROPICAL_FISH: Tropical Fish
   908-DROWNED: Утопленник
   909-DOLPHIN: Дельчин
-  914-PLAYER: Игрок
-  918-TRADER_LLAMA: Лама торговца
+  923-CAT: Cat
+  917-PANDA: Panda
+  918-PILLAGER: Pillager
+  919-RAVAGER: Ravager
+  920-TRADER_LLAMA: Trader Llama
+  921-WANDERING_TRADER: Wandering Trader
+  922-FOX: Fox
   924-BEE: Bee
+  926-HOGLIN: Hoglin
+  927-PIGLIN: Piglin
+  928-STRIDER: Strider
+  929-ZOGLIN: Zoglin
+  930-PIGLIN_BRUTE: Piglin Brute
+  931-AXOLOTL: Axolotl
+  932-GLOW_SQUID: Glowing Squid
+  933-GOAT: Goat
+  934-ALLAY: Allay
+  936-FROG: Frog
+  937-TADPOLE: Tadpole
+  938-WARDEN: Warden
+  914-PLAYER: Игрок
 EnchantList:
   Fire protection: Огнеупорность
   Sharpness: Острота
   Flame: Горящая стрела
+  Soul speed: Soul speed
   Aqua affinity: Родство с водой
   Punch: Отбрасывание
   Loyalty: Верность
@@ -1118,3 +1450,6 @@ ColorList:
   13-green: '&2Зелёный'
   14-red: '&cКрасный'
   15-black: '&0Черный'
+MythicEntityList:
+  AngrySludge: Angry Sludge
+  SkeletalKnight: Skeletal Knight

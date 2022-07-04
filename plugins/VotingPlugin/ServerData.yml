@@ -1,11 +1,11 @@
 VotingPlugin:
-  Version: '3544-Spigot-475f600-991aeda (MC: 1.19)'
+  Version: 'git-Paper-45 (MC: 1.19)'
 PluginVersions:
   VotingPlugin: 6.9.2
-PrevDay: 3
+PrevDay: 4
 PrevWeek: 28
 Month: JULY
-LastUpdated: 1656820572896
+LastUpdated: 1656901791321
 IntColumns:
 - VotePartyVotes
 - MilestoneCount

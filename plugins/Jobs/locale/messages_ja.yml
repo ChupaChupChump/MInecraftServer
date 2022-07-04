@@ -6,7 +6,6 @@ limitedItem:
   error:
     levelup: '&cこのアイテムを使うには [jobname] のレベルが足りません'
 general:
-  Spawner: '&r[type] スポナー'
   info:
     toplineseparator: '&7*********************** &6%playername% &7***********************'
     separator: '&7*******************************************************'
@@ -18,13 +17,18 @@ general:
     invalidPage: '&cInvalid page'
     'true': '&2True'
     'false': '&cFalse'
+    blocks:
+      furnace: Furnace
+      smoker: Smoker
+      blastfurnace: Blast furnace
+      brewingstand: Brewing stand
   admin:
     error: '&cコマンドでエラーが発生しました'
     success: '&eコマンドを実行しました'
   error:
     noHelpPage: '&cこの番号のヘルプページはありません。'
     notNumber: '&e数値ではありません'
-    job: '&c存在しないジョブです'
+    job: '&cThe job you selected does not exist or you not joined to this'
     noCommand: '&c存在しないコマンドです'
     permission: '&c権限を持っていないため実行できません'
     noinfo: '&c情報はありません'
@@ -32,10 +36,8 @@ general:
     ingame: '&cこのコマンドはゲーム中のみ利用できます'
     fromconsole: '&cコンソールで実行する必要があります'
     worldisdisabled: '&cこのワールドではこのコマンドを実行できません'
-    newFurnaceRegistration: '&eRegistered new ownership for furnace &7[current]&e/&f[max]'
-    newBrewingRegistration: '&eRegistered new ownership for brewing stand &7[current]&e/&f[max]'
-    noFurnaceRegistration: '&cYou''ve reached max furnace count!'
-    noBrewingRegistration: '&cYou''ve reached max brewing stand count!'
+    newRegistration: '&eRegistered new ownership for [block] &7[current]&e/&f[max]'
+    noRegistration: '&cYou''ve reached max [block] count!'
 command:
   help:
     output:
@@ -53,10 +55,13 @@ command:
       nextPage: '&6 Next &2>>----'
       nextPageOff: '&7 Next >>----'
       pageCount: '&2[current]/[total]'
+      pageCountHover: '&e[totalEntries] entries'
+      prevPageGui: '&6Previous page '
+      nextPageGui: '&6Next Page'
   moneyboost:
     help:
       info: '[職業名]の収入(お金)を[倍率]倍にします'
-      args: '[jobname] [rate]'
+      args: '[jobname]/all/reset [time]/[rate]'
     output:
       allreset: 上げた収入(お金)をリセットしました
       jobsboostreset: '&a%jobname% の収入(お金)をリセットしました'
@@ -67,7 +72,7 @@ command:
   pointboost:
     help:
       info: '[職業名]の獲得ポイントを[倍率]倍にします'
-      args: '[jobname] [rate]'
+      args: '[jobname]/all/reset [time]/[rate]'
     output:
       allreset: 上げた獲得ポイントをリセットしました
       jobsboostreset: '&a%jobname% のポイント獲得をリセットしました'
@@ -78,7 +83,7 @@ command:
   expboost:
     help:
       info: '[職業名]の獲得経験値を[倍率]倍にします'
-      args: '[jobname] [rate]'
+      args: '[jobname]/all/reset [time]/[rate]'
     output:
       allreset: 上げた獲得経験値をリセットしました
       jobsboostreset: '&a%jobname% の獲得経験値をリセットしました'
@@ -86,12 +91,21 @@ command:
       boostalladded: 全ての職業に対する獲得経験値を &e%boost% 倍に設定しました
       boostadded: '&e%jobname% の獲得経験値が &e%boost% 倍に設定しました  '
       infostats: '&c-----> &a獲得経験値が %boost% 倍に設定されました&c <-------'
+  schedule:
+    help:
+      info: Enables the given scheduler
+      args: enable [scheduleName] [untilTime]
+    output:
+      noScheduleFound: '&cSchedule with this name not found.'
+      alreadyEnabled: '&cThis schedule already enabled.'
+      enabled: '&eSchedule have been enabled from&a %from%&e until&a %until%'
   itembonus:
     help:
       info: Check item bonus
       args: ''
     output:
       list: '&e[jobname]: %money% %points% %exp%'
+      notAplyingList: '&7[jobname]: %money% %points% %exp%'
       hover: '&7%itemtype%'
       hoverLevelLimits: "&7From level: %from% \n&7Until level: %until%"
   edititembonus:
@@ -103,16 +117,16 @@ command:
       info: ボーナスを表示します
       args: '[jobname]'
     output:
-      topline: '&7**************** &2[収入(お金)] &6[獲得ポイント] &e[獲得経験値] &7****************'
-      permission: '&e権限ボーナス: %money% %points% %exp%'
-      item: '&eアイテムボーナス: %money% %points% %exp%'
-      global: '&eグローバルボーナス: %money% %points% %exp%'
-      dynamic: '&eダイナミックボーナス: %money% %points% %exp%'
-      nearspawner: '&eスポナーボーナス: %money% %points% %exp%'
-      petpay: '&eペットペイボーナス: %money% %points% %exp%'
-      area: '&eエリアボーナス: %money% %points% %exp%'
-      mcmmo: '&eMcMMO ボーナス: %money% %points% %exp%'
-      final: '&e最終ボーナス: %money% %points% %exp%'
+      topline: '&7**************** &2[money] &6[points] &e[exp] &7****************'
+      permission: ' &ePerm bonus: &2%money% &6%points% &e%exp%'
+      item: ' &eItem bonus: &2%money% &6%points% &e%exp%'
+      global: ' &eGlobal bonus: &2%money% &6%points% &e%exp%'
+      dynamic: ' &eDynamic bonus: &2%money% &6%points% &e%exp%'
+      nearspawner: ' &eSpawner bonus: &2%money% &6%points% &e%exp%'
+      petpay: ' &ePetPay bonus: &2%money% &6%points% &e%exp%'
+      area: ' &eArea bonus: &2%money% &6%points% &e%exp%'
+      mcmmo: ' &eMcMMO bonus: &2%money% &6%points% &e%exp%'
+      final: ' &eFinal bonus: &2%money% &6%points% &e%exp%'
       finalExplanation: '&eペットボーナスとスポナーボーナスは含まれていません'
   convert:
     help:
@@ -137,6 +151,14 @@ command:
       reachedpointslimit: '&4ポイント獲得上限に達しました'
       reachedpointslimit2: '&2/jobs limit &eコマンドで上限を確認できます'
       notenabled: '&e上限は有効化されていません'
+  resetexploreregion:
+    help:
+      info: '指定したワールドの探索情報をリセットします'
+      args: 'world [worldname]'
+    output:
+      notenabled: '機能が無効化されています'
+      invalidname: 'ワールド名が不正です'
+      reseted: '&2%worldname% &eの探索情報をリセットしました'
   resetlimit:
     help:
       info: '[player]の上限をリセットします'
@@ -199,13 +221,13 @@ command:
         objectiveRemove: '&c[X]'
         objectiveAdd: '      -> &e[&2+&e]'
       modify:
-        newValue: '&eEnter new value'
-        enter: '&eEnter new name or press '
-        hand: '&6HAND '
-        handHover: '&6Press to grab info from item in your hand'
-        or: '&eor '
-        look: '&6LOOKING AT'
-        lookHover: '&6Press to grab info from block you are looking'
+        newValue: '&e新しい値をチャット欄に入力'
+        enter: '&e追加するブロック・エンティティの名前 '
+        hand: '&6手に持っている '
+        handHover: '&6手に持っているアイテムを指定します'
+        or: '&eまたは '
+        look: '&6見ている'
+        lookHover: '&6見ているブロック・エンティティを指定します'
   blockinfo:
     help:
       info: 今見ているブロックの情報を表示します
@@ -242,7 +264,11 @@ command:
       args: '[playername]'
     error:
       nojob: 少なくとも１つは職業についている必要があります
-    output: '%jobname% レベル%joblevel% : 経験値 %jobxp%/%jobmaxxp%'
+    output:
+      message: 'Level %joblevel% for %jobname%: %jobxp%/%jobmaxxp% xp'
+      max-level: '     &cMax level   -   %jobname%'
+    bossBarOutput: 'Lvl %joblevel% %jobname%: %jobxp%/%jobmaxxp% xp%gain%'
+    bossBarGain: ' &7(&f%gain%&7)'
   shop:
     help:
       info: Jobsショップを開きます
@@ -254,6 +280,9 @@ command:
       reqJobs: '&e必要な職業:'
       reqJobsList: ' &6%jobsname%&e: &e%level% lvl'
       reqTotalLevel: '&6必要な合計レベル: &e%totalLevel%'
+      reqJobsColor: '&c'
+      reqJobsLevelColor: '&4'
+      reqTotalLevelColor: '&4'
       cantOpen: '&cこのページを開くことはできません'
       NoPermForItem: '&cあなたはこのアイテムに必要な権限を持っていません'
       NoPermToBuy: '&c権限がないため購入できません'
@@ -272,7 +301,7 @@ command:
       info: '[player]はオプションです'
       args: '[playername] [jobname] [items/limiteditems] [jobitemname]'
     output:
-      notonline: '&4[%playername%] さんはオフラインです'
+      notonline: '&4Player with that name is not online!'
       noitem: '&4指定された名前は見つけられませんでした'
   info:
     help:
@@ -296,11 +325,14 @@ command:
       jobinfo: '&e[職業名] info!'
       actions: '&e有効な行動:'
       leftClick: '&eクリックで詳しい情報'
+      middleClick: '&eMiddle Click to leave this job'
       rightClick: '&e右クリックで職業に就きます'
       leftSlots: '&e左のスロット:&f '
       working: '&2&nすでに選択している職業です'
+      cantJoin: '&cYou can''t join to the selected job.'
       max: '&e最大レベル:&f '
       back: '&e<<< 戻る'
+      next: '&eNext >>>'
     output:
       break:
         info: '破壊'
@@ -392,19 +424,20 @@ command:
       info: '[職業名]を離職します'
       args: '[oldplayerjob]'
     success: '%jobname% を離職しました'
-    confirmationNeed: '&cAre you sure you want to leave from&e [jobname]&c job? Type the command again within&6 [time] seconds &cto confirm!'
+    confirmationNeed: '&c本当に &e[jobname] &cから離職しますか？ 離職する場合は &6[time]&c 秒以内に再度コマンドを実行してください'
   leaveall:
     help:
       info: 就いている全ての職業を離職します
     error:
       nojobs: 離職できる職業はありません
     success: 就いている全ての職業を離職しました
-    confirmationNeed: '&cAre you sure you want to leave from all jobs? Type the command again within&6 [time] seconds &cto confirm!'
+    confirmationNeed: '&c本当に &e全てのジョブ&c から離職しますか？ 離職する場合は &6[time]&c 秒以内に再度コマンドを実行してください'
   explored:
     help:
       info: このチャンクに来たことのある人を確認できます
     error:
       noexplore: 誰もこのチャンクを訪れたことがありません
+    fullExplore: '&aThis chunk is fully explored'
     list: '&e%place%. %playername%'
   browse:
     help:
@@ -438,7 +471,13 @@ command:
       info: Clear block ownership
       args: '[playername]'
     output:
-      cleared: '&2Removed &7[furnaces] &2furnaces and &7[brewing] &2brewing stands'
+      cleared: '&2Removed &7[furnaces] &2furnaces, &7[brewing] &2brewing stands, &7[smoker]&2 smokers and &7[blast]&2 blast furnaces.'
+  skipquest:
+    help:
+      info: Skip defined quest and get new one
+      args: '[jobname] [questname] (playerName)'
+    output:
+      questSkipForCost: '&2You skipped the quest and paid:&e %amount%$'
   quests:
     help:
       info: List available quests
@@ -446,9 +485,15 @@ command:
     error:
       noquests: '&cThere are no quests'
     toplineseparator: '&7*********************** &6[playerName] &2(&f[questsDone]&2) &7***********************'
+    status:
+      changed: '&2The quests status has been changed to&r %status%'
+      started: '&aStarted'
+      stopped: '&cStopped'
     output:
       completed: '&2      !Completed!&r      '
       questLine: '[progress] &7[questName] &f[done]&7/&8[required]'
+      skip: '&7Click to skip this quest'
+      skips: '&7Left skips: &f[skips]'
       hover: "&f[jobName] \n[desc] \n&7New quest in: [time]"
   fire:
     help:
@@ -461,7 +506,7 @@ command:
   fireall:
     help:
       info: '[player]に就いてる職業全てを強制的に離職させます'
-      args: '[playername]'
+      args: '[playername]/all'
     error:
       nojobs: プレイヤーが職業についていないため離職させられませんでした
     output:
@@ -478,7 +523,7 @@ command:
   top:
     help:
       info: Shows top players by jobs name.
-      args: '[jobname]'
+      args: '[jobname]/clear pageNumber'
     error:
       nojob: 存在しない職業名です
     output:
@@ -489,8 +534,8 @@ command:
       show: '&e[from] &2 から &e[until] &2までのリストを表示します'
   gtop:
     help:
-      info: 合計レベルの上位%amount%名を表示します
-      args: ''
+      info: Shows top players by global jobs level.
+      args: clear/pageNumber
     error:
       nojob: 情報がありません
     output:
@@ -529,6 +574,7 @@ command:
       money: '&6収入(お金): %amount% '
       exp: '&e獲得経験値: %amount% '
       points: '&6ポイント: %amount%'
+      totalIncomes: '    &6Total money:&2 %money%&6, Total exp:&2 %exp%&6, Total points:&2 %points%'
       bottomline: '&7***********************************************************'
       prev: '&e<<<<< 前のぺージ &2|'
       next: '&2|&e 次のページ >>>>'
@@ -543,6 +589,7 @@ command:
       money: '&6収入(お金): %amount% '
       exp: '&e獲得経験値: %amount% '
       points: '&6ポイント: %amount%'
+      totalIncomes: '    &6Total money:&2 %money%&6, Total exp:&2 %exp%&6, Total points:&2 %points%'
       bottomline: '&7**************************************************************'
       nodata: '&cデータがありません'
   transfer:
@@ -629,7 +676,6 @@ message:
     message: '&cYou lost level&e %lostLevel%&c in&e %jobname%&c job! Level:&6 %joblevel%&c.'
   cowtimer: '&eYou still need to wait &6%time% &esec to get paid for this job.'
   blocktimer: '&eこのジョブの報酬を受け取るには: &3[time] &esec 待つ必要があります'
-  placeblocktimer: '&eあなたがこの場所で報酬を得るには&6[time] &e秒待つ必要があります'
   taxes: '&e税金を&3[amount]&eに納めました'
   boostStarted: '&eJobsのスペシャル報酬時間が始まりました'
   boostStoped: '&eJobsのスペシャル報酬時間が終わりました'
