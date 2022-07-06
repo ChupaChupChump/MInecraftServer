@@ -3,3 +3,5 @@ world_nether/
 world_the_end/
 cache/
 logs/
+*.zip
+dumps/heap-dump-2022-07-06_20.02.13.hprof
