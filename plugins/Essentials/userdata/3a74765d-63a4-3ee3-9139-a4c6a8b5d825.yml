@@ -1,6 +1,6 @@
 npc: true
-money: '4990.0'
 last-account-name: town_snowymoutainglade
+money: '990.0'
 teleportenabled: true
 teleportauto: false
 godmode: false

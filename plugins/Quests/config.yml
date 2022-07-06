@@ -1,3 +1,6 @@
+accept-timeout: 20
+allow-command-questing: true
+allow-command-quests-with-npcs: false
 allow-pranks: true
 clickable-prompts: true
 condition-interval: 10
@@ -5,8 +8,19 @@ confirm-abandon: true
 confirm-accept: true
 console-logging: 2
 disable-command-feedback: false
+generate-files-on-join: true
 give-journal-item: false
+ignore-locked-quests: false
+kill-delay: 600
+language: en-US
 language-override-client: false
+max-quests: 0
+npc-effects:
+  enabled: true
+  new-quest: note
+  redo-quest: heart
+show-requirements: true
+show-titles: true
 storage-data:
   address: localhost:3306
   database: minecraft
@@ -27,24 +41,6 @@ storage-method:
 strict-player-movement: 0
 top-limit: 150
 trial-save: false
-update-check: true
-# See https://github.com/FlyingPikachu/Quests/wiki/2-%E2%80%90-Configuration
-accept-timeout: 20
-allow-command-questing: true
-allow-command-quests-with-npcs: false
-allow-quitting: true
-ask-confirmation: true
-generate-files-on-join: true
-ignore-locked-quests: false
-kill-delay: 600
-language: en-US
-max-quests: 0
-show-requirements: true
-show-titles: true
 translate-names: true
 translate-subcommands: false
-use-compass: true
-npc-effects:
-  enabled: true
-  new-quest: note
-  redo-quest: angry_villager
+update-check: true

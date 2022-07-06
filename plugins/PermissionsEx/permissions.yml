@@ -91,7 +91,7 @@ groups:
   mod:
     options:
       default: false
-      rank: '2'
+      rank: '3'
       prefix: '&f[&2Mod&f]'
     permissions:
     - -worldedit.limit.unrestricted
@@ -136,13 +136,6 @@ users:
       group: Developer
       last-login-time: '1576227615'
       last-logout-time: '1576227862'
-  ccb5f7b2-dd1d-4555-9fd9-27941b946086:
-    group:
-    - admin
-    options:
-      name: Ailourae
-      last-login-time: '1576553142'
-      last-logout-time: '1576554211'
   84c9b050-9377-4c5b-8608-cceb2038c2cd:
     group:
     - Citizen
@@ -168,8 +161,9 @@ users:
     - Developer
     options:
       name: ChupaChupChump
-      last-login-time: '1656900526'
-      last-logout-time: '1656901783'
+      last-login-time: '1657088300'
+      last-logout-time: '1657088237'
+      prefix: '&f&l[&4&lAdmin&f&l]&r'
   chupachupchumper:
     group:
     - Developer

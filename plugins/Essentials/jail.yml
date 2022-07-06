@@ -1,8 +1,25 @@
-jails: 
-  center: 
+jails:
+  center:
     world: world
     x: 0.6289575211552216
     y: 3.0
     z: 0.6145144551475726
     yaw: 2.088789
     pitch: 89.7001
+    world-name: ''
+  jailmtn:
+    world: 7109f2dd-d9b2-4bc2-b5ea-c4fc90b11118
+    world-name: world
+    x: -441.06825377156116
+    y: 76.0
+    z: 834.7205256319409
+    yaw: 104.58612060546875
+    pitch: 21.899938583374023
+  bells:
+    world: 7109f2dd-d9b2-4bc2-b5ea-c4fc90b11118
+    world-name: world
+    x: 34.17807806796216
+    y: 48.0
+    z: 34.52985179582098
+    yaw: 37.654296875
+    pitch: 9.899986267089844
