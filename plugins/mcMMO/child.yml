@@ -1,6 +1,6 @@
 #
 #  mcMMO child skill configuration
-#  Last updated on 1.6.2-SNAPSHOT-b72
+#  Last updated on 1.6.5-b${BUILD_NUMBER}
 #
 #  You do not need to modify this file except to change parents of child skills
 #

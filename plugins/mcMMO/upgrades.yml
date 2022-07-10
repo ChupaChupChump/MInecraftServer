@@ -7,5 +7,5 @@ Upgrades_Finished:
   DROP_SQL_PARTY_NAMES: true
   DROP_SPOUT: true
   ADD_ALCHEMY: true
-  ADD_UUIDS: true
   ADD_UUIDS_PARTY: true
+  ADD_UUIDS: true

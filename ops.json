@@ -1,14 +1,1 @@
-[
-  {
-    "uuid": "5b81b3e9-1586-4c7b-b6b6-4343ff4a8646",
-    "name": "Biataria",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "c32ec490-fc75-41f7-8cb6-9909a9a09a26",
-    "name": "ChupaChupChump",
-    "level": 4,
-    "bypassesPlayerLimit": true
-  }
-]
+[]

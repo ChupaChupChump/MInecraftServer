@@ -11,38 +11,55 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1657089512818
+  lastteleport: 1657419144061
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1657091239643
-  login: 1657088300350
-money: '2311.3534999999999916'
-last-account-name: ChupaChupChump
+  logout: 1657459227522
+  login: 1657458590071
+  kits:
+    tools: 1657416115769
+money: '256.93169999999997075'
 lastlocation:
   world: 7109f2dd-d9b2-4bc2-b5ea-c4fc90b11118
   world-name: world
-  x: 204.87985522130955
-  y: 16.545814842916798
-  z: -216.88275017346928
-  yaw: -23.125244140625
-  pitch: -42.60005569458008
+  x: -25.670810209312886
+  y: 63.0
+  z: 26.39497897403966
+  yaw: -165.300048828125
+  pitch: 15.44997501373291
+homes:
+  snow:
+    world: 7109f2dd-d9b2-4bc2-b5ea-c4fc90b11118
+    world-name: world
+    x: -3870.699999988079
+    y: 162.0
+    z: -7920.658529147281
+    yaw: 89.69921875
+    pitch: 44.40007781982422
+  ancientcity:
+    world: 7109f2dd-d9b2-4bc2-b5ea-c4fc90b11118
+    world-name: world
+    x: -3805.3617550525446
+    y: -30.268919024178476
+    z: -7881.964351906369
+    yaw: 159.9080810546875
+    pitch: 83.70001983642578
+  vill:
+    world: 7109f2dd-d9b2-4bc2-b5ea-c4fc90b11118
+    world-name: world
+    x: -5895.738441764763
+    y: 73.0
+    z: -8978.23042163708
+    yaw: 86.1121826171875
+    pitch: 33.000205993652344
 logoutlocation:
   world: 7109f2dd-d9b2-4bc2-b5ea-c4fc90b11118
   world-name: world
-  x: 22.752308061000754
-  y: 77.77094033452329
-  z: 19.94981915702488
-  yaw: 175.363037109375
-  pitch: 42.149993896484375
-nickname: §cChupaChupChump
-homes:
-  otherspawn:
-    world: 7109f2dd-d9b2-4bc2-b5ea-c4fc90b11118
-    world-name: world
-    x: 9898.456270095428
-    y: 167.0
-    z: 9887.384967544605
-    yaw: 3.442293405532837
-    pitch: 22.500001907348633
+  x: -5982.218595913981
+  y: 65.0
+  z: -8935.434093344556
+  yaw: -52.94677734375
+  pitch: 40.95004653930664
+last-account-name: ChupaChupChump

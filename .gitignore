@@ -5,3 +5,5 @@ cache/
 logs/
 *.zip
 dumps/heap-dump-2022-07-06_20.02.13.hprof
+.console_history
+.console_history

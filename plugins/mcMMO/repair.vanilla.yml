@@ -1,6 +1,6 @@
 #
 #  Repair configuration
-#  Last updated on 1.6.2-SNAPSHOT-b72
+#  Last updated on 1.6.5-b${BUILD_NUMBER}
 #
 # Any file named repair.*.yml in the mcmmmo folder will be loaded as a repair config
 # All repair configs have a main section titled "Repairables"
@@ -183,6 +183,38 @@ Repairables:
         MinimumLevel: 50
         XpMultiplier: 6
     #
+    # Netherite repairables
+    ###
+    # Tools
+    NETHERITE_SWORD:
+        MinimumLevel: 0
+        XpMultiplier: .6
+    NETHERITE_SHOVEL:
+        MinimumLevel: 0
+        XpMultiplier: .4
+    NETHERITE_PICKAXE:
+        MinimumLevel: 0
+        XpMultiplier: 1.1
+    NETHERITE_AXE:
+        MinimumLevel: 0
+        XpMultiplier: 1.1
+    NETHERITE_HOE:
+        MinimumLevel: 0
+        XpMultiplier: .75
+    # Armor
+    NETHERITE_HELMET:
+        MinimumLevel: 0
+        XpMultiplier: 7
+    NETHERITE_CHESTPLATE:
+        MinimumLevel: 0
+        XpMultiplier: 7
+    NETHERITE_LEGGINGS:
+        MinimumLevel: 0
+        XpMultiplier: 7
+    NETHERITE_BOOTS:
+        MinimumLevel: 0
+        XpMultiplier: 7
+    #
     # Leather repairables
     ###
     # Armor
@@ -206,6 +238,9 @@ Repairables:
         MinimumLevel: 0
         XpMultiplier: .5
     BOW:
+        MinimumLevel: 0
+        XpMultiplier: .5
+    CROSSBOW:
         MinimumLevel: 0
         XpMultiplier: .5
     CARROT_ON_A_STICK:
