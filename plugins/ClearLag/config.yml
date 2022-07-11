@@ -40,7 +40,7 @@ global-broadcasts:
 # -- 'follow-stack' Should Clearlag keep printing the stacktrace every time it changes (Can be very spammy)?
 # Help-> https://dev.bukkit.org/projects/clearlagg/pages/finding-the-cause-of-lag-spikes
 lag-spike-helper:
-  enabled: false
+  enabled: true
   min-elapsed-time: 500
   check-interval: 100
   follow-stack: true
@@ -49,7 +49,7 @@ lag-spike-helper:
 # -- 'transfer-limit' How many transfers per check interval until the hopper should be disabled
 # -- 'check-interval' In seconds, on what interval should the transfer limit be reset
 hopper-limiter:
-  enabled: false
+  enabled: true
   transfer-limit: 5
   check-interval: 1
 
@@ -140,8 +140,8 @@ mob-breeding-limiter:
 #Should clearlag purge logs under /logs when the server starts?
 # -- 'days-old' means how many days old can the log be to be deleted
 log-purger:
-  enabled: false
-  days-old: 3
+  enabled: true
+  days-old: 7
 
 #What type of entities SHOULD NOT be removed while doing /lagg area?
 area-filter:
@@ -162,7 +162,7 @@ config-updater:
 # -- 'check-radius' is the radius clearlag will check for nearby entities
 # -- 'max-mobs' is how many entities may be in the radius before the spawning is blocked
 mobegg-limiter:
-  enabled: false
+  enabled: true
   check-radius: 8
   max-mobs: 5
 
@@ -179,7 +179,7 @@ chunk-limiter:
 # -- Lower it is, the better your entity tick will be and the more CPU cycles you'll save
 # -- If it's too high, expect bugs / lots of lag
 mob-range:
-  enabled: false
+  enabled: true
   zombie: 30
   skeleton: 30
   creeper: 20
@@ -199,28 +199,28 @@ live-time:
 #This option disallows the placement of too many tnt-minecarts
 # -- 'radius' is the radius clearlag will check for TNT-Minecarts
 tnt-minecart:
-  enabled: false
+  enabled: true
   max: 2
   radius: 6
 
 #This option reduces global dispenser fire rate
 # -- 'time' is in milliseconds
 dispenser-reducer:
-  enabled: false
+  enabled: true
   time: 100
 
 #This option reduces the explosions of mass amounts of tnt, and reduces tnt lag
 # -- 'check-radius' is the radius clearlag will check for primed TNT
 # -- 'max-primed' is the max primed TNT within the radius allowed before clearlag begins to remove
 tnt-reducer:
-  enabled: false
+  enabled: true
   check-radius: 5
   max-primed: 3
 
 #This option reduces fire spread rate
 # -- 'time' is in milliseconds
 firespread-reducer:
-  enabled: false
+  enabled: true
   time: 2000
 
 #How many entities should one chunk be allowed to hold?
@@ -294,7 +294,7 @@ spawn-limiter:
 # -- 'recover-broadcast-message' specifies which message should be broadcasted when TPS recovers
 # -- 'broadcast-enabled' defines whether or not tps-meter should broadcast
 tps-meter:
-  enabled: false
+  enabled: true
   trigger-broadcast-message: '&6[ClearLag] &cThe server is overloaded, executing lag-perventing measures'
   recover-broadcast-message: '&6[ClearLag] &aThe server is no longer overloaded!'
   broadcast-enabled: false
@@ -354,7 +354,7 @@ item-merger:
 # -- 'item-filter' What ground-items should NOT be removed during removal
 # -- 'remove-entities' What entities SHOULD be removed during removal
 auto-removal:
-  enabled: true
+  enabled: false
   broadcast-message: '&6[ClearLag] &aRemoved +RemoveAmount Entities!'
   broadcast-removal: true
   autoremoval-interval: 460
