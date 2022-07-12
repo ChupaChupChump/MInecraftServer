@@ -22,3 +22,6 @@ If uploading large file please use git-lfs https://git-lfs.github.com/
   
   If any issues occur, make a copy of your local repository and run git pull
 
+
+[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
+
