@@ -1,6 +1,6 @@
 npc: true
 last-account-name: nation_ailourae
-money: '800.0'
+money: '700.0'
 teleportenabled: true
 teleportauto: false
 godmode: false
