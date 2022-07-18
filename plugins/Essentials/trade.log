@@ -96,3 +96,8 @@ Sign,Buy,Interact,"Monday, July 11, 2022 at 5:30:34 PM Australian Eastern Standa
 Command,Sell,Item,"Monday, July 11, 2022 at 5:36:58 PM Australian Eastern Standard Time","ChupaChupChump",65,DIAMOND,,"ChupaChupChump",13000.0,money,$,"world",-20,64,-29,-451.43200000000003735,
 Command,Sell,Item,"Monday, July 11, 2022 at 5:39:20 PM Australian Eastern Standard Time","ChupaChupChump",64,DIAMOND,,"ChupaChupChump",12800.0,money,$,"world",-20,64,-29,12548.56799999999996265,
 Command,Sell,Item,"Monday, July 11, 2022 at 5:41:01 PM Australian Eastern Standard Time","ChupaChupChump",17,REDSTONE,,"ChupaChupChump",544.0,money,$,"world",-20,63,-28,25350.09349999999996265,
+Command,Pay,Player,"Tuesday, July 12, 2022 at 12:27:23 PM Australian Eastern Standard Time","ChupaChupChump",1,money,$,"ChupaChupChump",1,money,$,"world",-5974,63,-8932,26024.86619999999995516,
+Command,Pay,Player,"Tuesday, July 12, 2022 at 12:27:23 PM Australian Eastern Standard Time","ChupaChupChump",1,money,$,"towny_server",1,money,$,"world",-5974,63,-8932,26023.86619999999995516,
+Command,Pay,Player,"Tuesday, July 12, 2022 at 12:27:23 PM Australian Eastern Standard Time","ChupaChupChump",1,money,$,"nation_ailourae",1,money,$,"world",-5974,63,-8932,26022.86619999999995516,
+Command,Pay,Player,"Tuesday, July 12, 2022 at 12:27:23 PM Australian Eastern Standard Time","ChupaChupChump",1,money,$,"town_snowymoutainglade",1,money,$,"world",-5974,63,-8932,26021.86619999999995516,
+Command,Sell,Item,"Tuesday, July 12, 2022 at 12:43:36 PM Australian Eastern Standard Time","ChupaChupChump",63,OAK_SIGN,,"ChupaChupChump",378.0,money,$,"world",-27,64,-35,26218.98294999999994216,

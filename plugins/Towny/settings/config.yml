@@ -59,6 +59,7 @@ levels:
   # Guide On How to Configure: https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#configuring-town_level-and-nation_level
   town_level:
   - numResidents: 0
+    debtCapModifier: 1.0
     namePostfix: ' Ruins'
     mayorPrefix: 'Spirit '
     townBlockBuyBonusLimit: 0
@@ -67,8 +68,8 @@ levels:
     townBlockLimit: 1
     upkeepModifier: 1.0
     townOutpostLimit: 0
-    debtCapModifier: '1.0'
   - numResidents: 1
+    debtCapModifier: 1.0
     namePostfix: ' (Settlement)'
     mayorPrefix: 'Hermit '
     townBlockBuyBonusLimit: 0
@@ -77,8 +78,8 @@ levels:
     townBlockLimit: 16
     upkeepModifier: 1.0
     townOutpostLimit: 0
-    debtCapModifier: '1.0'
   - numResidents: 2
+    debtCapModifier: 1.0
     namePostfix: ' (Hamlet)'
     mayorPrefix: 'Chief '
     townBlockBuyBonusLimit: 0
@@ -87,8 +88,8 @@ levels:
     townBlockLimit: 32
     upkeepModifier: 1.0
     townOutpostLimit: 1
-    debtCapModifier: '1.0'
   - numResidents: 6
+    debtCapModifier: 1.0
     namePostfix: ' (Village)'
     mayorPrefix: 'Baron Von '
     townBlockBuyBonusLimit: 0
@@ -97,8 +98,8 @@ levels:
     townBlockLimit: 96
     upkeepModifier: 1.0
     townOutpostLimit: 1
-    debtCapModifier: '1.0'
   - numResidents: 10
+    debtCapModifier: 1.0
     namePostfix: ' (Town)'
     mayorPrefix: 'Viscount '
     townBlockBuyBonusLimit: 0
@@ -107,8 +108,8 @@ levels:
     townBlockLimit: 160
     upkeepModifier: 1.0
     townOutpostLimit: 2
-    debtCapModifier: '1.0'
   - numResidents: 14
+    debtCapModifier: 1.0
     namePostfix: ' (Large Town)'
     mayorPrefix: 'Count Von '
     townBlockBuyBonusLimit: 0
@@ -117,8 +118,8 @@ levels:
     townBlockLimit: 224
     upkeepModifier: 1.0
     townOutpostLimit: 2
-    debtCapModifier: '1.0'
   - numResidents: 20
+    debtCapModifier: 1.0
     namePostfix: ' (City)'
     mayorPrefix: 'Earl '
     townBlockBuyBonusLimit: 0
@@ -127,8 +128,8 @@ levels:
     townBlockLimit: 320
     upkeepModifier: 1.0
     townOutpostLimit: 3
-    debtCapModifier: '1.0'
   - numResidents: 24
+    debtCapModifier: 1.0
     namePostfix: ' (Large City)'
     mayorPrefix: 'Duke '
     townBlockBuyBonusLimit: 0
@@ -137,8 +138,8 @@ levels:
     townBlockLimit: 384
     upkeepModifier: 1.0
     townOutpostLimit: 3
-    debtCapModifier: '1.0'
   - numResidents: 28
+    debtCapModifier: 1.0
     namePostfix: ' (Metropolis)'
     mayorPrefix: 'Lord '
     townBlockBuyBonusLimit: 0
@@ -147,7 +148,6 @@ levels:
     townBlockLimit: 448
     upkeepModifier: 1.0
     townOutpostLimit: 4
-    debtCapModifier: '1.0'
   
   # Guide On How to Configure: https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#configuring-town_level-and-nation_level
   nation_level:
@@ -268,7 +268,7 @@ town:
     does_non-payment_place_plot_for_sale: 'false'
   
     # Default status of new town's taxpercentage. True means that the default_tax is treated as a percentage instead of a fixed amount.
-    taxpercentage: 'false'
+    taxpercentage: 'true'
   
     # A required minimum tax amount for the default_tax, will not change any towns which already have a tax set.
     # Do not forget to set the default_tax to more than 0 or new towns will still begin with a tax of zero.
@@ -352,6 +352,27 @@ town:
   
 ############################################################
 # +------------------------------------------------------+ #
+# |               New Nation Defaults                    | #
+# +------------------------------------------------------+ #
+############################################################
+  
+nation:
+  
+  # If set to true, any newly made nation will have their spawn set to public.
+  default_public: 'false'
+  
+  # If set to true, any newly made nation will have open status and any town may join without an invite.
+  default_open: 'false'
+  
+  # Default nation board
+  default_board: /nation set board [msg]
+  
+  # Setting this to true will set a nation's tag automatically using the first four characters of the nation's name.
+  set_tag_automatically: 'false'
+  
+  
+############################################################
+# +------------------------------------------------------+ #
 # |             Default new world settings               | #
 # +------------------------------------------------------+ #
 #                                                          #
@@ -425,7 +446,7 @@ new_world_settings:
       enabled: 'true'
   
       # These items will be deleted upon a plot being unclaimed
-      unclaim_delete: BED_BLOCK,TORCH,REDSTONE_WIRE,ACACIA_SIGN,BIRCH_SIGN,DARK_OAK_SIGN,JUNGLE_SIGN,OAK_SIGN,SPRUCE_SIGN,WOODEN_DOOR,ACACIA_WALL_SIGN,BIRCH_WALL_SIGN,DARK_OAK_WALL_SIGN,JUNGLE_WALL_SIGN,OAK_WALL_SIGN,SPRUCE_WALL_SIGN,STONE_PLATE,IRON_DOOR_BLOCK,WOOD_PLATE,REDSTONE_TORCH_OFF,REDSTONE_TORCH_ON,DIODE_BLOCK_OFF,DIODE_BLOCK_ON,CRIMSON_SIGN,WARPED_SIGN,CRIMSON_WALL_SIGN,WARPED_WALL_SIGN,CRIMSON_DOOR,WARPED_DOOR,SOUL_TORCH,SOUL_WALL_TORCH,CRIMSON_PRESSURE_PLATE,WARPED_PRESSURE_PLATE,POLISHED_BLACKSTONE_PRESSURE_PLATE
+      unclaim_delete: BEDS,TORCHES,REDSTONE_WIRE,SIGNS,DOORS,PRESSURE_PLATES
   
     # This section is applied to new worlds as default settings when new worlds are detected.
     mayor_plotblock_delete:
@@ -433,7 +454,7 @@ new_world_settings:
   
       # These items will be deleted upon a mayor using /plot clear
       # To disable deleting replace the current entries with NONE.
-      mayor_plot_delete: ACACIA_WALL_SIGN,BIRCH_WALL_SIGN,DARK_OAK_WALL_SIGN,JUNGLE_WALL_SIGN,OAK_WALL_SIGN,SPRUCE_WALL_SIGN,ACACIA_SIGN,BIRCH_SIGN,DARK_OAK_SIGN,JUNGLE_SIGN,OAK_SIGN,SPRUCE_SIGN,CRIMSON_WALL_SIGN,CRIMSON_SIGN,WARPED_WALL_SIGN,WARPED_SIGN
+      mayor_plot_delete: SIGNS
   
     # This section is applied to new worlds as default settings when new worlds are detected.
     revert_on_unclaim:
@@ -454,7 +475,7 @@ new_world_settings:
   
       # These block types will NOT be regenerated by the revert-on-unclaim
       # or revert-explosion features.
-      block_ignore: GOLD_ORE,LAPIS_ORE,LAPIS_BLOCK,GOLD_BLOCK,IRON_ORE,IRON_BLOCK,MOSSY_COBBLESTONE,TORCH,SPAWNER,DIAMOND_ORE,DIAMOND_BLOCK,ACACIA_SIGN,BIRCH_SIGN,DARK_OAK_SIGN,JUNGLE_SIGN,OAK_SIGN,SPRUCE_SIGN,ACACIA_WALL_SIGN,BIRCH_WALL_SIGN,DARK_OAK_WALL_SIGN,JUNGLE_WALL_SIGN,OAK_WALL_SIGN,SPRUCE_WALL_SIGN,GLOWSTONE,EMERALD_ORE,EMERALD_BLOCK,NETHER_GOLD_ORE,ANCIENT_DEBRIS,SOUL_TORCH,SOUL_WALL_TORCH,CRIMSON_SIGN,CRIMSON_WALL_SIGN,WARPED_SIGN,WARPED_WALL_SIGN,LODESTONE,RESPAWN_ANCHOR,NETHER_PORTALFURNACE,BLAST_FURNACE,SMOKER,BREWING_STAND,TNT,AIR,FIRE,NETHER_QUARTZ_ORE,ANCIENT_DEBRIS,NETHERITE_BLOCK,GILDED_BLACKSTONE,DEEPSLATE_IRON_ORE,DEEPSLATE_GOLD_ORE,DEEPSLATE_COAL_ORE,DEEPSLATE_REDSTONE_ORE,DEEPSLATE_DIAMOND_ORE,DEEPSLATE_EMERALD_ORE,DEEPSLATE_LAPIS_ORE,RAW_IRON_BLOCK,RAW_GOLD_BLOCK,PLAYER_HEAD,PLAYER_WALL_HEAD,SKELETON_SKULL,SKELETON_WALL_SKULL,CREEPER_HEAD,CREEPER_WALL_HEAD,ZOMBIE_HEAD,ZOMBIE_WALL_HEAD,DRAGON_HEAD,DRAGON_WALL_HEAD
+      block_ignore: ORES,LAPIS_BLOCK,GOLD_BLOCK,IRON_BLOCK,DIAMOND_BLOCK,EMERALD_BLOCK,NETHERITE_BLOCK,MOSSY_COBBLESTONE,TORCHES,SPAWNER,SIGNS,SHULKER_BOXES,BEACON,LODESTONE,RESPAWN_ANCHOR,NETHER_PORTAL,FURNACE,BLAST_FURNACE,SMOKER,BREWING_STAND,TNT,AIR,FIRE,SKULLS
   
     # This section is applied to new worlds as default settings when new worlds are detected.
     wild_revert_on_mob_explosion:
@@ -471,7 +492,7 @@ new_world_settings:
       # wilderness by exploding blocks like beds.
       enabled: 'true'
       # The list of blocks whose explosions should be reverted.
-      blocks: BEDS,RESPAWN_ANCHOR,RESPAWN_ANCHOR
+      blocks: BEDS,RESPAWN_ANCHOR
     # The list of blocks to regenerate. (if empty all blocks will regenerate)
     wild_revert_on_explosion_block_whitelist: ''
   
@@ -950,10 +971,10 @@ filters_colour_chat:
   
   # Regex fields used in validating inputs.
   regex:
-    name_filter_regex: '[ /]'
-    name_check_regex: ^[a-zA-Z0-9._\[\]-]*$
+    name_filter_regex: '[\\\/]'
+    name_check_regex: ^[\p{L}a-zA-Z0-9._\[\]-]*$
     string_check_regex: ^[a-zA-Z0-9 \s._\[\]\#\?\!\@\$\%\^\&\*\-\,\*\(\)\{\}]*$
-    name_remove_regex: '[^a-zA-Z0-9\&._\[\]-]'
+    name_remove_regex: '[^\P{M}a-zA-Z0-9\&._\[\]-]'
   
   modify_chat:
   
@@ -1017,7 +1038,7 @@ protection:
   # A list of items, that are held in the hand, which can be protected against.
   # Group names you can use in this list: BOATS, MINECARTS
   # A full list of proper names can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html 
-  item_use_ids: BONE_MEAL,FLINT_AND_STEEL,BUCKET,WATER_BUCKET,LAVA_BUCKET,MINECART,STORAGE_MINECART,INK_SACK,SHEARS,ENDER_PEARL,GLASS_BOTTLE,FIREBALL,ARMOR_STAND,SKULL_ITEM,BIRCH_BOAT,ACACIA_BOAT,DARK_OAK_BOAT,JUNGLE_BOAT,OAK_BOAT,SPRUCE_BOAT,END_CRYSTAL,POWERED_MINECART,COMMAND_MINECART,EXPLOSIVE_MINECART,HOPPER_MINECART,CHORUS_FRUIT,BLACK_DYE,BLUE_DYE,BROWN_DYE,CYAN_DYE,GRAY_DYE,GREEN_DYE,LIGHT_BLUE_DYE,LIGHT_GRAY_DYE,LIME_DYE,MAGENTA_DYE,ORANGE_DYE,PINK_DYE,PURPLE_DYE,RED_DYE,WHITE_DYE,YELLOW_DYE,NETHERITE_AXE,EGG
+  item_use_ids: MINECARTS,BOATS,ENDER_PEARL,FIREBALL,CHORUS_FRUIT,LEAD,EGG
   
   # Blocks that are protected via town/plot flags.
   # These are blocks in the world that will be protected by a town/resident/plot's switch setting.
@@ -1028,7 +1049,7 @@ protection:
   #       to protect HORSES, DONKEYS, MULES, PIGS, STRIDERS (This is not recommended, unless you want players to not be able to
   #       re-mount their animals in towns they cannot switch in.)
   # A full list of proper names can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html 
-  switch_ids: JUKEBOX,NOTE_BLOCK,BEACON,CHEST,TRAPPED_CHEST,FURNACE,DISPENSER,HOPPER,DROPPER,LEVER,COMPARATOR,REPEATER,STONE_PRESSURE_PLATE,ACACIA_PRESSURE_PLATE,BIRCH_PRESSURE_PLATE,DARK_OAK_PRESSURE_PLATE,JUNGLE_PRESSURE_PLATE,OAK_PRESSURE_PLATE,SPRUCE_PRESSURE_PLATE,HEAVY_WEIGHTED_PRESSURE_PLATE,LIGHT_WEIGHTED_PRESSURE_PLATE,STONE_BUTTON,ACACIA_BUTTON,BIRCH_BUTTON,DARK_OAK_BUTTON,JUNGLE_BUTTON,OAK_BUTTON,SPRUCE_BUTTON,ACACIA_DOOR,BIRCH_DOOR,DARK_OAK_DOOR,JUNGLE_DOOR,OAK_DOOR,SPRUCE_DOOR,ACACIA_FENCE_GATE,BIRCH_FENCE_GATE,DARK_OAK_FENCE_GATE,OAK_FENCE_GATE,JUNGLE_FENCE_GATE,SPRUCE_FENCE_GATE,ACACIA_TRAPDOOR,BIRCH_TRAPDOOR,DARK_OAK_TRAPDOOR,JUNGLE_TRAPDOOR,OAK_TRAPDOOR,SPRUCE_TRAPDOOR,MINECART,COMMAND_BLOCK_MINECART,CHEST_MINECART,FURNACE_MINECART,HOPPER_MINECART,TNT_MINECART,SHULKER_BOX,WHITE_SHULKER_BOX,ORANGE_SHULKER_BOX,MAGENTA_SHULKER_BOX,LIGHT_BLUE_SHULKER_BOX,LIGHT_GRAY_SHULKER_BOX,YELLOW_SHULKER_BOX,LIME_SHULKER_BOX,PINK_SHULKER_BOX,GRAY_SHULKER_BOX,CYAN_SHULKER_BOX,PURPLE_SHULKER_BOX,BLUE_SHULKER_BOX,BROWN_SHULKER_BOX,GREEN_SHULKER_BOX,RED_SHULKER_BOX,BLACK_SHULKER_BOX,CARROT_STICK,DAYLIGHT_DETECTOR,STONECUTTER,SMITHING_TABLE,FLETCHING_TABLE,SMOKER,LOOM,LECTERN,GRINDSTONE,COMPOSTER,CARTOGRAPHY_TABLE,BLAST_FURNACE,BELL,BARREL,DRAGON_EGG,ITEM_FRAME,POTTED_ACACIA_SAPLING,POTTED_ALLIUM,POTTED_AZURE_BLUET,POTTED_BAMBOO,POTTED_BIRCH_SAPLING,POTTED_BLUE_ORCHID,POTTED_BROWN_MUSHROOM,POTTED_CACTUS,POTTED_CORNFLOWER,POTTED_DANDELION,POTTED_DARK_OAK_SAPLING,POTTED_DEAD_BUSH,POTTED_FERN,POTTED_JUNGLE_SAPLING,POTTED_LILY_OF_THE_VALLEY,POTTED_OAK_SAPLING,POTTED_ORANGE_TULIP,POTTED_OXEYE_DAISY,POTTED_PINK_TULIP,POTTED_POPPY,POTTED_RED_MUSHROOM,POTTED_RED_TULIP,POTTED_SPRUCE_SAPLING,POTTED_WHITE_TULIP,POTTED_WITHER_ROSE,BARREL,BREWING_STAND,CRIMSON_PRESSURE_PLATE,WARPED_PRESSURE_PLATE,POLISHED_BLACKSTONE_PRESSURE_PLATE,CRIMSON_BUTTON,WARPED_BUTTON,POLISHED_BLACKSTONE_BUTTON,CRIMSON_DOOR,WARPED_DOOR,CRIMSON_FENCE_GATE,WARPED_FENCE_GATE,CRIMSON_TRAPDOOR,WARPED_TRAPDOOR,LODESTONE,RESPAWN_ANCHOR,TARGET
+  switch_ids: CHEST,SHULKER_BOXES,TRAPPED_CHEST,FURNACE,BLAST_FURNACE,DISPENSER,HOPPER,DROPPER,JUKEBOX,SMOKER,COMPOSTER,BELL,BARREL,BREWING_STAND,LEVER,PRESSURE_PLATES,BUTTONS,WOOD_DOORS,FENCE_GATES,TRAPDOORS,MINECARTS,LODESTONE,RESPAWN_ANCHOR,TARGET
   
   # Materials which can be lit on fire even when firespread is disabled.
   # Still requires the use of the flint and steel.
@@ -1073,7 +1094,7 @@ protection:
   # PigZombie, Sheep, Skeleton, Slime, Spider, Squid, WaterMob, Wolf, Zombie
   
   # Protect living entities within a town's boundaries from being killed by players or mobs.
-  mob_types: Animals,WaterMob,NPC,Snowman,ArmorStand,Hanging
+  mob_types: Animals,WaterMob,NPC,Snowman,ArmorStand,Villager,Hanging
   
   # permitted Potion Types https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionType.html
   # ABSORPTION, BLINDNESS, CONFUSION, DAMAGE_RESISTANCE, FAST_DIGGING, FIRE_RESISTANCE, HARM, HEAL, HEALTH_BOOST, HUNGER, 
@@ -1119,20 +1140,20 @@ protection:
 unclaimed:
   
   # Can players build with any block in the wilderness?
-  unclaimed_zone_build: 'true'
+  unclaimed_zone_build: 'false'
   
   # Can player destroy any block in the wilderness?
-  unclaimed_zone_destroy: 'true'
+  unclaimed_zone_destroy: 'false'
   
   # Can players use items listed in the above protection.item_use_ids in the wilderness without restriction?
-  unclaimed_zone_item_use: 'true'
+  unclaimed_zone_item_use: 'false'
   
   # Can players interact with switch blocks listed in the above protection.switch_ids in the wilderness without restriction?
   unclaimed_zone_switch: 'false'
   
   # A list of blocks that will bypass the above settings and do not require the towny.wild.* permission node.
   # These blocks are also used in determining which blocks can be interacted with in Towny Wilds plots in towns.
-  unclaimed_zone_ignore: SAPLING,GOLD_ORE,IRON_ORE,COAL_ORE,LOG,LEAVES,LAPIS_ORE,LONG_GRASS,YELLOW_FLOWER,RED_ROSE,BROWN_MUSHROOM,RED_MUSHROOM,TORCH,DIAMOND_ORE,LADDER,RAILS,REDSTONE_ORE,GLOWING_REDSTONE_ORE,CACTUS,CLAY,SUGAR_CANE_BLOCK,PUMPKIN,GLOWSTONE,LOG_2,VINE,NETHER_WARTS,COCOA,SUGAR_CANE
+  unclaimed_zone_ignore: TORCH,LADDER,ORES,PLANTS,TREES,SAPLINGS
   
   
 ############################################################
@@ -1688,158 +1709,6 @@ economy:
   
 ############################################################
 # +------------------------------------------------------+ #
-# |                 Jail Plot settings                   | #
-# +------------------------------------------------------+ #
-############################################################
-  
-jail:
-  
-  #If true attacking players who die on enemy-town land will be placed into the defending town's jail if it exists.
-  #Requires town_respawn to be true in order to work.
-  is_jailing_attacking_enemies: 'false'
-  
-  #If true attacking players who are considered an outlaw, that are killed inside town land will be placed into the defending town's jail if it exists.
-  #Requires town_respawn to be true in order to work.
-  is_jailing_attacking_outlaws: 'false'
-  
-  #How many hours an attacking outlaw will be jailed for.
-  outlaw_jail_hours: '5'
-  
-  #If true jailed players can use items that teleport, ie: Ender Pearls & Chorus Fruit, but are still barred from using other methods of teleporting.
-  jail_allows_teleport_items: 'false'
-  
-  #If false jailed players can use /town leave, and escape a jail.
-  jail_denies_town_leave: 'false'
-  
-  bail:
-  
-    #If true players can pay a bail amount to be unjailed.
-    is_allowing_bail: 'false'
-  
-    #Amount that bail costs for normal residents/nomads.
-    bail_amount: '10'
-  
-    #Amount that bail costs for Town mayors.
-    bail_amount_mayor: '10'
-  
-    #Amount that bail costs for Nation kings.
-    bail_amount_king: '10'
-  
-  # Commands which a jailed player cannot use.
-  blacklisted_commands: home,spawn,teleport,tp,tpa,tphere,tpahere,back,dback,ptp,jump,kill,warp,suicide
-  
-  # When true, jail plots will prevent any PVP from occuring. Applies to jailed residents only.
-  do_jail_plots_deny_pvp: 'false'
-  
-  # When true, Towny will prevent a person who has been jailed by their mayor/town from logging out,
-  # if they do log out they will be killed first, ensuring they respawn in the jail.
-  prevent_newly_jailed_players_logging_out: 'false'
-  
-  # How long do new players have to be on the server before they can be jailed?
-  new_player_immunity: 1h
-  
-  
-############################################################
-# +------------------------------------------------------+ #
-# |                 Bank Plot settings                   | #
-# +------------------------------------------------------+ #
-############################################################
-# Bank plots may be used by other economy plugins using the Towny API.
-  
-bank:
-  
-  # If true players will only be able to use /t deposit, /t withdraw, /n deposit & /n withdraw while inside bank plots belonging to the town or nation capital respectively.
-  # Home plots will also allow deposit and withdraw commands.
-  is_banking_limited_to_bank_plots: 'false'
-war:
-  nation_can_be_neutral: 'true'
-  disallow_one_way_alliance: 'true'
-  economy:
-    enemy:
-      place_flag: '10'
-      defended_attack: '10'
-    townblock_won: '10'
-    homeblock_won: '100'
-  event:
-    warning_delay: '30'
-    towns_are_neutral: 'true'
-    enemy:
-      only_attack_borders: 'true'
-    plots:
-      healable: 'true'
-      firework_on_attacked: 'true'
-    remove_on_monarch_death: 'false'
-    allow_block_griefing: 'false'
-    block_hp:
-      town_block_hp: '60'
-      home_block_hp: '120'
-    eco:
-      base_spoils: '100.0'
-      wartime_town_block_loss_price: '100.0'
-      price_death_wartime: '200.0'
-    costs_townblocks: 'false'
-    winner_takes_ownership_of_townblocks: 'false'
-    points:
-      points_townblock: '1'
-      points_town: '10'
-      points_nation: '100'
-      points_kill: '1'
-    min_height: '60'
-  enemy:
-    allow_attacks: 'false'
-    only_attack_borders: 'true'
-    min_players_online_in_town: '2'
-    min_players_online_in_nation: '3'
-    max_active_flags_per_player: '1'
-    flag:
-      waiting_time: 1m
-      base_block: oak_fence
-      light_block: torch
-    beacon:
-      radius: '3'
-      height_above_flag:
-        min: '3'
-        max: '64'
-      draw: 'true'
-      wireframe_block: glowstone
-    prevent_interaction_while_flagged: 'true'
-    prevent_nation_interaction_while_flagged: 'true'
-    time_to_wait_after_flagged: '600000'
-    flag_takes_ownership_of_townblocks: 'true'
-  warzone:
-    editable_materials: tnt,oak_fence,birch_fence,spruce_fence,jungle_fence,dark_oak_fence,acacia_fence,ladder,oak_door,birch_door,spruce_door,jungle_door,dark_oak_door,acacia_fence,iron_door,fire
-    item_use: 'true'
-    switch: 'true'
-    fire: 'true'
-    explosions: 'true'
-    explosions_break_blocks: 'true'
-    explosions_regen_blocks: 'true'
-    explosions_ignore_list: WOODEN_DOOR,ACACIA_DOOR,DARK_OAK_DOOR,JUNGLE_DOOR,BIRCH_DOOR,SPRUCE_DOOR,IRON_DOOR,CHEST,TRAPPED_CHEST,FURNACE,BURNING_FURNACE,DROPPER,DISPENSER,HOPPER,ENDER_CHEST,WHITE_SHULKER_BOX,ORANGE_SHULKER_BOX,MAGENTA_SHULKER_BOX,LIGHT_BLUE_SHULKER_BOX,YELLOW_SHULKER_BOX,LIME_SHULKER_BOX,PINK_SHULKER_BOX,GRAY_SHULKER_BOX,SILVER_SHULKER_BOX,CYAN_SHULKER_BOX,PURPLE_SHULKER_BOX,BLUE_SHULKER_BOX,BROWN_SHULKER_BOX,GREEN_SHULKER_BOX,RED_SHULKER_BOX,BLACK_SHULKER_BOX,NOTE_BLOCK,LEVER,STONE_PLATE,IRON_DOOR_BLOCK,WOOD_PLATE,JUKEBOX,DIODE_BLOCK_OFF,DIODE_BLOCK_ON,FENCE_GATE,GOLD_PLATE,IRON_PLATE,REDSTONE_COMPARATOR_OFF,REDSTONE_COMPARATOR_ON,BEACON
-  
-  
-############################################################
-# +------------------------------------------------------+ #
-# |               New Nation Defaults                    | #
-# +------------------------------------------------------+ #
-############################################################
-  
-nation:
-  
-  # If set to true, any newly made nation will have their spawn set to public.
-  default_public: 'false'
-  
-  # If set to true, any newly made nation will have open status and any town may join without an invite.
-  default_open: 'false'
-  
-  # Default nation board
-  default_board: /nation set board [msg]
-  
-  # Setting this to true will set a nation's tag automatically using the first four characters of the nation's name.
-  set_tag_automatically: 'false'
-  
-  
-############################################################
-# +------------------------------------------------------+ #
 # |                 Bank History settings                | #
 # +------------------------------------------------------+ #
 ############################################################
@@ -1950,6 +1819,73 @@ townblocktypes:
     itemUseIds: ''
     switchIds: ''
     allowedBlocks: ''
+  
+  
+############################################################
+# +------------------------------------------------------+ #
+# |                 Jail Plot settings                   | #
+# +------------------------------------------------------+ #
+############################################################
+  
+jail:
+  
+  #If true attacking players who die on enemy-town land will be placed into the defending town's jail if it exists.
+  #Requires town_respawn to be true in order to work.
+  is_jailing_attacking_enemies: 'false'
+  
+  #If true attacking players who are considered an outlaw, that are killed inside town land will be placed into the defending town's jail if it exists.
+  #Requires town_respawn to be true in order to work.
+  is_jailing_attacking_outlaws: 'false'
+  
+  #How many hours an attacking outlaw will be jailed for.
+  outlaw_jail_hours: '5'
+  
+  #If true jailed players can use items that teleport, ie: Ender Pearls & Chorus Fruit, but are still barred from using other methods of teleporting.
+  jail_allows_teleport_items: 'false'
+  
+  #If false jailed players can use /town leave, and escape a jail.
+  jail_denies_town_leave: 'false'
+  
+  bail:
+  
+    #If true players can pay a bail amount to be unjailed.
+    is_allowing_bail: 'false'
+  
+    #Amount that bail costs for normal residents/nomads.
+    bail_amount: '10'
+  
+    #Amount that bail costs for Town mayors.
+    bail_amount_mayor: '10'
+  
+    #Amount that bail costs for Nation kings.
+    bail_amount_king: '10'
+  
+  # Commands which a jailed player cannot use.
+  blacklisted_commands: home,spawn,teleport,tp,tpa,tphere,tpahere,back,dback,ptp,jump,kill,warp,suicide
+  
+  # When true, jail plots will prevent any PVP from occuring. Applies to jailed residents only.
+  do_jail_plots_deny_pvp: 'false'
+  
+  # When true, Towny will prevent a person who has been jailed by their mayor/town from logging out,
+  # if they do log out they will be killed first, ensuring they respawn in the jail.
+  prevent_newly_jailed_players_logging_out: 'false'
+  
+  # How long do new players have to be on the server before they can be jailed?
+  new_player_immunity: 1h
+  
+  
+############################################################
+# +------------------------------------------------------+ #
+# |                 Bank Plot settings                   | #
+# +------------------------------------------------------+ #
+############################################################
+# Bank plots may be used by other economy plugins using the Towny API.
+  
+bank:
+  
+  # If true players will only be able to use /t deposit, /t withdraw, /n deposit & /n withdraw while inside bank plots belonging to the town or nation capital respectively.
+  # Home plots will also allow deposit and withdraw commands.
+  is_banking_limited_to_bank_plots: 'false'
   
   
 ############################################################

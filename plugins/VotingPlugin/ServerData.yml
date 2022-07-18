@@ -2,10 +2,10 @@ VotingPlugin:
   Version: 'git-Paper-45 (MC: 1.19)'
 PluginVersions:
   VotingPlugin: 6.9.2
-PrevDay: 12
-PrevWeek: 29
+PrevDay: 18
+PrevWeek: 30
 Month: JULY
-LastUpdated: 1657590239334
+LastUpdated: 1658108727176
 IntColumns:
 - VotePartyVotes
 - MilestoneCount

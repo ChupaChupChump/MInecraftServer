@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.1.227
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1657965420161
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1657968029450
+  login: 1657961020055
+money: '1000'
+last-account-name: Charr223
+lastlocation:
+  world: 7109f2dd-d9b2-4bc2-b5ea-c4fc90b11118
+  world-name: world
+  x: -7535.5
+  y: 63.0
+  z: -10769.5
+  yaw: 40.46533203125
+  pitch: 0.0
+homes:
+  home:
+    world: 7109f2dd-d9b2-4bc2-b5ea-c4fc90b11118
+    world-name: world
+    x: -5976.624850020393
+    y: 64.0
+    z: -8961.033867929638
+    yaw: -51.15000534057617
+    pitch: 29.40000343322754
+logoutlocation:
+  world: 7109f2dd-d9b2-4bc2-b5ea-c4fc90b11118
+  world-name: world
+  x: -7636.39954462968
+  y: 63.0
+  z: -9666.009150926919
+  yaw: 115.42919921875
+  pitch: 11.549860954284668

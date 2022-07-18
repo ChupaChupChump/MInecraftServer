@@ -1,6 +1,6 @@
 uuid=c32ec490-fc75-41f7-8cb6-9909a9a09a26
-lastOnline=1657526956118
-registered=1656767371881
+lastOnline=1657967550187
+registered=1657764196729
 joinedTownAt=0
 isNPC=false
 title=
